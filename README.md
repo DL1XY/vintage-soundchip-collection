@@ -13,7 +13,7 @@ Other names: UM6526P1
 
 ## [CO12294](CO12294_POKEY)
 
-<img src="CO10444_TIA/CO12294.png" width="600" height="400">	
+<img src="CO12294_POKEY/CO12294.png" width="600" height="400">	
 
 https://en.wikipedia.org/wiki/POKEY
 
@@ -31,7 +31,7 @@ Other names: MOS6561-101
 
 ## [MOS 6581 (SID)](MOS6581_SID)
 
-<img src="MOS6581/MOS6581.png" width="600" height="400">
+<img src="MOS6581_SID/MOS6581.png" width="600" height="400">
 
 https://en.wikipedia.org/wiki/MOS_Technology_6581
 
@@ -61,7 +61,7 @@ https://en.wikipedia.org/wiki/Philips_SAA1099
 
 ## [SN76489](SN76489)
 
-<img src="SN76489/SN76489N.png" width="600" height="400">
+<img src="SN76489/SN76489AN.png" width="600" height="400">
 
 https://en.wikipedia.org/wiki/Texas_Instruments_SN76489
 
@@ -81,7 +81,7 @@ Speech synthesis
 
 ## [AY-3-8910](AY-3-8910)
 
-<img src="AY-3-8910/YM2149.png" width="600" height="400">
+<img src="AY-3-8910/YM2149F.png" width="600" height="400">
 
 https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910
 
