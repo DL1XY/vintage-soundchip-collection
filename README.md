@@ -18,7 +18,9 @@ https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910
 - Amstrad CPC
 - ZX Spectrum
 
-Other names: YM2149
+Other names: YM2149 (used in Atari ST)
+
+Available in chinese online shops like Ali***ress etc.
 
 ### [CO10444](CO10444_TIA)
 
