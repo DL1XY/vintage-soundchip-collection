@@ -72,6 +72,11 @@ https://en.wikipedia.org/wiki/MOS_Technology_6581
 - Commodore C64
 - Commodore C128
 
+One of the most famous 8-bit sound chips. Many DIY and commercial synthesizer projects are created with this chip
+
+* [MIDIbox SID V2](http://www.ucapps.de/index.html?page=midibox_sid.html)
+* [Elektron SIDStation](https://www.elektron.se/en/legacy)
+
 ### [MOS 8360 (TED)](MOS8360_TED)
 
 <img src="MOS8360_TED/MOS8360R2.png" width="600" height="400">
