@@ -22,7 +22,7 @@ Other names: YM2149 (used in Atari ST)
 
 Available in chinese online shops like Ali***ress etc.
 
-### [CO10444](CO10444_TIA)
+### [CO10444 (TIA)](CO10444_TIA)
 
 <img src="CO10444_TIA/UM6526P1.png" width="600" height="400">
 
@@ -35,7 +35,7 @@ https://en.wikipedia.org/wiki/Television_Interface_Adaptor
 Other names: UM6526, UM6532, VF4013, CO11903, E4002
 
 
-### [CO12294](CO12294_POKEY)
+### [CO12294 (POKEY)](CO12294_POKEY)
 
 <img src="CO12294_POKEY/CO12294.png" width="600" height="400">	
 
