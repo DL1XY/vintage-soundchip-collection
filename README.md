@@ -1,12 +1,32 @@
 # 8 Bit Sound Chips
 This is my personal collection of 8 Bit sound chips. I put some information together like datasheets etc., maybe it's useful for someone.
 
+
+* [KiCAD 7.x Symbols](#kicad-7x-symbols)
+* [Chips](#chips)
+  + [AY-3-8910](#AY-3-8910)   
+  + [CO10444 (TIA)](#CO10444)   
+  + [CO12294 (POKEY)](#CO12294)
+  + [MOS 6560 (VIC)](#MOS6560)
+  + [MOS 6581 (SID)](#MOS6581)
+  + [MOS 7360/8360 (TED)](#MOS8360)
+  + [MOS 8364 (PAULA)](#MOS8364)
+  + [SAA1099](#SAA1099)
+  + [SN76489](#SN76489)
+  + [SP0256A-AL2](#SP0256A)
+  + [YM2151](#YM2151)
+  + [YM2203](#YM2203)
+  + [YM2413](#YM2413)
+  + [YM2610](#YM2610)
+  + [YM3812](#YM3812)
+
+
 ## KiCAD 7.x Symbols
 [8_bit_soundchips.kicad_sym](8_bit_soundchips.kicad_sym) contains some KiCAD symbols you can use for your own circuits.
 
 ## Chips
 
-### [AY-3-8910](AY-3-8910)
+### [AY-3-8910](AY-3-8910)<a name="AY-3-8910"></a>
 
 <img src="AY-3-8910/YM2149F.png" width="600" height="400">
 
@@ -18,7 +38,7 @@ This is my personal collection of 8 Bit sound chips. I put some information toge
 - Amstrad CPC
 - ZX Spectrum
 
-Other versions: YM2149 (used in Atari ST)
+Other versions: YM2149 (used in Atari ST), YMZ284 (DIP-16)
 
 Differences between AY and YM are listed [here](https://maidavale.org/blog/ay-ym-differences/)
 
@@ -46,7 +66,7 @@ Changing a volume produces a click; the greater the change, the louder. This all
 - [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910)
 
-### [CO10444 (TIA)](CO10444_TIA)
+### [CO10444 (TIA)](CO10444_TIA)<a name="CO10444"></a>
 
 <img src="CO10444_TIA/UM6526P1.png" width="600" height="400">
 
@@ -98,7 +118,7 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 - [TIA at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=Television_Interface_Adaptor)
 - [Wikipedia](https://en.wikipedia.org/wiki/Television_Interface_Adaptor)
 
-### [CO12294 (POKEY)](CO12294_POKEY)
+### [CO12294 (POKEY)](CO12294_POKEY)<a name="CO12294"></a>
 
 <img src="CO12294_POKEY/CO12294.png" width="600" height="400">	
 
@@ -114,7 +134,7 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/POKEY)
 
-### [MOS 6560 (VIC)](MOS6560_VIC)
+### [MOS 6560 (VIC)](MOS6560_VIC)<a name="MOS6560"></a>
 
 <img src="MOS6560_VIC/MOS6561-101.png" width="600" height="400">	
 
@@ -128,7 +148,7 @@ Other names: MOS6561-101
 #### Links/Source
 - [Wikipedia](https://en.wikipedia.org/wiki/MOS_Technology_VIC)
 
-### [MOS 6581 (SID)](MOS6581_SID)
+### [MOS 6581 (SID)](MOS6581_SID)<a name="MOS6581"></a>
 
 <img src="MOS6581_SID/MOS6581.png" width="600" height="400">
 
@@ -145,7 +165,7 @@ One of the most famous 8-bit sound chips. Many DIY and commercial synthesizer pr
 - [MIDIbox SID V2](http://www.ucapps.de/index.html?page=midibox_sid.html)
 - [Elektron SIDStation](https://www.elektron.se/en/legacy)
 
-### [MOS 7360/8360 (TED)](MOS8360_TED)
+### [MOS 7360/8360 (TED)](MOS8360_TED)<a name="MOS8360"></a>
 
 <img src="MOS8360_TED/MOS8360R2.png" width="600" height="400">
 
@@ -161,11 +181,10 @@ For both channels together, you can only choose one volume, from 0 to 8. Changin
 
 Several games play only one melody with a chorus effect (using two slightly detuned channels). Very few drivers generate envelopes.
 
-
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/MOS_Technology_TED)
 
-### [MOS 8364 (PAULA)](MOS8364_PAULA)
+### [MOS 8364 (PAULA)](MOS8364_PAULA)<a name="MOS8364"></a>
 
 <img src="MOS8364_PAULA/MOS8364R7.png" width="600" height="400">
 
@@ -175,7 +194,7 @@ Several games play only one melody with a chorus effect (using two slightly detu
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Original_Chip_Set#Paula)
 
-### [SAA1099](SAA1099)
+### [SAA1099](SAA1099)<a name="SAA1099"></a>
 
 <img src="SAA1099/SAA1099P.png" width="600" height="400">
 
@@ -189,7 +208,7 @@ Several games play only one melody with a chorus effect (using two slightly detu
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Philips_SAA1099)
 
-### [SN76489](SN76489)
+### [SN76489](SN76489)<a name="SN76489"></a>
 
 <img src="SN76489/SN76489AN.png" width="600" height="400">
 
@@ -211,7 +230,7 @@ Other names: SN76496N
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Texas_Instruments_SN76489)
 
-### [SP0256A-AL2](SP0256A-AL2)
+### [SP0256A-AL2](SP0256A-AL2)<a name="SP0256A"></a>
 
 <img src="SP0256A-AL2/SP0256A-AL2.png" width="600" height="400">
 
@@ -227,7 +246,7 @@ DIL-28
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_SP0256)
 
-### [YM2151](YM2151)
+### [YM2151](YM2151)<a name="YM2151"></a>
 
 <img src="YM2151/YM2151.png" width="600" height="400">
 
@@ -238,7 +257,7 @@ DIL-28
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Yamaha_YM2151)
 
-### [YM2203](YM2203)
+### [YM2203](YM2203)<a name="YM2203"></a>
 
 <img src="YM2203/YM2203C.png" width="600" height="400">
 
@@ -248,7 +267,7 @@ DIL-28
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Yamaha_YM2203)
 
-### [YM2413](YM2413)
+### [YM2413](YM2413)<a name="YM2413"></a>
 
 <img src="YM2413/YM2413.png" width="600" height="400">
 
@@ -261,7 +280,7 @@ FM synthesis
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Yamaha_OPL#OPL2)
 
-### [YM2610](YM2610)
+### [YM2610](YM2610)<a name="YM2610"></a>
 
 <img src="YM2610/YM2610.png" width="600" height="400">
 
@@ -271,7 +290,7 @@ FM synthesis
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Yamaha_YM2610)
 
-## [YM3812](YM3812)
+## [YM3812](YM3812)<a name="YM3812"></a>
 
 <img src="YM3812/YM3812.png" width="600" height="400">
 
@@ -284,3 +303,5 @@ FM synthesis
 
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Yamaha_OPL#OPL2)
+
+
