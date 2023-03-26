@@ -66,7 +66,7 @@ Changing a volume produces a click; the greater the change, the louder. This all
 - [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910)
 
-### [CO10444 (TIA)](CO10444_TIA)<a name="CO10444"></a>
+### [CO10444 (TIA)](CO10444_TIA)<a id="CO10444"></a>
 
 <img src="CO10444_TIA/UM6526P1.png" width="600" height="400">
 
