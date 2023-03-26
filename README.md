@@ -66,7 +66,7 @@ Changing a volume produces a click; the greater the change, the louder. This all
 - [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910)
 
-### [CO10444 (TIA)](CO10444_TIA)<a id="CO10444"></a>
+### [CO10444 TIA](CO10444_TIA)<a id="CO10444"></a>
 
 <img src="CO10444_TIA/UM6526P1.png" width="600" height="400">
 
@@ -118,7 +118,7 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 - [TIA at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=Television_Interface_Adaptor)
 - [Wikipedia](https://en.wikipedia.org/wiki/Television_Interface_Adaptor)
 
-### [CO12294 (POKEY)](CO12294_POKEY)<a name="CO12294"></a>
+### [CO12294 POKEY](CO12294_POKEY)<a name="CO12294"></a>
 
 <img src="CO12294_POKEY/CO12294.png" width="600" height="400">	
 
@@ -134,7 +134,7 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/POKEY)
 
-### [MOS 6560/6561 (VIC)](MOS6560_VIC)<a name="MOS6560"></a>
+### [MOS 6560/6561 VIC](MOS6560_VIC)<a name="MOS6560"></a>
 
 <img src="MOS6560_VIC/MOS6561-101.png" width="600" height="400">	
 
@@ -185,7 +185,7 @@ DIP-40
 - [Area 51 DEV description of MOS6560](https://area51.dev/electronics/chipref/65/6560/)
 - [Wikipedia](https://en.wikipedia.org/wiki/MOS_Technology_VIC)
 
-### [MOS 6581 (SID)](MOS6581_SID)<a name="MOS6581"></a>
+### [MOS 6581 SID](MOS6581_SID)<a name="MOS6581"></a>
 
 <img src="MOS6581_SID/MOS6581.png" width="600" height="400">
 
@@ -202,7 +202,7 @@ One of the most famous 8-bit sound chips. Many DIY and commercial synthesizer pr
 - [MIDIbox SID V2](http://www.ucapps.de/index.html?page=midibox_sid.html)
 - [Elektron SIDStation](https://www.elektron.se/en/legacy)
 
-### [MOS 7360/8360 (TED)](MOS8360_TED)<a name="MOS8360"></a>
+### [MOS 7360/8360 TED](MOS8360_TED)<a name="MOS8360"></a>
 
 <img src="MOS8360_TED/MOS8360R2.png" width="600" height="400">
 
@@ -267,7 +267,7 @@ Other names: SN76496N
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Texas_Instruments_SN76489)
 
-### [SP0256A-AL2](SP0256A-AL2)<a name="SP0256A"></a>
+### [SP0256A](SP0256A-AL2)<a name="SP0256A"></a>
 
 <img src="SP0256A-AL2/SP0256A-AL2.png" width="600" height="400">
 
