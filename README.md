@@ -37,13 +37,13 @@ On each of channels A, B and C, you can choose:
 
 On the whole chip, you can choose:
 
-- Noise pitch from 1 to 31.
-- Envelope. You can enable attack (volume up from 0 to 15) and/or decay (volume down from 15 to 0), at the end optionally reversed and/or looped. However, you can only choose one speed for both, and all channels get the same envelope. Due to those limits, many people generated envelopes themselves in software and set all three volumes manually.
+- **Noise pitch** from 1 to 31.
+- **Envelope**. You can enable attack (volume up from 0 to 15) and/or decay (volume down from 15 to 0), at the end optionally reversed and/or looped. However, you can only choose one speed for both, and all channels get the same envelope. Due to those limits, many people generated envelopes themselves in software and set all three volumes manually.
 
 Changing a volume produces a click; the greater the change, the louder. This allows to play unsigned 4-bit PCM samples. Changing all three volumes even allows 8-bit on mono. On stereo, 8-bit samples hiss loudly.
 
 #### Links/Sources
-- [AY-3-8910 at Video Game Music Preservation Foundation](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)
+- [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910)
 
 ### [CO10444 (TIA)](CO10444_TIA)
@@ -57,7 +57,17 @@ Changing a volume produces a click; the greater the change, the louder. This all
 
 Other names: UM6526, UM6532, VF4013, CO11903, E4002
 
+#### Channels
+On each of two channels, you can choose:
+
+- **Waveform**: 50% or 58% pulse wave, 4 other waves, or white noise.
+- **Pitch**: Range dependent on waveform.
+- **Volume** from 0 to 15.
+
+The TIA can produce PCM music, but it takes a lot of RAM (while Atari 2600 doesn't have much), usually forcing developers to use it with static images or completely black screen. It seems there weren't any official games to ever utilize the PCM music or speech.
+
 #### Links/Sources
+- [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=Television_Interface_Adaptor)
 - [Wikipedia](https://en.wikipedia.org/wiki/Television_Interface_Adaptor)
 
 ### [CO12294 (POKEY)](CO12294_POKEY)
