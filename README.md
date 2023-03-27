@@ -210,7 +210,7 @@ One of the most famous 8-bit sound chips. Many DIY and commercial synthesizer pr
 <a name="MOS8360"></a>
 ### [MOS 7360/8360 TED](MOS8360_TED)
 
-<img src="MOS8360_TED/MOS8362.png" width="600">
+<img src="MOS8360_TED/MOS8360.png" width="600">
 
 #### General
 - Commodore C16
