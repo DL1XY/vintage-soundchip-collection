@@ -29,7 +29,7 @@ This is my personal collection of 8 Bit sound chips. I put some information toge
 <a name="AY-3-8910"></a>
 ### [AY-3-8910](AY-3-8910)
 
-<img src="AY-3-8910/YM2149F.png" width="600" height="400">
+<img src="AY-3-8910/AY-3-8910.png" width="600">
 
 <img src="AY-3-8910/kicad_Yamaha_YM2149.png" width="600" height="400">
 
@@ -140,7 +140,7 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 <a name="MOS6560"></a>
 ### [MOS 6560/6561 VIC](MOS6560_VIC)
 
-<img src="MOS6560_VIC/MOS6561-101.png" width="600" height="400">	
+<img src="MOS6560_VIC/MOS6561.png" width="600">	
 
 <img src="MOS6560_VIC/kicad_MOS6561-101.png" width="600" height="400">
 
@@ -192,7 +192,7 @@ DIP-40
 <a name="MOS6581"></a>
 ### [MOS 6581 SID](MOS6581_SID)
 
-<img src="MOS6581_SID/MOS6581.png" width="600" height="400">
+<img src="MOS6581_SID/MOS6581_2.png" width="600">
 
 <img src="MOS6581_SID/kicad_6581_SID.png" width="600" height="400">
 
@@ -210,7 +210,7 @@ One of the most famous 8-bit sound chips. Many DIY and commercial synthesizer pr
 <a name="MOS8360"></a>
 ### [MOS 7360/8360 TED](MOS8360_TED)
 
-<img src="MOS8360_TED/MOS8360R2.png" width="600" height="400">
+<img src="MOS8360_TED/MOS8362.png" width="600">
 
 #### General
 - Commodore C16
@@ -230,7 +230,7 @@ Several games play only one melody with a chorus effect (using two slightly detu
 <a name="MOS8364"></a>
 ### [MOS 8364 (PAULA)](MOS8364_PAULA)
 
-<img src="MOS8364_PAULA/MOS8364R7.png" width="600" height="400">
+<img src="MOS8364_PAULA/MOS8364.png" width="600">
 
 #### General
 - Commodore Amiga 500/1000/2000/CDTV
@@ -241,7 +241,7 @@ Several games play only one melody with a chorus effect (using two slightly detu
 <a name="SAA1099"></a>
 ### [SAA1099](SAA1099)
 
-<img src="SAA1099/SAA1099P.png" width="600" height="400">
+<img src="SAA1099/SAA1099.png" width="600">
 
 <img src="SAA1099/kicad_SAA1099.png" width="600" height="400">
 
@@ -256,7 +256,7 @@ Several games play only one melody with a chorus effect (using two slightly detu
 <a name="SN76489"></a>
 ### [SN76489](SN76489)
 
-<img src="SN76489/SN76489AN.png" width="600" height="400">
+<img src="SN76489/SN76489AN.png" width="600">
 
 <img src="SN76489/kicad_SN76489.png" width="600" height="400">
 
@@ -279,7 +279,7 @@ Other names: SN76496N
 <a name="SP0256A"></a>
 ### [SP0256A](SP0256A-AL2)
 
-<img src="SP0256A-AL2/SP0256A-AL2.png" width="600" height="400">
+<img src="SP0256A-AL2/SP0256A_FAKE.png" width="600">
 
 #### General
 Speech synthesis, avalaible as cartridge for
@@ -288,7 +288,9 @@ Speech synthesis, avalaible as cartridge for
 - Atari 8-bit family
 - TRS-80
 
-DIL-28
+DIP-28
+
+**Attention**: There are a lot of fake chips around ! I bought one from the Bay and seems to be just a cheap rebrandend DIP-28 IC !
 
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_SP0256)
@@ -296,7 +298,7 @@ DIL-28
 <a name="YM2151"></a>
 ### [YM2151](YM2151)
 
-<img src="YM2151/YM2151.png" width="600" height="400">
+<img src="YM2151/YM2151_2.png" width="600">
 
 #### General
 
@@ -308,7 +310,7 @@ DIL-28
 <a name="YM2203"></a>
 ### [YM2203](YM2203)
 
-<img src="YM2203/YM2203C.png" width="600" height="400">
+<img src="YM2203/YM2203.png" width="600">
 
 #### General
 - Arcade systems
@@ -319,7 +321,7 @@ DIL-28
 <a name="YM2413"></a>
 ### [YM2413](YM2413)
 
-<img src="YM2413/YM2413.png" width="600" height="400">
+<img src="YM2413/YM2413_2.png" width="600">
 
 #### General
 FM synthesis
@@ -333,7 +335,7 @@ FM synthesis
 <a name="YM2610"></a>
 ### [YM2610](YM2610)
 
-<img src="YM2610/YM2610.png" width="600" height="400">
+<img src="YM2610/YM2610_2.png" width="600">
 
 #### General
 - SNK Neo Geo
@@ -344,7 +346,7 @@ FM synthesis
 <a name="YM3812"></a>
 ## [YM3812](YM3812)
 
-<img src="YM3812/YM3812.png" width="600" height="400">
+<img src="YM3812/YM3812_2.png" width="600">
 
 <img src="YM3812/kicad_Yamaha_YM3812.png" width="600" height="400">
 
