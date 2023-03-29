@@ -273,9 +273,9 @@ Several games play only one melody with a chorus effect (using two slightly detu
 
 <img src="SN76489/SN76489AN.png" width="600">
 
-<img src="SN76489/kicad_SN76489.png" width="600" height="400">
-
 <img src="SN76489/SN76496.png" width="600">
+
+<img src="SN76489/kicad_SN76489.png" width="600" height="400">
 
 #### General
 - TI 99/4A
