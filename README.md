@@ -5,6 +5,7 @@ This is my personal collection of 8 Bit sound chips. I put some information toge
 * [KiCAD 7.x Symbols](#kicad-7x-symbols)
 * [Chips](#chips)
   + [AY-3-8910](#AY-3-8910)   
+  + [CDP1869](#CDP1869)   
   + [CO10444 TIA](#CO10444)   
   + [CO12294 POKEY](#CO12294)
   + [MOS 6560 VIC](#MOS6560)
@@ -66,6 +67,20 @@ Changing a volume produces a click; the greater the change, the louder. This all
 #### Links/Sources
 - [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910)
+
+<a name="CDP1869"></a>
+### [CDP1869](CDP1869)
+
+<img src="CDP1869/CDP1869.png" width="600">
+
+#### General
+
+- Video/Sound chip of some rare 8 bit homecomputers
+
+#### Links/Sources
+- [Comx-35 on Wikipedia](https://en.wikipedia.org/wiki/Comx-35)
+- [Pecom 64 on Wikipedia](https://en.wikipedia.org/wiki/Pecom_64)
+
 
 <a name="CO10444"></a>
 ### [CO10444 TIA](CO10444_TIA)
@@ -278,6 +293,8 @@ Other names: SN76496N
 
 <a name="SP0256A"></a>
 ### [SP0256A](SP0256A-AL2)
+
+<img src="SP0256A-AL2/SP0256A.png" width="600">
 
 <img src="SP0256A-AL2/SP0256A_FAKE.png" width="600">
 
