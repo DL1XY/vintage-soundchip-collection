@@ -275,6 +275,8 @@ Several games play only one melody with a chorus effect (using two slightly detu
 
 <img src="SN76489/kicad_SN76489.png" width="600" height="400">
 
+<img src="SN76489/SN76496.png" width="600">
+
 #### General
 - TI 99/4A
 - ColecoVision
@@ -286,7 +288,7 @@ Clones where integrated in the vedio display processor of
 
 - Sega Master System/Game Gear/Genesis
 
-Other names: SN76496N
+Other versions: SN76496N (with Audio-In)
 
 #### Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Texas_Instruments_SN76489)
