@@ -20,4 +20,4 @@ I put some information together like datasheets etc., maybe it's useful for some
 + [YM3812](YM3812)
 
 ## KiCAD 7.x Symbols
-[8_bit_soundchips.kicad_sym](8_bit_soundchips.kicad_sym) contains some KiCAD symbols you can use for your own circuits.
+[8_bit_soundchips.kicad_sym](8_bit_soundchips.kicad_sym) contains some KiCAD symbols.
