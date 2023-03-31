@@ -4,7 +4,7 @@
 
 <img src="kicad_Yamaha_YM2149.png" width="600" height="400">
 
-#### General
+## General
 
 - Vectrex
 - Amstrad CPC
@@ -16,7 +16,7 @@ Differences between AY and YM are listed [here](https://maidavale.org/blog/ay-ym
 
 DIP-40
 
-#### Channels
+## Channels
 
 The noise does not have its own channel, but is optionally mixed into any combination of square wave channels. Consequently, all noises share the same pitch, and each noise shares the volume of the square wave it accompanies or replaces. Some arrangers have mixed short noise drums over a square wave bass.
 
@@ -34,6 +34,6 @@ On the whole chip, you can choose:
 
 Changing a volume produces a click; the greater the change, the louder. This allows to play unsigned 4-bit PCM samples. Changing all three volumes even allows 8-bit on mono. On stereo, 8-bit samples hiss loudly.
 
-#### Links/Sources
+## Links/Sources
 - [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)
 - [Wikipedia](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910)
