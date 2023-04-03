@@ -6,6 +6,7 @@ I put some information together like datasheets etc., maybe it's useful for some
 + [CDP1869](CDP1869)   
 + [CO10444 TIA](CO10444_TIA)   
 + [CO12294 POKEY](CO12294_POKEY)
++ [MEB2636](MEB2636)
 + [MOS 6560 VIC](MOS6560_VIC)
 + [MOS 6581 SID](MOS6581_SID)
 + [MOS 7360/8360 TED](MOS8360_TED)
