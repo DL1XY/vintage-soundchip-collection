@@ -13,6 +13,6 @@ DIP-40
 Also known as Signetics 2636
 
 ## Links/Sources
-- [Wikibooks] (https://en.wikibooks.org/wiki/Signetics_2650_%26_2636_programming/2636_PVI)
-- [VC 4000 and clones] (https://computer.fandom.com/wiki/VC_4000)
+- [Wikibooks](https://en.wikibooks.org/wiki/Signetics_2650_%26_2636_programming/2636_PVI)
+- [VC 4000 and clones](https://computer.fandom.com/wiki/VC_4000)
 
