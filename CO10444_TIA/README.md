@@ -1,7 +1,8 @@
 
 # CO10444
 
-<img src="UM6526P1.png" width="600" height="400">
+<img src="UM6526.png" width="600" height="400">
+
 
 <img src="kicad_Atari_TIA_CO11903.png" width="600" height="400">
 
