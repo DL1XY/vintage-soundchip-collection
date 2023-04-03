@@ -14,5 +14,6 @@ Also known as Signetics 2636
 
 ## Links/Sources
 - [Wikibooks](https://en.wikibooks.org/wiki/Signetics_2650_%26_2636_programming/2636_PVI)
-- [VC 4000 and clones](https://computer.fandom.com/wiki/VC_4000)
+- [Wikipedia on Interton VC 4000](https://en.wikipedia.org/wiki/Interton_Video_Computer_4000)
+- [Interton VC 4000 and clones](https://computer.fandom.com/wiki/VC_4000)
 
