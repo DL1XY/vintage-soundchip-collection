@@ -1,6 +1,5 @@
 # 8 Bit Sound Chips
-This is my personal collection of 8 Bit sound chips, mainly from videogame consoles and arcades but also electronic toys. 
-I put some information together like datasheets etc., maybe it's useful for someone.
+This is my personal collection of sound chips and programmable sound generators (PSG) of the home computer era (1970s–1990s). 
 
 + [AY-3-8910](AY-3-8910)   
 + [CDP1869](CDP1869)   
