@@ -60,6 +60,10 @@ Bit 5 – Shift Frequency; determines frequency of shift clock.
 
 Bit 5 = 1, f = 3933Hz. Bit 5 = 0, f = 983Hz.
 
+$3933Hz = \frac{H}{4} = \frac{15,734}{4}$
+
+$983Hz = \frac{H}{16} = \frac{15,734}{16}$
+
 Bit 7 – Enable sound; 0 = No sound, 1 = sound.
 
 For those modes of operation requiring sound refresh data from the microprocessor,
@@ -70,10 +74,6 @@ clocks and determines when the interrupt should occur.
 The sound shift registers, volume counter and sound control word register are all
 individually addressed by the microprocessor for the purpose of loading data. The
 address of these elements is shown under the topic of “Address Structure”.
-
-$3933Hz = \frac{H}{4} = \frac{15,734}{4}$
-
-$983Hz = \frac{H}{16} = \frac{15,734}{16}$
 
 #### Links/Sources
 - [Magnavox Odyssey 2 on Wikipedia](https://en.wikipedia.org/wiki/Magnavox_Odyssey_20)
