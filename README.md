@@ -1,6 +1,7 @@
 # 8 Bit Sound Chips
 This is my personal collection of sound chips and programmable sound generators (PSG) of the home computer era (1970s–1990s). 
 
++ [8245](8245)
 + [AY-3-8910](AY-3-8910)   
 + [CDP1869](CDP1869)   
 + [CO10444 TIA](CO10444_TIA)   
