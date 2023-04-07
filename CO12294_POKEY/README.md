@@ -13,3 +13,4 @@
 
 ## Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/POKEY)
+- [Detailed infos](http://krap.pl/mirrorz/atari/homepage.ntlworld.com/kryten_droid/Atari/800XL/atari_hw/pokey.htm)
