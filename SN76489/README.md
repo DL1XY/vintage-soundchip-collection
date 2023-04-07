@@ -13,7 +13,7 @@
 - Tandy 1000
 - Sega SG-1000 
 
-Clones where integrated in the vedio display processor of
+Clones where integrated in the video display processor of
 
 - Sega Master System/Game Gear/Genesis
 
