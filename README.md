@@ -1,5 +1,5 @@
 # 8 Bit Sound Chips
-This is my personal collection of sound chips and programmable sound generators (PSG) of the home computer era (1970s–1990s). 
+This is my personal collection of sound chips and programmable sound generators (PSG). Datasheets, Service Manuals and everything I think could be useful to create own circuits is in the subfolders. 
 
 + [8245](8245)
 + [AY-3-8910](AY-3-8910)   
