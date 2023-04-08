@@ -13,7 +13,7 @@ This is my personal collection of sound chips and programmable sound generators 
 + [MOS 8364 PAULA](MOS8364_PAULA)
 + [SAA1099](SAA1099) :electron:
 + [SN76489](SN76489) :electron:
-+ [SP0256](SP0256)
++ [SP0256](SP0256) :electron:
 + [YM2151](YM2151)
 + [YM2203](YM2203)
 + [YM2413](YM2413)
