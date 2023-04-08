@@ -7,6 +7,15 @@
 <img src="kicad_SN76489.png" width="600" height="400">
 
 ## General
+
++ 3 Programmable Tone Generators
++ Programmable White Noise Generator
++ Programmable Attenuation
++ Simultaneous Sounds
++ TTL Compatible
++ Up to 4MHz Clock Input
+
+Used in 
 - TI 99/4A
 - ColecoVision
 - BBC Micro
