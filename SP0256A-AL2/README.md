@@ -1,4 +1,4 @@
-# SP0256A
+# SP0256
 
 <img src="SP0256A.png" width="600">
 
