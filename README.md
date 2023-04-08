@@ -3,7 +3,7 @@ This is my personal collection of sound chips and programmable sound generators 
 
 + [8245](8245)
 + [AY-3-8910](AY-3-8910) :electron:
-+ [CDP1869](CDP1869)   
++ [CDP1869](CDP1869) :electron:  
 + [CO10444 TIA](CO10444_TIA) :electron:
 + [CO12294 POKEY](CO12294_POKEY) :electron:
 + [MEB2636](MEB2636)
