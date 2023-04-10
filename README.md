@@ -27,6 +27,8 @@ This is my personal collection of sound chips and programmable sound generators 
 + Ricoh 2A03/2A07
 + GI SP0250
 + Sunsoft 5B
++ OKI MSM5205
++ Sanyo VLM5030
 + misc Nintendo (MMC5, 2C33, ...)
 + misc Yamaha
 + misc Konami (RC, VRC6, ...)
