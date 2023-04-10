@@ -22,3 +22,13 @@ This is my personal collection of sound chips and programmable sound generators 
 
 ## KiCAD 7.x Symbols
 [8_bit_soundchips.kicad_sym](8_bit_soundchips.kicad_sym) contains KiCAD symbols of chips marked with :electron:
+
+## Wishlist
++ Ricoh 2A03/2A07
++ GI SP0250
++ Sunsoft 5B
++ misc Nintendo (MMC5, 2C33, ...)
++ misc Yamaha
++ misc Konami (RC, VRC6, ...)
++ misc Namco (WSG, 163, ...)
+
