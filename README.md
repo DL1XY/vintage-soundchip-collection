@@ -29,6 +29,7 @@ This is my personal collection of sound chips and programmable sound generators 
 + Sunsoft 5B
 + OKI MSM5205
 + Sanyo VLM5030
++ Harris HC-55516
 + misc Nintendo (MMC5, 2C33, ...)
 + misc Yamaha
 + misc Konami (RC, VRC6, ...)
