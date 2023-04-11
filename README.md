@@ -1,16 +1,17 @@
-# 8 Bit Sound Chips
-This is my personal collection of sound chips and programmable sound generators (PSG). Datasheets, Service Manuals and everything I think could be useful to create own circuits is in the subfolders. 
 
-+ [8245](8245)
+This is my personal collection of vintage sound chips from 70s to early 90s. Datasheets, Service Manuals and everything I think could be useful to create own circuits is in the subfolders. 
+
+## Collection (4/2023)
++ [8245](8245) :electron:
 + [AY-3-8910](AY-3-8910) :electron:
 + [CDP1869](CDP1869) :electron:  
 + [CO10444 TIA](CO10444_TIA) :electron:
 + [CO12294 POKEY](CO12294_POKEY) :electron:
-+ [MEB2636](MEB2636)
-+ [MOS 6560 VIC](MOS6560_VIC) :electron:
-+ [MOS 6581 SID](MOS6581_SID) :electron:
-+ [MOS 7360/8360 TED](MOS8360_TED)
-+ [MOS 8364 PAULA](MOS8364_PAULA)
++ [MEB2636](MEB2636) :electron:
++ [MOS6560 VIC](MOS6560_VIC) :electron:
++ [MOS6581 SID](MOS6581_SID) :electron:
++ [MOS8360 TED](MOS8360_TED) :electron:
++ [MOS8364 PAULA](MOS8364_PAULA) :electron:
 + [SAA1099](SAA1099) :electron:
 + [SN76489](SN76489) :electron:
 + [SP0256](SP0256) :electron:

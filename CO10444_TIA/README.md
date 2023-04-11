@@ -50,4 +50,5 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 
 ## Links/Sources
 - [TIA at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=Television_Interface_Adaptor)
+- [](https://www.ataricompendium.com/faq/vcs_tia/vcs_tia.html)
 - [Wikipedia](https://en.wikipedia.org/wiki/Television_Interface_Adaptor)
