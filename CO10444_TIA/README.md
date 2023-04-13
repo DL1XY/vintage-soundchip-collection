@@ -1,4 +1,3 @@
-
 # CO10444
 
 <img src="UM6526.png" width="600" height="400">
@@ -50,5 +49,5 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 
 ## Links/Sources
 - [TIA at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=Television_Interface_Adaptor)
-- [](https://www.ataricompendium.com/faq/vcs_tia/vcs_tia.html)
+- [IC pictures and infos, shows also Fake ICs](https://www.ataricompendium.com/faq/vcs_tia/vcs_tia.html)
 - [Wikipedia](https://en.wikipedia.org/wiki/Television_Interface_Adaptor)
