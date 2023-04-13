@@ -18,8 +18,8 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + [SP0256](SP0256) :electron:
 + [YM2151](YM2151) :electron:
 + [YM2203](YM2203) :electron:
-+ [YM2413](YM2413)
-+ [YM2610](YM2610)
++ [YM2413](YM2413) :electron:
++ [YM2610](YM2610) :electron:
 + [YM3812](YM3812) :electron:
 
 ## KiCAD 7.x Symbols
