@@ -13,7 +13,7 @@ This is my personal collection of vintage sound chips from 70s to early 90s. Dat
 + [MOS8360 TED](MOS8360_TED) :electron:
 + [MOS8364 PAULA](MOS8364_PAULA) :electron:
 + [SAA1099](SAA1099) :electron:
-+ [SN76477](SN76477)
++ [SN76477](SN76477) :electron:
 + [SN76489](SN76489) :electron:
 + [SP0256](SP0256) :electron:
 + [YM2151](YM2151)
