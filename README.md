@@ -1,5 +1,5 @@
 
-This is my personal collection of vintage sound chips from 70s to early 90s. Datasheets, Service Manuals and everything I think could be useful to create own circuits is in the subfolders. 
+This is my personal collection of vintage sound chips from 1970s to early 90s. Datasheets, Service Manuals and everything I think could be useful to create own circuits is in the subfolders. 
 
 ## Collection (4/2023)
 + [8245](8245) :electron:
