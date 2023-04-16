@@ -8,7 +8,7 @@
 ## General
 - Atari 2600
 
-Other names: UM6526, UM6532, VF4013, CO11903, E4002
+Other names: UM6526, VF4013, CO11903, E4002
 
 ## Channels
 On each of two channels AUD0/1, you can choose:
