@@ -5,11 +5,13 @@
 <img src="SP0256A_FAKE.png" width="600">
 
 ## General
-Speech synthesis, avalaible as cartridge for
+Speech synthesis, available as cartridge for
 
 - Commodore VC20
 - Atari 8-bit family
 - TRS-80
+
+There are many different versions around !
 
 DIP-28
 
