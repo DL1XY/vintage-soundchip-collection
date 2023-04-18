@@ -2,7 +2,7 @@
 
 
 ## General
-Speech synthesis, needs a phonetic ROM (TMS6100)
+Speech synthesis, data can come from ROM (TMS6100) or CPU
 
 - BBC Micro, IBM Speech Adapter
 - Several arcades (Gauntlet, Star Wars, Firefox...)
