@@ -16,7 +16,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + [SN76477](SN76477) :electron:
 + [SN76489](SN76489) :electron:
 + [SP0256](SP0256) :electron:
-+ [TMS5220](TMS5220) 
++ [TMS5220](TMS5220) :electron:
 + [YM2151](YM2151) :electron:
 + [YM2203](YM2203) :electron:
 + [YM2413](YM2413) :electron:
