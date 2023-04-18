@@ -17,6 +17,6 @@ The TMS5220, released in 1980, was used in several home computer peripherals and
 The TMS5220C, released in 1983, was an improved TMS5220. It reworked the two NOP (No Operation) commands and the parallel FIFO interface to allow for variable-speed speech and was fully compatible with the TMS5220. Those chips produced after 1985 used the number "TSP5220C". It was made until the early 1990s.
 
 ## Links/Sources
-- [TI LPC Speech Chipsat Wikipedia](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)
+- [TI LPC Speech Chipset Wikipedia](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)
 - [TMS6100 at Wikipedia](https://en.wikipedia.org/wiki/TMS6100)
 - [TMS5220 at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=TMS5220)
