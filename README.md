@@ -7,6 +7,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + [CDP1869](CDP1869) :electron:  
 + [CO10444 TIA](CO10444_TIA) :electron:
 + [CO12294 POKEY](CO12294_POKEY) :electron:
++ [MEA8000](MEA8000) :electron:
 + [MEB2636](MEB2636) :electron:
 + [MOS6560 VIC](MOS6560_VIC) :electron:
 + [MOS6581 SID](MOS6581_SID) :electron:
