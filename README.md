@@ -10,6 +10,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + [TMPI MEA8000](MEA8000) :electron:
 + [Signetics MEB2636](MEB2636) :electron:
 + [Mozer MM54104 Digitalker](MM54104)
++ [Panasonic MN6221](MN6221)
 + [Commodore MOS6560 VIC](MOS6560_VIC) :electron:
 + [Commodore MOS6581 SID](MOS6581_SID) :electron:
 + [Commodore MOS8360 TED](MOS8360_TED) :electron:
@@ -37,8 +38,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 ## Wishlist
 + Ricoh 2A03/2A07
 + Sunsoft 5B
-+ Sanyo VLM5030
-+ Harris HC-55516
++ misc Harris 
 + misc Nintendo (MMC5, 2C33, ...)
 + misc Yamaha
 + misc Konami (RC, VRC6, ...)
