@@ -21,7 +21,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + [Texas Instruments SN76489](SN76489) :electron:
 + [General Instruments SP0250](SP0250)
 + [General Instruments SP0256](SP0256) :electron:
-+ [Texas Instruments TMS5220](TMS5110)
++ [Texas Instruments TMS5110](TMS5110)
 + [Texas Instruments TMS5220](TMS5200) 
 + [Texas Instruments TMS5220](TMS5220) :electron:
 + [ITT UAA1003](UAA1003)
