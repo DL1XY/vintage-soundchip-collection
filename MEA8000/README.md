@@ -7,3 +7,5 @@ The french company company TMPI (Techni-musique & parole informatique) built it 
 
 ## Links/Sources
 [MEA8000 in CPC Wiki](https://www.cpcwiki.eu/index.php/MEA8000)
+
+Thanks to George de Bouter for detailed information about this IC
