@@ -37,7 +37,6 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 ## Wishlist
 + Ricoh 2A03/2A07
 + Sunsoft 5B
-+ Sanyo VLM5030
 + Harris HC-55516
 + misc Nintendo (MMC5, 2C33, ...)
 + misc Yamaha
