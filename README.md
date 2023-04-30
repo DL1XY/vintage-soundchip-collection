@@ -1,7 +1,7 @@
 
 This is my personal collection of vintage sound chips from 1970s to early 90s. Datasheets, Service Manuals and everything that I think could be useful to create own circuits is in the subfolders. 
 
-## Collection (4/2023)
+## Collection (5/2023)
 + [Intel 8245](8245) :electron:
 + [General Instruments AY-3-8910](AY-3-8910) :electron:
 + [RCA CDP1869](CDP1869) :electron:  
