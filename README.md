@@ -16,6 +16,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + [Commodore MOS8360 TED](MOS8360_TED) :electron:
 + [Commodore MOS8364 PAULA](MOS8364_PAULA) :electron:
 + [OKI MSM5205](MSM5205)
++ [Philips PCF8200](PCF8200)
 + [Philips SAA1099](SAA1099) :electron:
 + [Texas Instruments SN76477](SN76477) :electron:
 + [Texas Instruments SN76489](SN76489) :electron:
