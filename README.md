@@ -14,14 +14,14 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [CO12294 POKEY](CO12294_POKEY) | Atari | <img src="CO12294_POKEY/CO12294.png" width="100" height="60"> | :electron: |
 | [MEA8000](MEA8000) | TMPI | <img src="MEA8000/MEA8000.png" width="100" height="60"> | :electron: |
 | [MEB2636](MEB2636) | Signetics/Philips | <img src="MEB2636/MEB2636.png" width="100" height="60"> | :electron: |
-| [MM54104 DIGITALKER](MM54104) | Mozer| <img src="MM54104/MM54104.png" width="100" height="60"> |  |
-| [MN6221](MN6221) | Panasonic| <img src="MN6221/MN6221AA.png" width="100" height="60"> |  |
+| [MM54104 DIGITALKER](MM54104) | Mozer| <img src="MM54104/MM54104.png" width="100" height="60"> | :electron:  |
+| [MN6221](MN6221) | Panasonic| <img src="MN6221/MN6221AA.png" width="100" height="60"> | :electron:  |
 | [MOS6560 VIC](MOS6560_VIC) | Commodore| <img src="MOS6560_VIC/MOS6561.png" width="100" height="60"> | :electron: |
 | [MOS6581 SID](MOS6581_SID) | Commodore| <img src="MOS6581_SID/MOS6581_2.png" width="100" height="60"> | :electron: |
 | [MOS8360 TED](MOS8360_TED) | Commodore| <img src="MOS8360_TED/MOS8360.png" width="100" height="60"> | :electron: |
 | [MOS8364 PAULA](MOS8364_PAULA) | Commodore| <img src="MOS8364_PAULA/MOS8364.png" width="100" height="60"> | :electron: |
-| [MSM5205](MSM5205) | OKI| <img src="MSM5205/M5205.png" width="100" height="60"> |  |
-| [MSM5218](MSM5218) | OKI| <img src="MSM5218/M5218.png" width="100" height="60"> |  |
+| [MSM5205](MSM5205) | OKI| <img src="MSM5205/M5205.png" width="100" height="60"> | :electron:  |
+| [MSM5218](MSM5218) | OKI| <img src="MSM5218/M5218.png" width="100" height="60"> | :electron:  |
 | [PCF8200](PCF8200) | Philips| <img src="PCF8200/PCF8200.png" width="100" height="60"> |  |
 | [SAA1099](SAA1099) | Philips| <img src="SAA1099/SAA1099.png" width="100" height="60"> | :electron: |
 | [SN76477](SN76477) | Texas Instruments| <img src="SN76477/SN76477.png" width="100" height="60"> | :electron: |

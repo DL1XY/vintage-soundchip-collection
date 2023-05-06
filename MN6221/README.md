@@ -2,7 +2,7 @@
 
 ## General
 
-<img src="MMN6221AA.png" width="600" height="360">	
+<img src="MN6221AA.png" width="600" height="360">	
 
 Family of ICs for generating electronic melody and sound
 
