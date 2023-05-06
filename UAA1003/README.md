@@ -1,6 +1,9 @@
 # UAA1003
 
 ## General
+
+<img src="UAA1003.png" width="600" height="360">	
+
 Speechgenerator, was used for "speaking" clocks
 
 - UAA1003-1 German

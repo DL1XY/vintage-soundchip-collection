@@ -1,44 +1,51 @@
 
+# Vintage Soundchip Collection
+
 This is my personal collection of vintage sound chips from 1970s to early 90s. Datasheets, Service Manuals and everything that I think could be useful to create own circuits is in the subfolders. 
 
-## Collection (5/2023)
-+ [Intel 8245](8245) :electron:
-+ [General Instruments AY-3-8910](AY-3-8910) :electron:
-+ [RCA CDP1869](CDP1869) :electron:  
-+ [Atari CO10444 TIA](CO10444_TIA) :electron:
-+ [Atari CO12294 POKEY](CO12294_POKEY) :electron:
-+ [TMPI MEA8000](MEA8000) :electron:
-+ [Signetics MEB2636](MEB2636) :electron:
-+ [Mozer MM54104 Digitalker](MM54104)
-+ [Panasonic MN6221](MN6221)
-+ [Commodore MOS6560 VIC](MOS6560_VIC) :electron:
-+ [Commodore MOS6581 SID](MOS6581_SID) :electron:
-+ [Commodore MOS8360 TED](MOS8360_TED) :electron:
-+ [Commodore MOS8364 PAULA](MOS8364_PAULA) :electron:
-+ [OKI MSM5205](MSM5205)
-+ [OKI MSM5218](MSM5218)
-+ [Philips PCF8200](PCF8200)
-+ [Philips SAA1099](SAA1099) :electron:
-+ [Texas Instruments SN76477](SN76477) :electron:
-+ [Texas Instruments SN76489](SN76489) :electron:
-+ [General Instruments SP0250](SP0250)
-+ [General Instruments SP0256](SP0256) :electron:
-+ [Texas Instruments TMS3477](TMS3477)
-+ [Texas Instruments TMS5110](TMS5110)
-+ [Texas Instruments TMS5200](TMS5200) 
-+ [Texas Instruments TMS5220](TMS5220) :electron:
-+ [ITT UAA1003](UAA1003)
-+ [Sanyo VLM5030](VLM5030)
-+ [Yamaha YM2151](YM2151) :electron:
-+ [Yamaha YM2203](YM2203) :electron:
-+ [Yamaha YM2413](YM2413) :electron:
-+ [Yamaha YM2610](YM2610) :electron:
-+ [Yamaha YM3812](YM3812) :electron:
+## Status (5/2023)
+
+| IC            | Company               | Image         | KiCAD Symbol  |
+| ------------- | --------------------- | ------------- | ------------- |
+| [8245](8245)  | Intel                 | <img src="8245/8245.png" width="100" height="60"> | :electron: |
+| [AY-3-8910](AY-3-8910)  | General Instruments | <img src="AY-3-8910/AY-3-8910.png" width="100" height="60"> | :electron: |
+| [CDP1869](CDP1869) | RCA | <img src="CDP1869/CDP1869.png" width="100" height="60"> | :electron: |
+| [CO10444 TIA](CO10444_TIA) | Atari | <img src="CO10444_TIA/UM6526.png" width="100" height="60"> | :electron: |
+| [CO12294 POKEY](CO12294_POKEY) | Atari | <img src="CO12294_POKEY/CO12294.png" width="100" height="60"> | :electron: |
+| [MEA8000](MEA8000) | TMPI | <img src="MEA8000/MEA8000.png" width="100" height="60"> | :electron: |
+| [MEB2636](MEB2636) | Signetics/Philips | <img src="MEB2636/MEB2636.png" width="100" height="60"> | :electron: |
+| [MM54104 DIGITALKER](MM54104) | Mozer| <img src="MM54104/MM54104.png" width="100" height="60"> |  |
+| [MN6221](MN6221) | Panasonic| <img src="MN6221/MN6221AA.png" width="100" height="60"> |  |
+| [MOS6560 VIC](MOS6560_VIC) | Commodore| <img src="MOS6560_VIC/MOS6561.png" width="100" height="60"> | :electron: |
+| [MOS6581 SID](MOS6581_SID) | Commodore| <img src="MOS6581_SID/MOS6581_2.png" width="100" height="60"> | :electron: |
+| [MOS8360 TED](MOS8360_TED) | Commodore| <img src="MOS8360_TED/MOS8360.png" width="100" height="60"> | :electron: |
+| [MOS8364 PAULA](MOS8364_PAULA) | Commodore| <img src="MOS8364_PAULA/MOS8364.png" width="100" height="60"> | :electron: |
+| [MSM5205](MSM5205) | OKI| <img src="MSM5205/M5205.png" width="100" height="60"> |  |
+| [MSM5218](MSM5218) | OKI| <img src="MSM5218/M5218.png" width="100" height="60"> |  |
+| [PCF8200](PCF8200) | Philips| <img src="PCF8200/PCF8200.png" width="100" height="60"> |  |
+| [SAA1099](SAA1099) | Philips| <img src="SAA1099/SAA1099.png" width="100" height="60"> | :electron: |
+| [SN76477](SN76477) | Texas Instruments| <img src="SN76477/SN76477.png" width="100" height="60"> | :electron: |
+| [SN76489](SN76489) | Texas Instruments| <img src="SN76489/SN76489AN.png" width="100" height="60"> | :electron: |
+| [SP0250](SP0250) | Texas Instruments| <img src="SP0250/SP0250.png" width="100" height="60"> | |
+| [SP0256](SP0256) | Texas Instruments| <img src="SP0256/SP0256A-AL2.png" width="100" height="60"> | :electron: |
+| [TMS3477](TMS3477) | Texas Instruments| <img src="TMS3477/TMS3477.png" width="100" height="60"> | |
+| [TMS5110](TMS5110) | Texas Instruments| <img src="TMS5110/TMS5110.png" width="100" height="60"> | |
+| [TMS5200](TMS5200) | Texas Instruments| <img src="TMS5200/TMS5200.png" width="100" height="60"> | |
+| [TMS5220](TMS5220) | Texas Instruments| <img src="TMS5220/TMS5220.png" width="100" height="60"> | :electron: |
+| [UAA1003](UAA1003) | ITT| <img src="UAA1003/UAA1003.png" width="100" height="60"> | |
+| [VLM5030](VLM5030) | Sanyo| <img src="VLM5030/VLM5030.png" width="100" height="60"> | |
+| [YM2151](YM2151) | Yamaha| <img src="YM2151/YM2151.png" width="100" height="60"> | :electron: |
+| [YM2203](YM2203) | Yamaha| <img src="YM2203/YM2203.png" width="100" height="60"> | :electron: |
+| [YM2413](YM2413) | Yamaha| <img src="YM2413/YM2413.png" width="100" height="60"> | :electron: |
+| [YM2610](YM2610) | Yamaha| <img src="YM2610/YM2610.png" width="100" height="60"> | :electron: |
+| [YM2203](YM3812) | Yamaha| <img src="YM3812/YM3812.png" width="100" height="60"> | :electron: |
 
 ## KiCAD 7.x Symbols
+
 [8_bit_soundchips.kicad_sym](8_bit_soundchips.kicad_sym) contains KiCAD symbols of chips marked with :electron:
 
 ## Wishlist
+
 + Ricoh 2A03/2A07
 + Sunsoft 5B
 + misc Harris 

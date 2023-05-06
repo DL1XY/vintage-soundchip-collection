@@ -1,7 +1,9 @@
-# SP0250
+# TMS3477
 
 ## General
 
-<img src="SP0250.png" width="600" height="360">	
+<img src="TMS3477.png" width="600" height="360">	
+
+Voice recording/play-back IC
 
 ## Links/Sources
