@@ -22,7 +22,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [MOS8364 PAULA](MOS8364_PAULA) | Commodore| <img src="MOS8364_PAULA/MOS8364.png" width="100" height="60"> | :electron: |
 | [MSM5205](MSM5205) | OKI| <img src="MSM5205/M5205.png" width="100" height="60"> | :electron:  |
 | [MSM5218](MSM5218) | OKI| <img src="MSM5218/M5218.png" width="100" height="60"> | :electron:  |
-| [PCF8200](PCF8200) | Philips| <img src="PCF8200/PCF8200.png" width="100" height="60"> |  |
+| [PCF8200](PCF8200) | Philips| <img src="PCF8200/PCF8200.png" width="100" height="60"> | :electron:  |
 | [SAA1099](SAA1099) | Philips| <img src="SAA1099/SAA1099.png" width="100" height="60"> | :electron: |
 | [SN76477](SN76477) | Texas Instruments| <img src="SN76477/SN76477.png" width="100" height="60"> | :electron: |
 | [SN76489](SN76489) | Texas Instruments| <img src="SN76489/SN76489AN.png" width="100" height="60"> | :electron: |
