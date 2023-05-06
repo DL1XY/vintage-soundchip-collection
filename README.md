@@ -28,7 +28,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [SN76489](SN76489) | Texas Instruments| <img src="SN76489/SN76489AN.png" width="100" height="60"> | :electron: |
 | [SP0250](SP0250) | Texas Instruments| <img src="SP0250/SP0250.png" width="100" height="60"> | |
 | [SP0256](SP0256) | Texas Instruments| <img src="SP0256/SP0256A-AL2.png" width="100" height="60"> | :electron: |
-| [TMS3477](TMS3477) | Texas Instruments| <img src="TMS3477/TMS3477.png" width="100" height="60"> | |
+| [TMS3477](TMS3477) | Texas Instruments| <img src="TMS3477/TMS3477.png" width="100" height="60"> | :electron: |
 | [TMS5110](TMS5110) | Texas Instruments| <img src="TMS5110/TMS5110.png" width="100" height="60"> | |
 | [TMS5200](TMS5200) | Texas Instruments| <img src="TMS5200/TMS5200.png" width="100" height="60"> | |
 | [TMS5220](TMS5220) | Texas Instruments| <img src="TMS5220/TMS5220.png" width="100" height="60"> | :electron: |
