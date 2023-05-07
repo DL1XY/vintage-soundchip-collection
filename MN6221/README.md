@@ -37,3 +37,4 @@ Control methods:
 ## Links/Sources
 
 - [Japanese IC family description](http://www.eleken.y-lab.org/melody_ic/MN6221.shtml)
+- [Test schematics](http://www.eleken.y-lab.org/melody_ic/MN6221_Test_Schematics.pdf)
