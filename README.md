@@ -53,4 +53,6 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + misc Yamaha
 + misc Konami (RC, VRC6, ...)
 + misc Namco (WSG, 163, ...)
++ OKI MSM5232
++ OKI 6295
 
