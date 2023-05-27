@@ -40,7 +40,8 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [YM2203](YM2203) | Yamaha| <img src="YM2203/YM2203.png" width="100" height="60"> | :electron: |
 | [YM2413](YM2413) | Yamaha| <img src="YM2413/YM2413.png" width="100" height="60"> | :electron: |
 | [YM2610](YM2610) | Yamaha| <img src="YM2610/YM2610.png" width="100" height="60"> | :electron: |
-| [YM2203](YM3812) | Yamaha| <img src="YM3812/YM3812.png" width="100" height="60"> | :electron: |
+| [YM3438](YM3438) | Yamaha| :x: | :x: |
+| [YM3812](YM3812) | Yamaha| <img src="YM3812/YM3812.png" width="100" height="60"> | :electron: |
 
 ## KiCAD 7.x Symbols
 
