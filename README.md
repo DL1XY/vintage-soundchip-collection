@@ -3,7 +3,7 @@
 
 This is my personal collection of vintage sound chips from 1970s to early 90s. Datasheets, Service Manuals and everything that I think could be useful to create own circuits is in the subfolders. 
 
-## Status (5/2023)
+## Status (6/2023)
 
 | IC            | Company               | Image         | KiCAD Symbol  |
 | ------------- | --------------------- | ------------- | ------------- |
