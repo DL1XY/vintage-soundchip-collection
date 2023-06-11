@@ -25,22 +25,22 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [PCF8200](PCF8200) | Philips| <img src="PCF8200/PCF8200.png" width="100" height="60"> | :electron:  |
 | [SAA1099](SAA1099) | Philips| <img src="SAA1099/SAA1099.png" width="100" height="60"> | :electron: |
 | [SN76477](SN76477) | Texas Instruments| <img src="SN76477/SN76477.png" width="100" height="60"> | :electron: |
-| [SN76488](SN76488) | Texas Instruments| :x: | :x: |
+| [SN76488](SN76488) | Texas Instruments| :x: | :electron: |
 | [SN76489](SN76489) | Texas Instruments| <img src="SN76489/SN76489AN.png" width="100" height="60"> | :electron: |
 | [SP0250](SP0250) | General Instruments| <img src="SP0250/SP0250.png" width="100" height="60"> | |
 | [SP0256](SP0256) | General Instruments| <img src="SP0256/SP0256A.png" width="100" height="60"> | :electron: |
-| [SP1000](SP1000) | General Instruments| :x: | :x: |
+| [SP1000](SP1000) | General Instruments| :x: | :electron: |
 | [TMS3477](TMS3477) | Texas Instruments| <img src="TMS3477/TMS3477.png" width="100" height="60"> | :electron: |
 | [TMS5110](TMS5110) | Texas Instruments| <img src="TMS5110/TMS5110.png" width="100" height="60"> | :x: |
-| [TMS5200](TMS5200) | Texas Instruments| <img src="TMS5200/TMS5200.png" width="100" height="60"> | :x: |
+| [TMS5200](TMS5200) | Texas Instruments| <img src="TMS5200/TMS5200.png" width="100" height="60"> | :electron: |
 | [TMS5220](TMS5220) | Texas Instruments| <img src="TMS5220/TMS5220.png" width="100" height="60"> | :electron: |
-| [UAA1003](UAA1003) | ITT| <img src="UAA1003/UAA1003.png" width="100" height="60"> | :x: |
-| [VLM5030](VLM5030) | Sanyo| <img src="VLM5030/VLM5030.png" width="100" height="60"> | :x: |
+| [UAA1003](UAA1003) | ITT| <img src="UAA1003/UAA1003.png" width="100" height="60"> | :electron: |
+| [VLM5030](VLM5030) | Sanyo| <img src="VLM5030/VLM5030.png" width="100" height="60"> | :electron: |
 | [YM2151](YM2151) | Yamaha| <img src="YM2151/YM2151.png" width="100" height="60"> | :electron: |
 | [YM2203](YM2203) | Yamaha| <img src="YM2203/YM2203.png" width="100" height="60"> | :electron: |
 | [YM2413](YM2413) | Yamaha| <img src="YM2413/YM2413.png" width="100" height="60"> | :electron: |
 | [YM2610](YM2610) | Yamaha| <img src="YM2610/YM2610.png" width="100" height="60"> | :electron: |
-| [YM3438](YM3438) | Yamaha| :x: | :x: |
+| [YM3438](YM3438) | Yamaha| :x: | :electron: |
 | [YM3812](YM3812) | Yamaha| <img src="YM3812/YM3812.png" width="100" height="60"> | :electron: |
 
 ## KiCAD 7.x Symbols
