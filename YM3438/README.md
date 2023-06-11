@@ -2,6 +2,8 @@
 
 ## General
 
+<img src="YM3438.png" width="600" height="360">	
+
 The YM3438,a.k.a. OPN2C, is a modified CMOS version of the YM2612, commonly used in Sega's arcade system boards. This version has an improved built-in DAC that reduced the peculiar crossover distortions caused by the amplitude voltage errors present in the YM2612. It is not a direct, drop-in replacement for the YM2612 however, as the sound outputs have higher impedance.
 
 ## Feautures
