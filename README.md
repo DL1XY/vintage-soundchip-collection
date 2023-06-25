@@ -35,6 +35,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [TMS5200](TMS5200) | Texas Instruments| <img src="TMS5200/TMS5200.png" width="100" height="60"> | :triangular_ruler: |
 | [TMS5220](TMS5220) | Texas Instruments| <img src="TMS5220/TMS5220.png" width="100" height="60"> | :triangular_ruler: |
 | [UAA1003](UAA1003) | ITT| <img src="UAA1003/UAA1003.png" width="100" height="60"> | :triangular_ruler: |
+| [VRC6](VRC6) | Konami| :x: | :x: |
 | [VLM5030](VLM5030) | Sanyo| <img src="VLM5030/VLM5030.png" width="100" height="60"> | :triangular_ruler: |
 | [YM2151](YM2151) | Yamaha| <img src="YM2151/YM2151.png" width="100" height="60"> | :triangular_ruler: |
 | [YM2203](YM2203) | Yamaha| <img src="YM2203/YM2203.png" width="100" height="60"> | :triangular_ruler: |
@@ -54,7 +55,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 + misc Harris 
 + misc Nintendo (MMC5, 2C33, ...)
 + misc Yamaha
-+ misc Konami (RC, VRC6, ...)
++ misc Konami (RC,...)
 + misc Namco (WSG, 163, ...)
 + OKI MSM5232
 + OKI 6295
