@@ -15215,25 +15215,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TMS5110"
+			(at 0 0 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+			(at 0.508 -20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15241,7 +15232,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://github.com/DL1XY/vintage-soundchip-collection/blob/main/TMS5110/DSAP005264.pdf"
+			(at 0 -24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio chip designed and sold by Texas Instruments specifically designed to mimic human speech"
+			(at 0 -29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ti,8bit,sound,audio,speech"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15251,10 +15260,10 @@
 			)
 		)
 		(symbol "TMS5110_0_0"
-			(pin bidirectional line
+			(pin input line
 				(at -15.24 15.24 0)
 				(length 2.54)
-				(name "D7"
+				(name "TEST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15269,10 +15278,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -15.24 12.7 0)
 				(length 2.54)
-				(name "ADD1"
+				(name "PDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15290,7 +15299,7 @@
 			(pin output line
 				(at -15.24 10.16 0)
 				(length 2.54)
-				(name "ROMCLK"
+				(name "ROM_CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15305,10 +15314,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -15.24 7.62 0)
 				(length 2.54)
-				(name "VDD"
+				(name "CPU_CK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15323,10 +15332,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -15.24 5.08 0)
 				(length 2.54)
-				(name "VSS"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15344,7 +15353,7 @@
 			(pin input line
 				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "OSC"
+				(name "C.R._OSC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15359,10 +15368,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -15.24 0 0)
 				(length 2.54)
-				(name "T1"
+				(name "R.C._OSC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15377,10 +15386,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at -15.24 -2.54 0)
 				(length 2.54)
-				(name "SPEAKER"
+				(name "T11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15395,10 +15404,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at -15.24 -5.08 0)
 				(length 2.54)
-				(name "I/O"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15413,10 +15422,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -15.24 -7.62 0)
 				(length 2.54)
-				(name "TEST"
+				(name "TEST_I/O"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15431,10 +15440,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -15.24 -10.16 0)
 				(length 2.54)
-				(name "VREF"
+				(name "SPK1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15449,10 +15458,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -15.24 -12.7 0)
 				(length 2.54)
-				(name "D2"
+				(name "SPK2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15467,10 +15476,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -15.24 -15.24 0)
 				(length 2.54)
-				(name "D1"
+				(name "PROM_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15485,10 +15494,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -15.24 -17.78 0)
 				(length 2.54)
-				(name "D0"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15503,10 +15512,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 15.24 15.24 180)
 				(length 2.54)
-				(name "~{RS}"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15521,10 +15530,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 15.24 12.7 180)
 				(length 2.54)
-				(name "~{WS}"
+				(name "CTL8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15539,10 +15548,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 10.16 180)
 				(length 2.54)
-				(name "D6"
+				(name "ADD8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15560,7 +15569,7 @@
 			(pin output line
 				(at 15.24 7.62 180)
 				(length 2.54)
-				(name "ADD2"
+				(name "CTL1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15575,10 +15584,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 5.08 180)
 				(length 2.54)
-				(name "D5"
+				(name "ADD1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15596,7 +15605,7 @@
 			(pin output line
 				(at 15.24 2.54 180)
 				(length 2.54)
-				(name "ADD4"
+				(name "CTL2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15611,10 +15620,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 0 180)
 				(length 2.54)
-				(name "D4"
+				(name "ADD2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15629,10 +15638,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 -2.54 180)
 				(length 2.54)
-				(name "ADD8/DATA"
+				(name "ADD4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15647,10 +15656,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 15.24 -5.08 180)
 				(length 2.54)
-				(name "TEST"
+				(name "CTL4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15665,10 +15674,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 15.24 -7.62 180)
 				(length 2.54)
-				(name "D3"
+				(name "M1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15683,10 +15692,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 15.24 -10.16 180)
 				(length 2.54)
-				(name "~{READY}"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15701,10 +15710,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 15.24 -12.7 180)
 				(length 2.54)
-				(name "~{INT}"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15719,10 +15728,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 15.24 -15.24 180)
 				(length 2.54)
-				(name "M1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15810,7 +15819,7 @@
 			)
 		)
 		(property "Description" "Audio chip designed and sold by Texas Instruments specifically designed to mimic human speech"
-			(at 0 0 0)
+			(at 0.508 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16387,7 +16396,7 @@
 			)
 		)
 		(property "Description" "Audio chip designed and sold by Texas Instruments specifically designed to mimic human speech"
-			(at 0 0 0)
+			(at 0.254 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

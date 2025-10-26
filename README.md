@@ -31,7 +31,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [SP0256](SP0256) | General Instruments| <img src="SP0256/SP0256A.png" width="100" height="60"> | :triangular_ruler: |
 | [SP1000](SP1000) | General Instruments| <img src="SP1000/SP1000.png" width="100" height="60"> | :triangular_ruler: |
 | [TMS3477](TMS3477) | Texas Instruments| <img src="TMS3477/TMS3477.png" width="100" height="60"> | :triangular_ruler: |
-| [TMS5110](TMS5110) | Texas Instruments| <img src="TMS5110/TMS5110.png" width="100" height="60"> | :x: |
+| [TMS5110](TMS5110) | Texas Instruments| <img src="TMS5110/TMS5110.png" width="100" height="60"> | :triangular_ruler: |
 | [TMS5200](TMS5200) | Texas Instruments| <img src="TMS5200/TMS5200.png" width="100" height="60"> | :triangular_ruler: |
 | [TMS5220](TMS5220) | Texas Instruments| <img src="TMS5220/TMS5220.png" width="100" height="60"> | :triangular_ruler: |
 | [UAA1003](UAA1003) | ITT| <img src="UAA1003/UAA1003.png" width="100" height="60"> | :triangular_ruler: |
