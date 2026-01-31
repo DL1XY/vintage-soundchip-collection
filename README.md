@@ -23,6 +23,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [MSM5205](MSM5205) | OKI| <img src="MSM5205/M5205.png" width="100" height="60"> | :triangular_ruler:  |
 | [MSM5218](MSM5218) | OKI| <img src="MSM5218/M5218.png" width="100" height="60"> | :triangular_ruler:  |
 | [PCF8200](PCF8200) | Philips| <img src="PCF8200/PCF8200.png" width="100" height="60"> | :triangular_ruler:  |
+| [SC-01](SC-01) | Votrax| <img src="SC-01/xxx.png" width="100" height="60"> | - |
 | [SAA1099](SAA1099) | Philips| <img src="SAA1099/SAA1099.png" width="100" height="60"> | :triangular_ruler: |
 | [SN76477](SN76477) | Texas Instruments| <img src="SN76477/SN76477.png" width="100" height="60"> | :triangular_ruler: |
 | [SN76488](SN76488) | Texas Instruments| <img src="SN76488/SN76488.png" width="100" height="60"> | :triangular_ruler: |
