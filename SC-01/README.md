@@ -1,8 +1,8 @@
-# SN76477
+# SC-01
 
 ## General
 
-The Votrax SC-01 is an early speech synthesis integrated circuit from the late 1970s that generates robotic-sounding human speech by outputting a stream of phonemes rather than full words. It contains a fixed internal ROM of phoneme data and relies on an external controller to sequence those sounds into intelligible speech. The chip became iconic through its use in arcade games and home computers, most famously giving voice to machines like the arcade game Berzerk.
+The Votrax SC-01 is an early speech synthesis integrated circuit from the late 1970s produced by Votrax that generates robotic-sounding human speech by outputting a stream of phonemes rather than full words. It contains a fixed internal ROM of phoneme data and relies on an external controller to sequence those sounds into intelligible speech. The chip became iconic through its use in arcade games and home computers, most famously giving voice to machines like the arcade game Berzerk.
 
 - Q\*Bert by Gottlieb
 - Berzerk
