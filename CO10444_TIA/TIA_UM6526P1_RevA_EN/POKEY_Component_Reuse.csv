@@ -1,0 +1,91 @@
+﻿Reference;POKEY value;TIA value;Status;TIA note
+C1;2u2 X7R 10V;2u2 X7R 10V;unchanged part/value;
+C10;220u 10V electrolytic;220u 10V electrolytic;unchanged part/value;"Positive terminal to 5V; next to M2"
+C11;100n X7R 10V;100n X7R 10V;unchanged part/value;At M3 VIN/GND, not 5 V.
+C12;100n X7R 10V;100n X7R 10V;unchanged part/value;"At U4 pins 14/7; U4 is HCT14, not HCT74."
+C13;100n X7R 10V;100n X7R 10V;unchanged part/value;U5 Pin14/7
+C14;100n X7R 10V;100n X7R 10V;unchanged part/value;U6 Pin14/7
+C15;100n X7R 10V;100n X7R 10V;unchanged part/value;U7 Pin14/7
+C16;100n X7R 10V;100n X7R 10V;unchanged part/value;"Directly at TIA U1 pins 20/1; moved from POKEY pin17."
+C17;10u X7R 10V;10u X7R 10V;unchanged part/value;Next to TIA U1 pins 20/1.
+C18;10u X7R 10V;10u X7R 10V;unchanged part/value;
+C19;1u film 10V;1u film 10V;unchanged part/value;
+C2;2u2 X7R 10V;2u2 X7R 10V;unchanged part/value;
+C20;1u film 10V;1u film 10V;unchanged part/value;
+C21;1u film 10V;1u film 10V;unchanged part/value;
+C22;470u 10V electrolytic;470u 10V electrolytic;unchanged part/value;"POSITIVE to AMP_L; NEGATIVE to L_AC"
+C23;470u 10V electrolytic;470u 10V electrolytic;unchanged part/value;"POSITIVE to AMP_R; NEGATIVE to R_AC"
+C24;100u 10V electrolytic;100u 10V electrolytic;unchanged part/value;Positive terminal to 5V_A
+C25;100n X7R 10V;100n X7R 10V;unchanged part/value;U9 Pin8/4
+C26;100n X7R 10V;100n X7R 10V;unchanged part/value;U8 Pin8/4
+C27;;33p C0G 5% 50V;added;Timing capacitor. Total capacitance including U4 input and PCB <=50 pF.
+C3;100n X7R 10V;100n X7R 10V;unchanged part/value;
+C4;100n X7R 10V;100n X7R 10V;unchanged part/value;
+C5;10u X7R 10V;10u X7R 10V;unchanged part/value;
+C6;100u 10V electrolytic;100u 10V electrolytic;unchanged part/value;Positive terminal to 5V
+C7;100n X7R 10V;100n X7R 10V;unchanged part/value;
+C8;100n X7R 10V;100n X7R 10V;unchanged part/value;
+C9;100n X7R 10V;100n X7R 10V;unchanged part/value;
+J1;GCT USB4105-GF-A;GCT USB4105-GF-A;unchanged part/value;"SH = all shell tabs; manufacturer contact names, not invented sequential pin numbers."
+J2;6.35 mm TRS / NJ3FP6C;6.35 mm TRS / NJ3FP6C;unchanged part/value;T/R/S identify plug contacts. Check continuity from solder lugs to an inserted plug before wiring.
+JP1;;0R NTSC ONLY / DNP PAL;added;"DO NOT FIT for UM6526P1 PAL. Fit only for verified NTSC open-drain audio at pin12; sums pins12+13."
+M1;Pololu S13V15F5 / #4084;Pololu S13V15F5 / #4084;unchanged part/value;"Complete buck-boost module; connection names match board markings, no invented pin numbers."
+M2;ESP32-DevKitC V4 / WROOM-32E;ESP32-DevKitC V4 / WROOM-32E;unchanged part/value;"All header contacts not shown remain open. No WROVER substitution. Do not power via Micro-USB simultaneously. J2.1 powers clock module M3; SDA/SCL pull-ups remain at 3.3 V."
+M3;;Adafruit Si5351A / #2045;added;Original #2045 breakout, 25-MHz crystal. VIN=3V3_ESP keeps its I2C pull-ups at 3.3 V. Named pads, not invented IC pins.
+Q1;2N7002;2N7002;unchanged part/value;"Only 0.5 mA drain current; isolates ESP GPIO from the 5-V OE pull-up."
+R1;887k 1%;887k 1%;unchanged part/value;
+R10;100k;100k;unchanged part/value;
+R11;10k;10k;unchanged part/value;
+R12;10k 1%;1k 1%;changed part/value;"TIA load choice: 1k pull-up, consistent with Atari console audio network. Changed from POKEY 10k; verify actual clone swing."
+R13;100k;100k;unchanged part/value;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R14;100k;100k;unchanged part/value;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R15;100k;100k;unchanged part/value;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R16;100k;100k;unchanged part/value;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R17;100k;100k;unchanged part/value;"Audio-only unused color-delay pad, weak 100k termination; not the original console color-bias network."
+R18;100k;100k;unchanged part/value;"Audio-only weak termination. PAL auxiliary function/direction not asserted as a UMC guarantee; no clock drive applied."
+R19;100k;;removed;POKEY-only component removed
+R2;200k 1%;200k 1%;unchanged part/value;
+R20;100k;;removed;POKEY-only component removed
+R21;10k;10k;unchanged part/value;Unused trigger input pull-up.
+R22;10k;10k;unchanged part/value;Unused trigger input pull-up.
+R23;10k;;removed;POKEY-only component removed
+R24;10k;;removed;POKEY-only component removed
+R25;100k;100k;unchanged part/value;
+R26;100k;100k;unchanged part/value;
+R27;22k 1%;22k 1%;unchanged part/value;
+R28;1M;1M;unchanged part/value;Wiper failure -> defined ground reference.
+R29;20k 1%;20k 1%;unchanged part/value;
+R3;21k5 1%;21k5 1%;unchanged part/value;
+R30;20k 1%;20k 1%;unchanged part/value;
+R31;20k 1%;20k 1%;unchanged part/value;
+R32;20k 1%;20k 1%;unchanged part/value;
+R33;100R 0.25W 1%;100R 0.25W 1%;unchanged part/value;
+R34;100k;100k;unchanged part/value;
+R35;100R 0.25W 1%;100R 0.25W 1%;unchanged part/value;
+R36;100k;100k;unchanged part/value;
+R37;20k;20k;unchanged part/value;Bias load per TI Fig. 1
+R38;20k;20k;unchanged part/value;Bias load per TI Fig. 1
+R39;2R2 0.25W;2R2 0.25W;unchanged part/value;
+R4;10k;10k;unchanged part/value;
+R40;;1k 1%;added;"Delay resistor; keep BUS_DELAY short."
+R41;;100k;added;Defines master-buffer input before M3 starts.
+R5;100k;100k;unchanged part/value;
+R6;10k;10k;unchanged part/value;
+R7;100k;100k;unchanged part/value;
+R8;100k;100k;unchanged part/value;
+R9;100k;100k;unchanged part/value;
+RV1;10k log / mono potentiometer;10k log / mono potentiometer;unchanged part/value;"H/W/L are functional contacts. Identify them on the actual potentiometer with an ohmmeter; no manufacturer pin numbers are asserted."
+SW1;DPST / MUTE;DPST / MUTE;unchanged part/value;"Mechanically linked contacts: open=MUTE; closed=PLAY. Functional wiring identifiers."
+U1;ATARI C012294 / DIP-40;UM6526P1 / PAL TIA / DIP-40;changed part/value;"Common bus/supply pins per Atari; PAL audio at 13. PAL-specific pad names are isolated/qualified, not a UMC datasheet guarantee."
+U10;TUSB320IRWBR;TUSB320IRWBR;unchanged part/value;"GPIO mode: ADDR open; PORT=GND (sink); internal Rd, no external 5k1 resistors."
+U11;TPS2552DBVR;TPS2552DBVR;unchanged part/value;Active Low! Do not substitute TPS2553 or -1. ILIM 21k5 / 1%.
+U12;TLV75533PDBVR;TLV75533PDBVR;unchanged part/value;"CC controller only; do not connect to ESP32 3V3."
+U2;SN74HCT595PW;SN74HCT595PW;unchanged part/value;"TSSOP-16; HCT, not HC. Serial data enters U2, cascaded into U3."
+U3;SN74HCT595PW;SN74HCT595PW;unchanged part/value;"TSSOP-16; HCT, not HC. Serial data enters U2, cascaded into U3."
+U4;SN74HCT74N;SN74HCT14N;changed part/value;"PDIP-14. Two inverters buffer master, two buffer PHI0; fifth inverter converts delayed PHI2 falling edge into MIDLOW rising edge."
+U5;SN74HCT74N;SN74HCT74N;unchanged part/value;"PDIP-14; PRE always High; CLR_N active Low, controlled by ESP32."
+U6;SN74HCT74N;SN74HCT74N;unchanged part/value;"PDIP-14; PRE always High; CLR_N active Low, controlled by ESP32."
+U7;SN74HCT00N;SN74HCT00N;unchanged part/value;NAND(REQ_SYNC, REQ_OLD_N). Tie unused inputs to GND.
+U8;MCP6002-I/P;MCP6002-I/P;unchanged part/value;A = audio voltage follower. B = buffered 2.5-V reference. Connect the 10-uF capacitor only to VREF_RAW.
+U9;LM4808M/NOPB / SOIC-8;LM4808M/NOPB / SOIC-8;unchanged part/value;SOIC only! WSON has a different pinout. Gain per channel -1 (20k/20k).
+X1;ECS-100AX-040 / 4 MHz;;removed;POKEY-only component removed

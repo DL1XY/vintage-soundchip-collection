@@ -1,0 +1,86 @@
+﻿Reference;Value / orderable part;Quantity;Source;Assembly / note
+J1;GCT USB4105-GF-A;1;S10;"SH = all shell tabs; manufacturer contact names, not invented sequential pin numbers."
+U10;TUSB320IRWBR;1;S5;"GPIO mode: ADDR open; PORT=GND (sink); internal Rd, no external 5k1 resistors."
+U11;TPS2552DBVR;1;S6;Active Low! Do not substitute TPS2553 or -1. ILIM 21k5 / 1%.
+U12;TLV75533PDBVR;1;S7;"CC controller only; do not connect to ESP32 3V3."
+M1;Pololu S13V15F5 / #4084;1;S8;"Complete buck-boost module; connection names match board markings, no invented pin numbers."
+R1;887k 1%;1;D;
+R2;200k 1%;1;D;
+R3;21k5 1%;1;D;
+C1;2u2 X7R 10V;1;D;
+C2;2u2 X7R 10V;1;D;
+C3;100n X7R 10V;1;D;
+C4;100n X7R 10V;1;D;
+C5;10u X7R 10V;1;D;
+C6;100u 10V electrolytic;1;D;Positive terminal to 5V
+C7;100n X7R 10V;1;D;
+M2;ESP32-DevKitC V4 / WROOM-32E;1;S9;"All header contacts not shown remain open. No WROVER substitution. Do not power via Micro-USB simultaneously. J2.1 powers clock module M3; SDA/SCL pull-ups remain at 3.3 V."
+U2;SN74HCT595PW;1;S2;"TSSOP-16; HCT, not HC. Serial data enters U2, cascaded into U3."
+U3;SN74HCT595PW;1;S2;"TSSOP-16; HCT, not HC. Serial data enters U2, cascaded into U3."
+Q1;2N7002;1;S12;"Only 0.5 mA drain current; isolates ESP GPIO from the 5-V OE pull-up."
+R4;10k;1;D;
+R5;100k;1;D;
+R6;10k;1;D;
+R7;100k;1;D;
+R8;100k;1;D;
+R9;100k;1;D;
+R10;100k;1;D;
+R11;10k;1;D;
+C8;100n X7R 10V;1;D;
+C9;100n X7R 10V;1;D;
+C10;220u 10V electrolytic;1;D;"Positive terminal to 5V; next to M2"
+U5;SN74HCT74N;1;S3;"PDIP-14; PRE always High; CLR_N active Low, controlled by ESP32."
+U6;SN74HCT74N;1;S3;"PDIP-14; PRE always High; CLR_N active Low, controlled by ESP32."
+U7;SN74HCT00N;1;S3b;NAND(REQ_SYNC, REQ_OLD_N). Tie unused inputs to GND.
+C11;100n X7R 10V;1;D;At M3 VIN/GND, not 5 V.
+C12;100n X7R 10V;1;D;"At U4 pins 14/7; U4 is HCT14, not HCT74."
+C13;100n X7R 10V;1;D;U5 Pin14/7
+C14;100n X7R 10V;1;D;U6 Pin14/7
+C15;100n X7R 10V;1;D;U7 Pin14/7
+C16;100n X7R 10V;1;D;"Directly at TIA U1 pins 20/1; moved from POKEY pin17."
+C17;10u X7R 10V;1;D;Next to TIA U1 pins 20/1.
+R12;1k 1%;1;D;"TIA load choice: 1k pull-up, consistent with Atari console audio network. Changed from POKEY 10k; verify actual clone swing."
+R13;100k;1;D;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R14;100k;1;D;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R15;100k;1;D;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R16;100k;1;D;"Unused dumped input; resistive termination avoids shorting its dump transistor."
+R17;100k;1;D;"Audio-only unused color-delay pad, weak 100k termination; not the original console color-bias network."
+R18;100k;1;D;"Audio-only weak termination. PAL auxiliary function/direction not asserted as a UMC guarantee; no clock drive applied."
+R21;10k;1;D;Unused trigger input pull-up.
+R22;10k;1;D;Unused trigger input pull-up.
+U8;MCP6002-I/P;1;S11;A = audio voltage follower. B = buffered 2.5-V reference. Connect the 10-uF capacitor only to VREF_RAW.
+U9;LM4808M/NOPB / SOIC-8;1;S13;SOIC only! WSON has a different pinout. Gain per channel -1 (20k/20k).
+RV1;10k log / mono potentiometer;1;D;"H/W/L are functional contacts. Identify them on the actual potentiometer with an ohmmeter; no manufacturer pin numbers are asserted."
+SW1;DPST / MUTE;1;D;"Mechanically linked contacts: open=MUTE; closed=PLAY. Functional wiring identifiers."
+J2;6.35 mm TRS / NJ3FP6C;1;S14;T/R/S identify plug contacts. Check continuity from solder lugs to an inserted plug before wiring.
+R25;100k;1;D;
+R26;100k;1;D;
+C18;10u X7R 10V;1;D;
+C19;1u film 10V;1;D;
+R27;22k 1%;1;D;
+R28;1M;1;D;Wiper failure -> defined ground reference.
+C20;1u film 10V;1;D;
+R29;20k 1%;1;D;
+R30;20k 1%;1;D;
+C21;1u film 10V;1;D;
+R31;20k 1%;1;D;
+R32;20k 1%;1;D;
+C22;470u 10V electrolytic;1;D;"POSITIVE to AMP_L; NEGATIVE to L_AC"
+R33;100R 0.25W 1%;1;D;
+R34;100k;1;D;
+C23;470u 10V electrolytic;1;D;"POSITIVE to AMP_R; NEGATIVE to R_AC"
+R35;100R 0.25W 1%;1;D;
+R36;100k;1;D;
+R37;20k;1;D;Bias load per TI Fig. 1
+R38;20k;1;D;Bias load per TI Fig. 1
+R39;2R2 0.25W;1;D;
+C24;100u 10V electrolytic;1;D;Positive terminal to 5V_A
+C25;100n X7R 10V;1;D;U9 Pin8/4
+C26;100n X7R 10V;1;D;U8 Pin8/4
+M3;Adafruit Si5351A / #2045;1;T4;Original #2045 breakout, 25-MHz crystal. VIN=3V3_ESP keeps its I2C pull-ups at 3.3 V. Named pads, not invented IC pins.
+U4;SN74HCT14N;1;T5;"PDIP-14. Two inverters buffer master, two buffer PHI0; fifth inverter converts delayed PHI2 falling edge into MIDLOW rising edge."
+R40;1k 1%;1;D;"Delay resistor; keep BUS_DELAY short."
+C27;33p C0G 5% 50V;1;D;Timing capacitor. Total capacitance including U4 input and PCB <=50 pF.
+R41;100k;1;D;Defines master-buffer input before M3 starts.
+U1;UM6526P1 / PAL TIA / DIP-40;1;T1/T2;"Common bus/supply pins per Atari; PAL audio at 13. PAL-specific pad names are isolated/qualified, not a UMC datasheet guarantee."
+JP1;0R NTSC ONLY / DNP PAL;"0 (PAL); 1 (NTSC)";D;"DO NOT FIT for UM6526P1 PAL. Fit only for verified NTSC open-drain audio at pin12; sums pins12+13."

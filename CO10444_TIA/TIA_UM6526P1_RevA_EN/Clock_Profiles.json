@@ -1,0 +1,18 @@
+{
+  "PAL": {
+    "master_hz": 3546894,
+    "phi0_hz": 1182298.0,
+    "audio_tick_hz": 31113.105263157893,
+    "multisynth_a": 253,
+    "multisynth_b": 439303,
+    "multisynth_c": 591149
+  },
+  "NTSC": {
+    "master_hz": 3579545,
+    "phi0_hz": 1193181.6666666667,
+    "audio_tick_hz": 31399.51754385965,
+    "multisynth_a": 251,
+    "multisynth_b": 306841,
+    "multisynth_c": 715909
+  }
+}

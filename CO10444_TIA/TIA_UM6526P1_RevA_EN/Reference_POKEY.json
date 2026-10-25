@@ -1,0 +1,4512 @@
+{
+  "revision": "A",
+  "parts": [
+    {
+      "ref": "J1",
+      "value": "GCT USB4105-GF-A",
+      "pins": [
+        {
+          "n": "A4",
+          "name": "VBUS",
+          "net": "VBUS",
+          "typ": "P"
+        },
+        {
+          "n": "A9",
+          "name": "VBUS",
+          "net": "VBUS",
+          "typ": "P"
+        },
+        {
+          "n": "B4",
+          "name": "VBUS",
+          "net": "VBUS",
+          "typ": "P"
+        },
+        {
+          "n": "B9",
+          "name": "VBUS",
+          "net": "VBUS",
+          "typ": "P"
+        },
+        {
+          "n": "A1",
+          "name": "GND",
+          "net": "GND",
+          "typ": "P"
+        },
+        {
+          "n": "A12",
+          "name": "GND",
+          "net": "GND",
+          "typ": "P"
+        },
+        {
+          "n": "B1",
+          "name": "GND",
+          "net": "GND",
+          "typ": "P"
+        },
+        {
+          "n": "B12",
+          "name": "GND",
+          "net": "GND",
+          "typ": "P"
+        },
+        {
+          "n": "A5",
+          "name": "CC1",
+          "net": "CC1",
+          "typ": "P"
+        },
+        {
+          "n": "B5",
+          "name": "CC2",
+          "net": "CC2",
+          "typ": "P"
+        },
+        {
+          "n": "A6",
+          "name": "A6",
+          "net": null,
+          "typ": "P"
+        },
+        {
+          "n": "A7",
+          "name": "A7",
+          "net": null,
+          "typ": "P"
+        },
+        {
+          "n": "B6",
+          "name": "B6",
+          "net": null,
+          "typ": "P"
+        },
+        {
+          "n": "B7",
+          "name": "B7",
+          "net": null,
+          "typ": "P"
+        },
+        {
+          "n": "A8",
+          "name": "A8",
+          "net": null,
+          "typ": "P"
+        },
+        {
+          "n": "B8",
+          "name": "B8",
+          "net": null,
+          "typ": "P"
+        },
+        {
+          "n": "SH",
+          "name": "SHELL",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "S10",
+      "note": "SH = all shell tabs; manufacturer contact names, not invented sequential pin numbers.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U10",
+      "value": "TUSB320IRWBR",
+      "pins": [
+        {
+          "n": "1",
+          "name": "CC1",
+          "net": "CC1",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "CC2",
+          "net": "CC2",
+          "typ": "P"
+        },
+        {
+          "n": "3",
+          "name": "PORT",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "VBUS_DET",
+          "net": "VBUS_SENSE",
+          "typ": "I"
+        },
+        {
+          "n": "5",
+          "name": "ADDR",
+          "net": null,
+          "typ": "I"
+        },
+        {
+          "n": "6",
+          "name": "OUT3",
+          "net": null,
+          "typ": "C"
+        },
+        {
+          "n": "7",
+          "name": "OUT1",
+          "net": "POWER_EN_N",
+          "typ": "C"
+        },
+        {
+          "n": "8",
+          "name": "OUT2",
+          "net": null,
+          "typ": "C"
+        },
+        {
+          "n": "9",
+          "name": "ID",
+          "net": null,
+          "typ": "C"
+        },
+        {
+          "n": "10",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "11",
+          "name": "EN_N",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "12",
+          "name": "VDD",
+          "net": "3V3_CC",
+          "typ": "W"
+        }
+      ],
+      "source": "S5",
+      "note": "GPIO mode: ADDR open; PORT=GND (sink); internal Rd, no external 5k1 resistors.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U11",
+      "value": "TPS2552DBVR",
+      "pins": [
+        {
+          "n": "1",
+          "name": "IN",
+          "net": "VBUS",
+          "typ": "W"
+        },
+        {
+          "n": "2",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "3",
+          "name": "EN_N",
+          "net": "POWER_EN_N",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "FAULT_N",
+          "net": null,
+          "typ": "C"
+        },
+        {
+          "n": "5",
+          "name": "ILIM",
+          "net": "ILIM",
+          "typ": "P"
+        },
+        {
+          "n": "6",
+          "name": "OUT",
+          "net": "USB_LIMITED",
+          "typ": "w"
+        }
+      ],
+      "source": "S6",
+      "note": "Active Low! Do not substitute TPS2553 or -1. ILIM 21k5 / 1%.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U12",
+      "value": "TLV75533PDBVR",
+      "pins": [
+        {
+          "n": "1",
+          "name": "IN",
+          "net": "VBUS",
+          "typ": "W"
+        },
+        {
+          "n": "2",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "3",
+          "name": "EN",
+          "net": "VBUS",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "NC",
+          "net": null,
+          "typ": "N"
+        },
+        {
+          "n": "5",
+          "name": "OUT",
+          "net": "3V3_CC",
+          "typ": "w"
+        }
+      ],
+      "source": "S7",
+      "note": "CC controller only; do not connect to ESP32 3V3.",
+      "kind": "IC"
+    },
+    {
+      "ref": "M1",
+      "value": "Pololu S13V15F5 / #4084",
+      "pins": [
+        {
+          "n": "VIN",
+          "name": "VIN",
+          "net": "USB_LIMITED",
+          "typ": "W"
+        },
+        {
+          "n": "GND",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "VOUT",
+          "name": "VOUT",
+          "net": "5V",
+          "typ": "w"
+        }
+      ],
+      "source": "S8",
+      "note": "Complete buck-boost module; connection names match board markings, no invented pin numbers.",
+      "kind": "IC"
+    },
+    {
+      "ref": "R1",
+      "value": "887k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VBUS",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "VBUS_SENSE",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R2",
+      "value": "200k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "3V3_CC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "POWER_EN_N",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R3",
+      "value": "21k5 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "ILIM",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "C1",
+      "value": "2u2 X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VBUS",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C2",
+      "value": "2u2 X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "3V3_CC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C3",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "3V3_CC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C4",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VBUS",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C5",
+      "value": "10u X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "USB_LIMITED",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C6",
+      "value": "100u 10V electrolytic",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Positive terminal to 5V",
+      "kind": "C"
+    },
+    {
+      "ref": "C7",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "M2",
+      "value": "ESP32-DevKitC V4 / WROOM-32E",
+      "pins": [
+        {
+          "n": "J2.19",
+          "name": "5V",
+          "net": "5V",
+          "typ": "W"
+        },
+        {
+          "n": "J2.14",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "J3.1",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "J3.2",
+          "name": "GPIO23 / MOSI",
+          "net": "SPI_DATA",
+          "typ": "O"
+        },
+        {
+          "n": "J3.9",
+          "name": "GPIO18 / SCK",
+          "net": "SPI_CLK",
+          "typ": "O"
+        },
+        {
+          "n": "J2.11",
+          "name": "GPIO27 / LATCH",
+          "net": "LATCH",
+          "typ": "O"
+        },
+        {
+          "n": "J2.7",
+          "name": "GPIO32 / REQ",
+          "net": "REQ",
+          "typ": "O"
+        },
+        {
+          "n": "J2.10",
+          "name": "GPIO26 / CLR_N",
+          "net": "LOGIC_CLR_N",
+          "typ": "O"
+        },
+        {
+          "n": "J2.9",
+          "name": "GPIO25 / BUS_EN",
+          "net": "BUS_EN",
+          "typ": "O"
+        }
+      ],
+      "source": "S9",
+      "note": "All header contacts not shown remain open. No WROVER substitution. Do not power via Micro-USB simultaneously.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U2",
+      "value": "SN74HCT595PW",
+      "pins": [
+        {
+          "n": "14",
+          "name": "SER",
+          "net": "SPI_DATA",
+          "typ": "I"
+        },
+        {
+          "n": "11",
+          "name": "SRCLK",
+          "net": "SPI_CLK",
+          "typ": "I"
+        },
+        {
+          "n": "12",
+          "name": "RCLK",
+          "net": "LATCH",
+          "typ": "I"
+        },
+        {
+          "n": "13",
+          "name": "OE_N",
+          "net": "BUS_OE_N",
+          "typ": "I"
+        },
+        {
+          "n": "10",
+          "name": "SRCLR_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "16",
+          "name": "VCC",
+          "net": "5V",
+          "typ": "W"
+        },
+        {
+          "n": "8",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "9",
+          "name": "QH_SER",
+          "net": "CASCADE",
+          "typ": "O"
+        },
+        {
+          "n": "15",
+          "name": "QA",
+          "net": "D0",
+          "typ": "O"
+        },
+        {
+          "n": "1",
+          "name": "QB",
+          "net": "D1",
+          "typ": "O"
+        },
+        {
+          "n": "2",
+          "name": "QC",
+          "net": "D2",
+          "typ": "O"
+        },
+        {
+          "n": "3",
+          "name": "QD",
+          "net": "D3",
+          "typ": "O"
+        },
+        {
+          "n": "4",
+          "name": "QE",
+          "net": "D4",
+          "typ": "O"
+        },
+        {
+          "n": "5",
+          "name": "QF",
+          "net": "D5",
+          "typ": "O"
+        },
+        {
+          "n": "6",
+          "name": "QG",
+          "net": "D6",
+          "typ": "O"
+        },
+        {
+          "n": "7",
+          "name": "QH",
+          "net": "D7",
+          "typ": "O"
+        }
+      ],
+      "source": "S2",
+      "note": "TSSOP-16; HCT, not HC. Serial data enters U2, cascaded into U3.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U3",
+      "value": "SN74HCT595PW",
+      "pins": [
+        {
+          "n": "14",
+          "name": "SER",
+          "net": "CASCADE",
+          "typ": "I"
+        },
+        {
+          "n": "11",
+          "name": "SRCLK",
+          "net": "SPI_CLK",
+          "typ": "I"
+        },
+        {
+          "n": "12",
+          "name": "RCLK",
+          "net": "LATCH",
+          "typ": "I"
+        },
+        {
+          "n": "13",
+          "name": "OE_N",
+          "net": "BUS_OE_N",
+          "typ": "I"
+        },
+        {
+          "n": "10",
+          "name": "SRCLR_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "16",
+          "name": "VCC",
+          "net": "5V",
+          "typ": "W"
+        },
+        {
+          "n": "8",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "9",
+          "name": "QH_SER",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "15",
+          "name": "QA",
+          "net": "A0",
+          "typ": "O"
+        },
+        {
+          "n": "1",
+          "name": "QB",
+          "net": "A1",
+          "typ": "O"
+        },
+        {
+          "n": "2",
+          "name": "QC",
+          "net": "A2",
+          "typ": "O"
+        },
+        {
+          "n": "3",
+          "name": "QD",
+          "net": "A3",
+          "typ": "O"
+        },
+        {
+          "n": "4",
+          "name": "QE",
+          "net": "CS1",
+          "typ": "O"
+        },
+        {
+          "n": "5",
+          "name": "QF",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "6",
+          "name": "QG",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "7",
+          "name": "QH",
+          "net": null,
+          "typ": "O"
+        }
+      ],
+      "source": "S2",
+      "note": "TSSOP-16; HCT, not HC. Serial data enters U2, cascaded into U3.",
+      "kind": "IC"
+    },
+    {
+      "ref": "Q1",
+      "value": "2N7002",
+      "pins": [
+        {
+          "n": "1",
+          "name": "G",
+          "net": "BUS_EN",
+          "typ": "I"
+        },
+        {
+          "n": "2",
+          "name": "S",
+          "net": "GND",
+          "typ": "P"
+        },
+        {
+          "n": "3",
+          "name": "D",
+          "net": "BUS_OE_N",
+          "typ": "C"
+        }
+      ],
+      "source": "S12",
+      "note": "Only 0.5 mA drain current; isolates ESP GPIO from the 5-V OE pull-up.",
+      "kind": "IC"
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "BUS_OE_N",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R5",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "BUS_EN",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R6",
+      "value": "10k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "LOGIC_CLR_N",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R7",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "REQ",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R8",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "LATCH",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R9",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "SPI_CLK",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R10",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "SPI_DATA",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "CS1",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "C8",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C9",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C10",
+      "value": "220u 10V electrolytic",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Positive terminal to 5V; next to M2",
+      "kind": "C"
+    },
+    {
+      "ref": "X1",
+      "value": "ECS-100AX-040 / 4 MHz",
+      "pins": [
+        {
+          "n": "1",
+          "name": "NC",
+          "net": null,
+          "typ": "N"
+        },
+        {
+          "n": "7",
+          "name": "CASE_GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "8",
+          "name": "OUT",
+          "net": "CLK4",
+          "typ": "O"
+        },
+        {
+          "n": "14",
+          "name": "VCC",
+          "net": "5V",
+          "typ": "W"
+        }
+      ],
+      "source": "S4",
+      "note": "DIL-14 / 4 leads. 5-V TTL output; HCT inputs.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U4",
+      "value": "SN74HCT74N",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1CLR_N",
+          "net": "LOGIC_CLR_N",
+          "typ": "I"
+        },
+        {
+          "n": "2",
+          "name": "1D",
+          "net": "PHI2_N",
+          "typ": "I"
+        },
+        {
+          "n": "3",
+          "name": "1CLK",
+          "net": "CLK4",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "1PRE_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "5",
+          "name": "1Q",
+          "net": "MIDLOW",
+          "typ": "O"
+        },
+        {
+          "n": "6",
+          "name": "1Q_N",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "7",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "8",
+          "name": "2Q_N",
+          "net": "PHI2_N",
+          "typ": "O"
+        },
+        {
+          "n": "9",
+          "name": "2Q",
+          "net": "PHI2",
+          "typ": "O"
+        },
+        {
+          "n": "10",
+          "name": "2PRE_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "11",
+          "name": "2CLK",
+          "net": "CLK4",
+          "typ": "I"
+        },
+        {
+          "n": "12",
+          "name": "2D",
+          "net": "MIDLOW",
+          "typ": "I"
+        },
+        {
+          "n": "13",
+          "name": "2CLR_N",
+          "net": "LOGIC_CLR_N",
+          "typ": "I"
+        },
+        {
+          "n": "14",
+          "name": "VCC",
+          "net": "5V",
+          "typ": "W"
+        }
+      ],
+      "source": "S3",
+      "note": "PDIP-14; PRE always High; CLR_N active Low, controlled by ESP32.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U5",
+      "value": "SN74HCT74N",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1CLR_N",
+          "net": "LOGIC_CLR_N",
+          "typ": "I"
+        },
+        {
+          "n": "2",
+          "name": "1D",
+          "net": "REQ",
+          "typ": "I"
+        },
+        {
+          "n": "3",
+          "name": "1CLK",
+          "net": "MIDLOW",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "1PRE_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "5",
+          "name": "1Q",
+          "net": "REQ_META",
+          "typ": "O"
+        },
+        {
+          "n": "6",
+          "name": "1Q_N",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "7",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "8",
+          "name": "2Q_N",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "9",
+          "name": "2Q",
+          "net": "REQ_SYNC",
+          "typ": "O"
+        },
+        {
+          "n": "10",
+          "name": "2PRE_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "11",
+          "name": "2CLK",
+          "net": "MIDLOW",
+          "typ": "I"
+        },
+        {
+          "n": "12",
+          "name": "2D",
+          "net": "REQ_META",
+          "typ": "I"
+        },
+        {
+          "n": "13",
+          "name": "2CLR_N",
+          "net": "LOGIC_CLR_N",
+          "typ": "I"
+        },
+        {
+          "n": "14",
+          "name": "VCC",
+          "net": "5V",
+          "typ": "W"
+        }
+      ],
+      "source": "S3",
+      "note": "PDIP-14; PRE always High; CLR_N active Low, controlled by ESP32.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U6",
+      "value": "SN74HCT74N",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1CLR_N",
+          "net": "LOGIC_CLR_N",
+          "typ": "I"
+        },
+        {
+          "n": "2",
+          "name": "1D",
+          "net": "REQ_SYNC",
+          "typ": "I"
+        },
+        {
+          "n": "3",
+          "name": "1CLK",
+          "net": "MIDLOW",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "1PRE_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "5",
+          "name": "1Q",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "6",
+          "name": "1Q_N",
+          "net": "REQ_OLD_N",
+          "typ": "O"
+        },
+        {
+          "n": "7",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "8",
+          "name": "2Q_N",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "9",
+          "name": "2Q",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "10",
+          "name": "2PRE_N",
+          "net": "5V",
+          "typ": "I"
+        },
+        {
+          "n": "11",
+          "name": "2CLK",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "12",
+          "name": "2D",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "13",
+          "name": "2CLR_N",
+          "net": "LOGIC_CLR_N",
+          "typ": "I"
+        },
+        {
+          "n": "14",
+          "name": "VCC",
+          "net": "5V",
+          "typ": "W"
+        }
+      ],
+      "source": "S3",
+      "note": "PDIP-14; PRE always High; CLR_N active Low, controlled by ESP32.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U7",
+      "value": "SN74HCT00N",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1A",
+          "net": "REQ_SYNC",
+          "typ": "I"
+        },
+        {
+          "n": "2",
+          "name": "1B",
+          "net": "REQ_OLD_N",
+          "typ": "I"
+        },
+        {
+          "n": "3",
+          "name": "1Y",
+          "net": "CS0_N",
+          "typ": "O"
+        },
+        {
+          "n": "4",
+          "name": "2A",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "5",
+          "name": "2B",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "6",
+          "name": "2Y",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "7",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "8",
+          "name": "3Y",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "9",
+          "name": "3A",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "10",
+          "name": "3B",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "11",
+          "name": "4Y",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "12",
+          "name": "4A",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "13",
+          "name": "4B",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "14",
+          "name": "VCC",
+          "net": "5V",
+          "typ": "W"
+        }
+      ],
+      "source": "S3b",
+      "note": "NAND(REQ_SYNC, REQ_OLD_N). Tie unused inputs to GND.",
+      "kind": "IC"
+    },
+    {
+      "ref": "C11",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "X1 Pin14/7",
+      "kind": "C"
+    },
+    {
+      "ref": "C12",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "U4 Pin14/7",
+      "kind": "C"
+    },
+    {
+      "ref": "C13",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "U5 Pin14/7",
+      "kind": "C"
+    },
+    {
+      "ref": "C14",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "U6 Pin14/7",
+      "kind": "C"
+    },
+    {
+      "ref": "C15",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "U7 Pin14/7",
+      "kind": "C"
+    },
+    {
+      "ref": "U1",
+      "value": "ATARI C012294 / DIP-40",
+      "pins": [
+        {
+          "n": "1",
+          "name": "VSS",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "2",
+          "name": "D3",
+          "net": "D3",
+          "typ": "B"
+        },
+        {
+          "n": "3",
+          "name": "D4",
+          "net": "D4",
+          "typ": "B"
+        },
+        {
+          "n": "4",
+          "name": "D5",
+          "net": "D5",
+          "typ": "B"
+        },
+        {
+          "n": "5",
+          "name": "D6",
+          "net": "D6",
+          "typ": "B"
+        },
+        {
+          "n": "6",
+          "name": "D7",
+          "net": "D7",
+          "typ": "B"
+        },
+        {
+          "n": "7",
+          "name": "PHI2",
+          "net": "PHI2",
+          "typ": "I"
+        },
+        {
+          "n": "8",
+          "name": "P6",
+          "net": "P6",
+          "typ": "B"
+        },
+        {
+          "n": "9",
+          "name": "P7",
+          "net": "P7",
+          "typ": "B"
+        },
+        {
+          "n": "10",
+          "name": "P4",
+          "net": "P4",
+          "typ": "B"
+        },
+        {
+          "n": "11",
+          "name": "P5",
+          "net": "P5",
+          "typ": "B"
+        },
+        {
+          "n": "12",
+          "name": "P2",
+          "net": "P2",
+          "typ": "B"
+        },
+        {
+          "n": "13",
+          "name": "P3",
+          "net": "P3",
+          "typ": "B"
+        },
+        {
+          "n": "14",
+          "name": "P0",
+          "net": "P0",
+          "typ": "B"
+        },
+        {
+          "n": "15",
+          "name": "P1",
+          "net": "P1",
+          "typ": "B"
+        },
+        {
+          "n": "16",
+          "name": "KR2_N",
+          "net": "KR2_N",
+          "typ": "I"
+        },
+        {
+          "n": "17",
+          "name": "VDD",
+          "net": "5V",
+          "typ": "W"
+        },
+        {
+          "n": "18",
+          "name": "K5",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "19",
+          "name": "K4",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "20",
+          "name": "K3",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "21",
+          "name": "K2",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "22",
+          "name": "K1",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "23",
+          "name": "K0",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "24",
+          "name": "SID",
+          "net": "SID",
+          "typ": "I"
+        },
+        {
+          "n": "25",
+          "name": "KR1_N",
+          "net": "KR1_N",
+          "typ": "I"
+        },
+        {
+          "n": "26",
+          "name": "BCLK",
+          "net": "BCLK",
+          "typ": "B"
+        },
+        {
+          "n": "27",
+          "name": "OCLK",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "28",
+          "name": "SOD",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "29",
+          "name": "IRQ_N",
+          "net": null,
+          "typ": "O"
+        },
+        {
+          "n": "30",
+          "name": "CS0_N",
+          "net": "CS0_N",
+          "typ": "I"
+        },
+        {
+          "n": "31",
+          "name": "CS1",
+          "net": "CS1",
+          "typ": "I"
+        },
+        {
+          "n": "32",
+          "name": "R_W",
+          "net": "GND",
+          "typ": "I"
+        },
+        {
+          "n": "33",
+          "name": "A3",
+          "net": "A3",
+          "typ": "I"
+        },
+        {
+          "n": "34",
+          "name": "A2",
+          "net": "A2",
+          "typ": "I"
+        },
+        {
+          "n": "35",
+          "name": "A1",
+          "net": "A1",
+          "typ": "I"
+        },
+        {
+          "n": "36",
+          "name": "A0",
+          "net": "A0",
+          "typ": "I"
+        },
+        {
+          "n": "37",
+          "name": "AUDIO",
+          "net": "AUD_RAW",
+          "typ": "O"
+        },
+        {
+          "n": "38",
+          "name": "D0",
+          "net": "D0",
+          "typ": "B"
+        },
+        {
+          "n": "39",
+          "name": "D1",
+          "net": "D1",
+          "typ": "B"
+        },
+        {
+          "n": "40",
+          "name": "D2",
+          "net": "D2",
+          "typ": "B"
+        }
+      ],
+      "source": "S1",
+      "note": "Original C012294 chip; the part number contains zero. No dedicated RESET pin. Write-only: R/W permanently GND.",
+      "kind": "IC"
+    },
+    {
+      "ref": "C16",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Directly at U1 pins 17/1",
+      "kind": "C"
+    },
+    {
+      "ref": "C17",
+      "value": "10u X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Next to U1",
+      "kind": "C"
+    },
+    {
+      "ref": "R12",
+      "value": "10k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "AUD_RAW",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Atari reference load; U8A provides a high-impedance buffer.",
+      "kind": "R"
+    },
+    {
+      "ref": "R13",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P0",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R14",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P1",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R15",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P2",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R16",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P3",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R17",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P4",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R18",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P5",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R19",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P6",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R20",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "P7",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Do not short the potentiometer I/O directly to a rail.",
+      "kind": "R"
+    },
+    {
+      "ref": "R21",
+      "value": "10k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "KR1_N",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R22",
+      "value": "10k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "KR2_N",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R23",
+      "value": "10k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "SID",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R24",
+      "value": "10k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "BCLK",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "BCLK can drive Low: use a pull-up, never a direct 5V connection.",
+      "kind": "R"
+    },
+    {
+      "ref": "U8",
+      "value": "MCP6002-I/P",
+      "pins": [
+        {
+          "n": "1",
+          "name": "OUT_A",
+          "net": "AUD_BUF",
+          "typ": "O"
+        },
+        {
+          "n": "2",
+          "name": "IN_A_N",
+          "net": "AUD_BUF",
+          "typ": "I"
+        },
+        {
+          "n": "3",
+          "name": "IN_A_P",
+          "net": "AUD_RAW",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "VSS",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "5",
+          "name": "IN_B_P",
+          "net": "VREF_RAW",
+          "typ": "I"
+        },
+        {
+          "n": "6",
+          "name": "IN_B_N",
+          "net": "VREF",
+          "typ": "I"
+        },
+        {
+          "n": "7",
+          "name": "OUT_B",
+          "net": "VREF",
+          "typ": "O"
+        },
+        {
+          "n": "8",
+          "name": "VDD",
+          "net": "5V",
+          "typ": "W"
+        }
+      ],
+      "source": "S11",
+      "note": "A = audio voltage follower. B = buffered 2.5-V reference. Connect the 10-uF capacitor only to VREF_RAW.",
+      "kind": "IC"
+    },
+    {
+      "ref": "U9",
+      "value": "LM4808M/NOPB / SOIC-8",
+      "pins": [
+        {
+          "n": "1",
+          "name": "OUT_A",
+          "net": "AMP_L",
+          "typ": "O"
+        },
+        {
+          "n": "2",
+          "name": "IN_A_N",
+          "net": "SUM_L",
+          "typ": "I"
+        },
+        {
+          "n": "3",
+          "name": "IN_A_P",
+          "net": "VREF",
+          "typ": "I"
+        },
+        {
+          "n": "4",
+          "name": "GND",
+          "net": "GND",
+          "typ": "W"
+        },
+        {
+          "n": "5",
+          "name": "IN_B_P",
+          "net": "VREF",
+          "typ": "I"
+        },
+        {
+          "n": "6",
+          "name": "IN_B_N",
+          "net": "SUM_R",
+          "typ": "I"
+        },
+        {
+          "n": "7",
+          "name": "OUT_B",
+          "net": "AMP_R",
+          "typ": "O"
+        },
+        {
+          "n": "8",
+          "name": "VDD",
+          "net": "5V_A",
+          "typ": "W"
+        }
+      ],
+      "source": "S13",
+      "note": "SOIC only! WSON has a different pinout. Gain per channel -1 (20k/20k).",
+      "kind": "IC"
+    },
+    {
+      "ref": "RV1",
+      "value": "10k log / mono potentiometer",
+      "pins": [
+        {
+          "n": "H",
+          "name": "CW end",
+          "net": "VOL_TOP",
+          "typ": "P"
+        },
+        {
+          "n": "W",
+          "name": "Wiper",
+          "net": "VOL_W",
+          "typ": "P"
+        },
+        {
+          "n": "L",
+          "name": "CCW end",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "H/W/L are functional contacts. Identify them on the actual potentiometer with an ohmmeter; no manufacturer pin numbers are asserted.",
+      "kind": "IC"
+    },
+    {
+      "ref": "SW1",
+      "value": "DPST / MUTE",
+      "pins": [
+        {
+          "n": "1",
+          "name": "L_IN",
+          "net": "L_LIMIT",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "L_OUT",
+          "net": "HP_L",
+          "typ": "P"
+        },
+        {
+          "n": "3",
+          "name": "R_IN",
+          "net": "R_LIMIT",
+          "typ": "P"
+        },
+        {
+          "n": "4",
+          "name": "R_OUT",
+          "net": "HP_R",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Mechanically linked contacts: open=MUTE; closed=PLAY. Functional wiring identifiers.",
+      "kind": "IC"
+    },
+    {
+      "ref": "J2",
+      "value": "6.35 mm TRS / NJ3FP6C",
+      "pins": [
+        {
+          "n": "T",
+          "name": "TIP / left",
+          "net": "HP_L",
+          "typ": "P"
+        },
+        {
+          "n": "R",
+          "name": "RING / right",
+          "net": "HP_R",
+          "typ": "P"
+        },
+        {
+          "n": "S",
+          "name": "SLEEVE",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "S14",
+      "note": "T/R/S identify plug contacts. Check continuity from solder lugs to an inserted plug before wiring.",
+      "kind": "IC"
+    },
+    {
+      "ref": "R25",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "VREF_RAW",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R26",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VREF_RAW",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "C18",
+      "value": "10u X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VREF_RAW",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "C19",
+      "value": "1u film 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AUD_BUF",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "AUD_AC",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "R27",
+      "value": "22k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AUD_AC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "VOL_TOP",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R28",
+      "value": "1M",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VOL_W",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Wiper failure -> defined ground reference.",
+      "kind": "R"
+    },
+    {
+      "ref": "C20",
+      "value": "1u film 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VOL_W",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "IN_L_AC",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "R29",
+      "value": "20k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "IN_L_AC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "SUM_L",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R30",
+      "value": "20k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AMP_L",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "SUM_L",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "C21",
+      "value": "1u film 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "VOL_W",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "IN_R_AC",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "C"
+    },
+    {
+      "ref": "R31",
+      "value": "20k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "IN_R_AC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "SUM_R",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R32",
+      "value": "20k 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AMP_R",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "SUM_R",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "C22",
+      "value": "470u 10V electrolytic",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AMP_L",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "L_AC",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "POSITIVE to AMP_L; NEGATIVE to L_AC",
+      "kind": "C"
+    },
+    {
+      "ref": "R33",
+      "value": "100R 0.25W 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "L_AC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "L_LIMIT",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R34",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "L_AC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "C23",
+      "value": "470u 10V electrolytic",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AMP_R",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "R_AC",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "POSITIVE to AMP_R; NEGATIVE to R_AC",
+      "kind": "C"
+    },
+    {
+      "ref": "R35",
+      "value": "100R 0.25W 1%",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "R_AC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "R_LIMIT",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R36",
+      "value": "100k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "R_AC",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "R37",
+      "value": "20k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AMP_L",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Bias load per TI Fig. 1",
+      "kind": "R"
+    },
+    {
+      "ref": "R38",
+      "value": "20k",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "AMP_R",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Bias load per TI Fig. 1",
+      "kind": "R"
+    },
+    {
+      "ref": "R39",
+      "value": "2R2 0.25W",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "5V_A",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "",
+      "kind": "R"
+    },
+    {
+      "ref": "C24",
+      "value": "100u 10V electrolytic",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V_A",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "Positive terminal to 5V_A",
+      "kind": "C"
+    },
+    {
+      "ref": "C25",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V_A",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "U9 Pin8/4",
+      "kind": "C"
+    },
+    {
+      "ref": "C26",
+      "value": "100n X7R 10V",
+      "pins": [
+        {
+          "n": "1",
+          "name": "1",
+          "net": "5V",
+          "typ": "P"
+        },
+        {
+          "n": "2",
+          "name": "2",
+          "net": "GND",
+          "typ": "P"
+        }
+      ],
+      "source": "D",
+      "note": "U8 Pin8/4",
+      "kind": "C"
+    }
+  ],
+  "nets": {
+    "VBUS": [
+      [
+        "J1",
+        "A4",
+        "VBUS"
+      ],
+      [
+        "J1",
+        "A9",
+        "VBUS"
+      ],
+      [
+        "J1",
+        "B4",
+        "VBUS"
+      ],
+      [
+        "J1",
+        "B9",
+        "VBUS"
+      ],
+      [
+        "U11",
+        "1",
+        "IN"
+      ],
+      [
+        "U12",
+        "1",
+        "IN"
+      ],
+      [
+        "U12",
+        "3",
+        "EN"
+      ],
+      [
+        "R1",
+        "1",
+        "1"
+      ],
+      [
+        "C1",
+        "1",
+        "1"
+      ],
+      [
+        "C4",
+        "1",
+        "1"
+      ]
+    ],
+    "GND": [
+      [
+        "J1",
+        "A1",
+        "GND"
+      ],
+      [
+        "J1",
+        "A12",
+        "GND"
+      ],
+      [
+        "J1",
+        "B1",
+        "GND"
+      ],
+      [
+        "J1",
+        "B12",
+        "GND"
+      ],
+      [
+        "J1",
+        "SH",
+        "SHELL"
+      ],
+      [
+        "U10",
+        "3",
+        "PORT"
+      ],
+      [
+        "U10",
+        "10",
+        "GND"
+      ],
+      [
+        "U10",
+        "11",
+        "EN_N"
+      ],
+      [
+        "U11",
+        "2",
+        "GND"
+      ],
+      [
+        "U12",
+        "2",
+        "GND"
+      ],
+      [
+        "M1",
+        "GND",
+        "GND"
+      ],
+      [
+        "R3",
+        "2",
+        "2"
+      ],
+      [
+        "C1",
+        "2",
+        "2"
+      ],
+      [
+        "C2",
+        "2",
+        "2"
+      ],
+      [
+        "C3",
+        "2",
+        "2"
+      ],
+      [
+        "C4",
+        "2",
+        "2"
+      ],
+      [
+        "C5",
+        "2",
+        "2"
+      ],
+      [
+        "C6",
+        "2",
+        "2"
+      ],
+      [
+        "C7",
+        "2",
+        "2"
+      ],
+      [
+        "M2",
+        "J2.14",
+        "GND"
+      ],
+      [
+        "M2",
+        "J3.1",
+        "GND"
+      ],
+      [
+        "U2",
+        "8",
+        "GND"
+      ],
+      [
+        "U3",
+        "8",
+        "GND"
+      ],
+      [
+        "Q1",
+        "2",
+        "S"
+      ],
+      [
+        "R5",
+        "2",
+        "2"
+      ],
+      [
+        "R6",
+        "2",
+        "2"
+      ],
+      [
+        "R7",
+        "2",
+        "2"
+      ],
+      [
+        "R8",
+        "2",
+        "2"
+      ],
+      [
+        "R9",
+        "2",
+        "2"
+      ],
+      [
+        "R10",
+        "2",
+        "2"
+      ],
+      [
+        "R11",
+        "2",
+        "2"
+      ],
+      [
+        "C8",
+        "2",
+        "2"
+      ],
+      [
+        "C9",
+        "2",
+        "2"
+      ],
+      [
+        "C10",
+        "2",
+        "2"
+      ],
+      [
+        "X1",
+        "7",
+        "CASE_GND"
+      ],
+      [
+        "U4",
+        "7",
+        "GND"
+      ],
+      [
+        "U5",
+        "7",
+        "GND"
+      ],
+      [
+        "U6",
+        "7",
+        "GND"
+      ],
+      [
+        "U6",
+        "11",
+        "2CLK"
+      ],
+      [
+        "U6",
+        "12",
+        "2D"
+      ],
+      [
+        "U7",
+        "4",
+        "2A"
+      ],
+      [
+        "U7",
+        "5",
+        "2B"
+      ],
+      [
+        "U7",
+        "7",
+        "GND"
+      ],
+      [
+        "U7",
+        "9",
+        "3A"
+      ],
+      [
+        "U7",
+        "10",
+        "3B"
+      ],
+      [
+        "U7",
+        "12",
+        "4A"
+      ],
+      [
+        "U7",
+        "13",
+        "4B"
+      ],
+      [
+        "C11",
+        "2",
+        "2"
+      ],
+      [
+        "C12",
+        "2",
+        "2"
+      ],
+      [
+        "C13",
+        "2",
+        "2"
+      ],
+      [
+        "C14",
+        "2",
+        "2"
+      ],
+      [
+        "C15",
+        "2",
+        "2"
+      ],
+      [
+        "U1",
+        "1",
+        "VSS"
+      ],
+      [
+        "U1",
+        "32",
+        "R_W"
+      ],
+      [
+        "C16",
+        "2",
+        "2"
+      ],
+      [
+        "C17",
+        "2",
+        "2"
+      ],
+      [
+        "R13",
+        "2",
+        "2"
+      ],
+      [
+        "R14",
+        "2",
+        "2"
+      ],
+      [
+        "R15",
+        "2",
+        "2"
+      ],
+      [
+        "R16",
+        "2",
+        "2"
+      ],
+      [
+        "R17",
+        "2",
+        "2"
+      ],
+      [
+        "R18",
+        "2",
+        "2"
+      ],
+      [
+        "R19",
+        "2",
+        "2"
+      ],
+      [
+        "R20",
+        "2",
+        "2"
+      ],
+      [
+        "U8",
+        "4",
+        "VSS"
+      ],
+      [
+        "U9",
+        "4",
+        "GND"
+      ],
+      [
+        "RV1",
+        "L",
+        "CCW end"
+      ],
+      [
+        "J2",
+        "S",
+        "SLEEVE"
+      ],
+      [
+        "R26",
+        "2",
+        "2"
+      ],
+      [
+        "C18",
+        "2",
+        "2"
+      ],
+      [
+        "R28",
+        "2",
+        "2"
+      ],
+      [
+        "R34",
+        "2",
+        "2"
+      ],
+      [
+        "R36",
+        "2",
+        "2"
+      ],
+      [
+        "R37",
+        "2",
+        "2"
+      ],
+      [
+        "R38",
+        "2",
+        "2"
+      ],
+      [
+        "C24",
+        "2",
+        "2"
+      ],
+      [
+        "C25",
+        "2",
+        "2"
+      ],
+      [
+        "C26",
+        "2",
+        "2"
+      ]
+    ],
+    "CC1": [
+      [
+        "J1",
+        "A5",
+        "CC1"
+      ],
+      [
+        "U10",
+        "1",
+        "CC1"
+      ]
+    ],
+    "CC2": [
+      [
+        "J1",
+        "B5",
+        "CC2"
+      ],
+      [
+        "U10",
+        "2",
+        "CC2"
+      ]
+    ],
+    "VBUS_SENSE": [
+      [
+        "U10",
+        "4",
+        "VBUS_DET"
+      ],
+      [
+        "R1",
+        "2",
+        "2"
+      ]
+    ],
+    "POWER_EN_N": [
+      [
+        "U10",
+        "7",
+        "OUT1"
+      ],
+      [
+        "U11",
+        "3",
+        "EN_N"
+      ],
+      [
+        "R2",
+        "2",
+        "2"
+      ]
+    ],
+    "3V3_CC": [
+      [
+        "U10",
+        "12",
+        "VDD"
+      ],
+      [
+        "U12",
+        "5",
+        "OUT"
+      ],
+      [
+        "R2",
+        "1",
+        "1"
+      ],
+      [
+        "C2",
+        "1",
+        "1"
+      ],
+      [
+        "C3",
+        "1",
+        "1"
+      ]
+    ],
+    "ILIM": [
+      [
+        "U11",
+        "5",
+        "ILIM"
+      ],
+      [
+        "R3",
+        "1",
+        "1"
+      ]
+    ],
+    "USB_LIMITED": [
+      [
+        "U11",
+        "6",
+        "OUT"
+      ],
+      [
+        "M1",
+        "VIN",
+        "VIN"
+      ],
+      [
+        "C5",
+        "1",
+        "1"
+      ]
+    ],
+    "5V": [
+      [
+        "M1",
+        "VOUT",
+        "VOUT"
+      ],
+      [
+        "C6",
+        "1",
+        "1"
+      ],
+      [
+        "C7",
+        "1",
+        "1"
+      ],
+      [
+        "M2",
+        "J2.19",
+        "5V"
+      ],
+      [
+        "U2",
+        "10",
+        "SRCLR_N"
+      ],
+      [
+        "U2",
+        "16",
+        "VCC"
+      ],
+      [
+        "U3",
+        "10",
+        "SRCLR_N"
+      ],
+      [
+        "U3",
+        "16",
+        "VCC"
+      ],
+      [
+        "R4",
+        "1",
+        "1"
+      ],
+      [
+        "C8",
+        "1",
+        "1"
+      ],
+      [
+        "C9",
+        "1",
+        "1"
+      ],
+      [
+        "C10",
+        "1",
+        "1"
+      ],
+      [
+        "X1",
+        "14",
+        "VCC"
+      ],
+      [
+        "U4",
+        "4",
+        "1PRE_N"
+      ],
+      [
+        "U4",
+        "10",
+        "2PRE_N"
+      ],
+      [
+        "U4",
+        "14",
+        "VCC"
+      ],
+      [
+        "U5",
+        "4",
+        "1PRE_N"
+      ],
+      [
+        "U5",
+        "10",
+        "2PRE_N"
+      ],
+      [
+        "U5",
+        "14",
+        "VCC"
+      ],
+      [
+        "U6",
+        "4",
+        "1PRE_N"
+      ],
+      [
+        "U6",
+        "10",
+        "2PRE_N"
+      ],
+      [
+        "U6",
+        "14",
+        "VCC"
+      ],
+      [
+        "U7",
+        "14",
+        "VCC"
+      ],
+      [
+        "C11",
+        "1",
+        "1"
+      ],
+      [
+        "C12",
+        "1",
+        "1"
+      ],
+      [
+        "C13",
+        "1",
+        "1"
+      ],
+      [
+        "C14",
+        "1",
+        "1"
+      ],
+      [
+        "C15",
+        "1",
+        "1"
+      ],
+      [
+        "U1",
+        "17",
+        "VDD"
+      ],
+      [
+        "C16",
+        "1",
+        "1"
+      ],
+      [
+        "C17",
+        "1",
+        "1"
+      ],
+      [
+        "R12",
+        "1",
+        "1"
+      ],
+      [
+        "R21",
+        "1",
+        "1"
+      ],
+      [
+        "R22",
+        "1",
+        "1"
+      ],
+      [
+        "R23",
+        "1",
+        "1"
+      ],
+      [
+        "R24",
+        "1",
+        "1"
+      ],
+      [
+        "U8",
+        "8",
+        "VDD"
+      ],
+      [
+        "R25",
+        "1",
+        "1"
+      ],
+      [
+        "R39",
+        "1",
+        "1"
+      ],
+      [
+        "C26",
+        "1",
+        "1"
+      ]
+    ],
+    "SPI_DATA": [
+      [
+        "M2",
+        "J3.2",
+        "GPIO23 / MOSI"
+      ],
+      [
+        "U2",
+        "14",
+        "SER"
+      ],
+      [
+        "R10",
+        "1",
+        "1"
+      ]
+    ],
+    "SPI_CLK": [
+      [
+        "M2",
+        "J3.9",
+        "GPIO18 / SCK"
+      ],
+      [
+        "U2",
+        "11",
+        "SRCLK"
+      ],
+      [
+        "U3",
+        "11",
+        "SRCLK"
+      ],
+      [
+        "R9",
+        "1",
+        "1"
+      ]
+    ],
+    "LATCH": [
+      [
+        "M2",
+        "J2.11",
+        "GPIO27 / LATCH"
+      ],
+      [
+        "U2",
+        "12",
+        "RCLK"
+      ],
+      [
+        "U3",
+        "12",
+        "RCLK"
+      ],
+      [
+        "R8",
+        "1",
+        "1"
+      ]
+    ],
+    "REQ": [
+      [
+        "M2",
+        "J2.7",
+        "GPIO32 / REQ"
+      ],
+      [
+        "R7",
+        "1",
+        "1"
+      ],
+      [
+        "U5",
+        "2",
+        "1D"
+      ]
+    ],
+    "LOGIC_CLR_N": [
+      [
+        "M2",
+        "J2.10",
+        "GPIO26 / CLR_N"
+      ],
+      [
+        "R6",
+        "1",
+        "1"
+      ],
+      [
+        "U4",
+        "1",
+        "1CLR_N"
+      ],
+      [
+        "U4",
+        "13",
+        "2CLR_N"
+      ],
+      [
+        "U5",
+        "1",
+        "1CLR_N"
+      ],
+      [
+        "U5",
+        "13",
+        "2CLR_N"
+      ],
+      [
+        "U6",
+        "1",
+        "1CLR_N"
+      ],
+      [
+        "U6",
+        "13",
+        "2CLR_N"
+      ]
+    ],
+    "BUS_EN": [
+      [
+        "M2",
+        "J2.9",
+        "GPIO25 / BUS_EN"
+      ],
+      [
+        "Q1",
+        "1",
+        "G"
+      ],
+      [
+        "R5",
+        "1",
+        "1"
+      ]
+    ],
+    "BUS_OE_N": [
+      [
+        "U2",
+        "13",
+        "OE_N"
+      ],
+      [
+        "U3",
+        "13",
+        "OE_N"
+      ],
+      [
+        "Q1",
+        "3",
+        "D"
+      ],
+      [
+        "R4",
+        "2",
+        "2"
+      ]
+    ],
+    "CASCADE": [
+      [
+        "U2",
+        "9",
+        "QH_SER"
+      ],
+      [
+        "U3",
+        "14",
+        "SER"
+      ]
+    ],
+    "D0": [
+      [
+        "U2",
+        "15",
+        "QA"
+      ],
+      [
+        "U1",
+        "38",
+        "D0"
+      ]
+    ],
+    "D1": [
+      [
+        "U2",
+        "1",
+        "QB"
+      ],
+      [
+        "U1",
+        "39",
+        "D1"
+      ]
+    ],
+    "D2": [
+      [
+        "U2",
+        "2",
+        "QC"
+      ],
+      [
+        "U1",
+        "40",
+        "D2"
+      ]
+    ],
+    "D3": [
+      [
+        "U2",
+        "3",
+        "QD"
+      ],
+      [
+        "U1",
+        "2",
+        "D3"
+      ]
+    ],
+    "D4": [
+      [
+        "U2",
+        "4",
+        "QE"
+      ],
+      [
+        "U1",
+        "3",
+        "D4"
+      ]
+    ],
+    "D5": [
+      [
+        "U2",
+        "5",
+        "QF"
+      ],
+      [
+        "U1",
+        "4",
+        "D5"
+      ]
+    ],
+    "D6": [
+      [
+        "U2",
+        "6",
+        "QG"
+      ],
+      [
+        "U1",
+        "5",
+        "D6"
+      ]
+    ],
+    "D7": [
+      [
+        "U2",
+        "7",
+        "QH"
+      ],
+      [
+        "U1",
+        "6",
+        "D7"
+      ]
+    ],
+    "A0": [
+      [
+        "U3",
+        "15",
+        "QA"
+      ],
+      [
+        "U1",
+        "36",
+        "A0"
+      ]
+    ],
+    "A1": [
+      [
+        "U3",
+        "1",
+        "QB"
+      ],
+      [
+        "U1",
+        "35",
+        "A1"
+      ]
+    ],
+    "A2": [
+      [
+        "U3",
+        "2",
+        "QC"
+      ],
+      [
+        "U1",
+        "34",
+        "A2"
+      ]
+    ],
+    "A3": [
+      [
+        "U3",
+        "3",
+        "QD"
+      ],
+      [
+        "U1",
+        "33",
+        "A3"
+      ]
+    ],
+    "CS1": [
+      [
+        "U3",
+        "4",
+        "QE"
+      ],
+      [
+        "R11",
+        "1",
+        "1"
+      ],
+      [
+        "U1",
+        "31",
+        "CS1"
+      ]
+    ],
+    "CLK4": [
+      [
+        "X1",
+        "8",
+        "OUT"
+      ],
+      [
+        "U4",
+        "3",
+        "1CLK"
+      ],
+      [
+        "U4",
+        "11",
+        "2CLK"
+      ]
+    ],
+    "PHI2_N": [
+      [
+        "U4",
+        "2",
+        "1D"
+      ],
+      [
+        "U4",
+        "8",
+        "2Q_N"
+      ]
+    ],
+    "MIDLOW": [
+      [
+        "U4",
+        "5",
+        "1Q"
+      ],
+      [
+        "U4",
+        "12",
+        "2D"
+      ],
+      [
+        "U5",
+        "3",
+        "1CLK"
+      ],
+      [
+        "U5",
+        "11",
+        "2CLK"
+      ],
+      [
+        "U6",
+        "3",
+        "1CLK"
+      ]
+    ],
+    "PHI2": [
+      [
+        "U4",
+        "9",
+        "2Q"
+      ],
+      [
+        "U1",
+        "7",
+        "PHI2"
+      ]
+    ],
+    "REQ_META": [
+      [
+        "U5",
+        "5",
+        "1Q"
+      ],
+      [
+        "U5",
+        "12",
+        "2D"
+      ]
+    ],
+    "REQ_SYNC": [
+      [
+        "U5",
+        "9",
+        "2Q"
+      ],
+      [
+        "U6",
+        "2",
+        "1D"
+      ],
+      [
+        "U7",
+        "1",
+        "1A"
+      ]
+    ],
+    "REQ_OLD_N": [
+      [
+        "U6",
+        "6",
+        "1Q_N"
+      ],
+      [
+        "U7",
+        "2",
+        "1B"
+      ]
+    ],
+    "CS0_N": [
+      [
+        "U7",
+        "3",
+        "1Y"
+      ],
+      [
+        "U1",
+        "30",
+        "CS0_N"
+      ]
+    ],
+    "P6": [
+      [
+        "U1",
+        "8",
+        "P6"
+      ],
+      [
+        "R19",
+        "1",
+        "1"
+      ]
+    ],
+    "P7": [
+      [
+        "U1",
+        "9",
+        "P7"
+      ],
+      [
+        "R20",
+        "1",
+        "1"
+      ]
+    ],
+    "P4": [
+      [
+        "U1",
+        "10",
+        "P4"
+      ],
+      [
+        "R17",
+        "1",
+        "1"
+      ]
+    ],
+    "P5": [
+      [
+        "U1",
+        "11",
+        "P5"
+      ],
+      [
+        "R18",
+        "1",
+        "1"
+      ]
+    ],
+    "P2": [
+      [
+        "U1",
+        "12",
+        "P2"
+      ],
+      [
+        "R15",
+        "1",
+        "1"
+      ]
+    ],
+    "P3": [
+      [
+        "U1",
+        "13",
+        "P3"
+      ],
+      [
+        "R16",
+        "1",
+        "1"
+      ]
+    ],
+    "P0": [
+      [
+        "U1",
+        "14",
+        "P0"
+      ],
+      [
+        "R13",
+        "1",
+        "1"
+      ]
+    ],
+    "P1": [
+      [
+        "U1",
+        "15",
+        "P1"
+      ],
+      [
+        "R14",
+        "1",
+        "1"
+      ]
+    ],
+    "KR2_N": [
+      [
+        "U1",
+        "16",
+        "KR2_N"
+      ],
+      [
+        "R22",
+        "2",
+        "2"
+      ]
+    ],
+    "SID": [
+      [
+        "U1",
+        "24",
+        "SID"
+      ],
+      [
+        "R23",
+        "2",
+        "2"
+      ]
+    ],
+    "KR1_N": [
+      [
+        "U1",
+        "25",
+        "KR1_N"
+      ],
+      [
+        "R21",
+        "2",
+        "2"
+      ]
+    ],
+    "BCLK": [
+      [
+        "U1",
+        "26",
+        "BCLK"
+      ],
+      [
+        "R24",
+        "2",
+        "2"
+      ]
+    ],
+    "AUD_RAW": [
+      [
+        "U1",
+        "37",
+        "AUDIO"
+      ],
+      [
+        "R12",
+        "2",
+        "2"
+      ],
+      [
+        "U8",
+        "3",
+        "IN_A_P"
+      ]
+    ],
+    "AUD_BUF": [
+      [
+        "U8",
+        "1",
+        "OUT_A"
+      ],
+      [
+        "U8",
+        "2",
+        "IN_A_N"
+      ],
+      [
+        "C19",
+        "1",
+        "1"
+      ]
+    ],
+    "VREF_RAW": [
+      [
+        "U8",
+        "5",
+        "IN_B_P"
+      ],
+      [
+        "R25",
+        "2",
+        "2"
+      ],
+      [
+        "R26",
+        "1",
+        "1"
+      ],
+      [
+        "C18",
+        "1",
+        "1"
+      ]
+    ],
+    "VREF": [
+      [
+        "U8",
+        "6",
+        "IN_B_N"
+      ],
+      [
+        "U8",
+        "7",
+        "OUT_B"
+      ],
+      [
+        "U9",
+        "3",
+        "IN_A_P"
+      ],
+      [
+        "U9",
+        "5",
+        "IN_B_P"
+      ]
+    ],
+    "AMP_L": [
+      [
+        "U9",
+        "1",
+        "OUT_A"
+      ],
+      [
+        "R30",
+        "1",
+        "1"
+      ],
+      [
+        "C22",
+        "1",
+        "1"
+      ],
+      [
+        "R37",
+        "1",
+        "1"
+      ]
+    ],
+    "SUM_L": [
+      [
+        "U9",
+        "2",
+        "IN_A_N"
+      ],
+      [
+        "R29",
+        "2",
+        "2"
+      ],
+      [
+        "R30",
+        "2",
+        "2"
+      ]
+    ],
+    "SUM_R": [
+      [
+        "U9",
+        "6",
+        "IN_B_N"
+      ],
+      [
+        "R31",
+        "2",
+        "2"
+      ],
+      [
+        "R32",
+        "2",
+        "2"
+      ]
+    ],
+    "AMP_R": [
+      [
+        "U9",
+        "7",
+        "OUT_B"
+      ],
+      [
+        "R32",
+        "1",
+        "1"
+      ],
+      [
+        "C23",
+        "1",
+        "1"
+      ],
+      [
+        "R38",
+        "1",
+        "1"
+      ]
+    ],
+    "5V_A": [
+      [
+        "U9",
+        "8",
+        "VDD"
+      ],
+      [
+        "R39",
+        "2",
+        "2"
+      ],
+      [
+        "C24",
+        "1",
+        "1"
+      ],
+      [
+        "C25",
+        "1",
+        "1"
+      ]
+    ],
+    "VOL_TOP": [
+      [
+        "RV1",
+        "H",
+        "CW end"
+      ],
+      [
+        "R27",
+        "2",
+        "2"
+      ]
+    ],
+    "VOL_W": [
+      [
+        "RV1",
+        "W",
+        "Wiper"
+      ],
+      [
+        "R28",
+        "1",
+        "1"
+      ],
+      [
+        "C20",
+        "1",
+        "1"
+      ],
+      [
+        "C21",
+        "1",
+        "1"
+      ]
+    ],
+    "L_LIMIT": [
+      [
+        "SW1",
+        "1",
+        "L_IN"
+      ],
+      [
+        "R33",
+        "2",
+        "2"
+      ]
+    ],
+    "HP_L": [
+      [
+        "SW1",
+        "2",
+        "L_OUT"
+      ],
+      [
+        "J2",
+        "T",
+        "TIP / left"
+      ]
+    ],
+    "R_LIMIT": [
+      [
+        "SW1",
+        "3",
+        "R_IN"
+      ],
+      [
+        "R35",
+        "2",
+        "2"
+      ]
+    ],
+    "HP_R": [
+      [
+        "SW1",
+        "4",
+        "R_OUT"
+      ],
+      [
+        "J2",
+        "R",
+        "RING / right"
+      ]
+    ],
+    "AUD_AC": [
+      [
+        "C19",
+        "2",
+        "2"
+      ],
+      [
+        "R27",
+        "1",
+        "1"
+      ]
+    ],
+    "IN_L_AC": [
+      [
+        "C20",
+        "2",
+        "2"
+      ],
+      [
+        "R29",
+        "1",
+        "1"
+      ]
+    ],
+    "IN_R_AC": [
+      [
+        "C21",
+        "2",
+        "2"
+      ],
+      [
+        "R31",
+        "1",
+        "1"
+      ]
+    ],
+    "L_AC": [
+      [
+        "C22",
+        "2",
+        "2"
+      ],
+      [
+        "R33",
+        "1",
+        "1"
+      ],
+      [
+        "R34",
+        "1",
+        "1"
+      ]
+    ],
+    "R_AC": [
+      [
+        "C23",
+        "2",
+        "2"
+      ],
+      [
+        "R35",
+        "1",
+        "1"
+      ],
+      [
+        "R36",
+        "1",
+        "1"
+      ]
+    ]
+  }
+}
