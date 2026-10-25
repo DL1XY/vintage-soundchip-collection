@@ -1,0 +1,392 @@
+POKEY ESP32 Rev. A - automated structural verification
+
+85 components; 71 nets; 343 contacts.
+380 individual checks passed.
+SPI: 4096 combinations; request model: 40 phases.
+Conservative CS setup lower bound 98.0 ns; Hold 196.0 ns.
+Nominal maximum audio pre-attenuation 0.18443.
+
+Limitations: no KiCad ERC/import test (KiCad not installed), no SPICE simulation,
+no firmware build, no measurements, no statistical MTBF guarantee.
+Structural verification does not replace these forms of validation.
+
+PASS U1: all 40 contacts compared against independent expected map
+PASS Audio pull-up: 10k between 5V and AUD_RAW
+PASS R/W permanently Low; no bus contention from POKEY reads
+PASS LM4808 SOIC outputs 1/7, power 8/4
+PASS Left/right headphone channels are not shorted together
+PASS Output coupling capacitors and series resistors on both channels
+PASS USB enable active Low and separate 3V3_CC rail
+PASS No external parallel Rd resistors on CC
+PASS GPIO signal direction SPI_DATA -> M2.J3.2
+PASS GPIO signal direction SPI_DATA -> U2.14
+PASS GPIO signal direction SPI_DATA -> R10.1
+PASS GPIO signal direction SPI_CLK -> M2.J3.9
+PASS GPIO signal direction SPI_CLK -> U2.11
+PASS GPIO signal direction SPI_CLK -> U3.11
+PASS GPIO signal direction SPI_CLK -> R9.1
+PASS GPIO signal direction LATCH -> M2.J2.11
+PASS GPIO signal direction LATCH -> U2.12
+PASS GPIO signal direction LATCH -> U3.12
+PASS GPIO signal direction LATCH -> R8.1
+PASS GPIO signal direction REQ -> M2.J2.7
+PASS GPIO signal direction REQ -> R7.1
+PASS GPIO signal direction REQ -> U5.2
+PASS GPIO signal direction LOGIC_CLR_N -> M2.J2.10
+PASS GPIO signal direction LOGIC_CLR_N -> R6.1
+PASS GPIO signal direction LOGIC_CLR_N -> U4.1
+PASS GPIO signal direction LOGIC_CLR_N -> U4.13
+PASS GPIO signal direction LOGIC_CLR_N -> U5.1
+PASS GPIO signal direction LOGIC_CLR_N -> U5.13
+PASS GPIO signal direction LOGIC_CLR_N -> U6.1
+PASS GPIO signal direction LOGIC_CLR_N -> U6.13
+PASS GPIO signal direction BUS_EN -> M2.J2.9
+PASS GPIO signal direction BUS_EN -> Q1.1
+PASS GPIO signal direction BUS_EN -> R5.1
+PASS KiCad contact J1.A4
+PASS KiCad contact J1.A9
+PASS KiCad contact J1.B4
+PASS KiCad contact J1.B9
+PASS KiCad contact J1.A1
+PASS KiCad contact J1.A12
+PASS KiCad contact J1.B1
+PASS KiCad contact J1.B12
+PASS KiCad contact J1.A5
+PASS KiCad contact J1.B5
+PASS KiCad contact J1.A6
+PASS KiCad contact J1.A7
+PASS KiCad contact J1.B6
+PASS KiCad contact J1.B7
+PASS KiCad contact J1.A8
+PASS KiCad contact J1.B8
+PASS KiCad contact J1.SH
+PASS KiCad contact U10.1
+PASS KiCad contact U10.2
+PASS KiCad contact U10.3
+PASS KiCad contact U10.4
+PASS KiCad contact U10.5
+PASS KiCad contact U10.6
+PASS KiCad contact U10.7
+PASS KiCad contact U10.8
+PASS KiCad contact U10.9
+PASS KiCad contact U10.10
+PASS KiCad contact U10.11
+PASS KiCad contact U10.12
+PASS KiCad contact U11.1
+PASS KiCad contact U11.2
+PASS KiCad contact U11.3
+PASS KiCad contact U11.4
+PASS KiCad contact U11.5
+PASS KiCad contact U11.6
+PASS KiCad contact U12.1
+PASS KiCad contact U12.2
+PASS KiCad contact U12.3
+PASS KiCad contact U12.4
+PASS KiCad contact U12.5
+PASS KiCad contact M1.VIN
+PASS KiCad contact M1.GND
+PASS KiCad contact M1.VOUT
+PASS KiCad contact R1.1
+PASS KiCad contact R1.2
+PASS KiCad contact R2.1
+PASS KiCad contact R2.2
+PASS KiCad contact R3.1
+PASS KiCad contact R3.2
+PASS KiCad contact C1.1
+PASS KiCad contact C1.2
+PASS KiCad contact C2.1
+PASS KiCad contact C2.2
+PASS KiCad contact C3.1
+PASS KiCad contact C3.2
+PASS KiCad contact C4.1
+PASS KiCad contact C4.2
+PASS KiCad contact C5.1
+PASS KiCad contact C5.2
+PASS KiCad contact C6.1
+PASS KiCad contact C6.2
+PASS KiCad contact C7.1
+PASS KiCad contact C7.2
+PASS KiCad contact M2.J2.19
+PASS KiCad contact M2.J2.14
+PASS KiCad contact M2.J3.1
+PASS KiCad contact M2.J3.2
+PASS KiCad contact M2.J3.9
+PASS KiCad contact M2.J2.11
+PASS KiCad contact M2.J2.7
+PASS KiCad contact M2.J2.10
+PASS KiCad contact M2.J2.9
+PASS KiCad contact U2.14
+PASS KiCad contact U2.11
+PASS KiCad contact U2.12
+PASS KiCad contact U2.13
+PASS KiCad contact U2.10
+PASS KiCad contact U2.16
+PASS KiCad contact U2.8
+PASS KiCad contact U2.9
+PASS KiCad contact U2.15
+PASS KiCad contact U2.1
+PASS KiCad contact U2.2
+PASS KiCad contact U2.3
+PASS KiCad contact U2.4
+PASS KiCad contact U2.5
+PASS KiCad contact U2.6
+PASS KiCad contact U2.7
+PASS KiCad contact U3.14
+PASS KiCad contact U3.11
+PASS KiCad contact U3.12
+PASS KiCad contact U3.13
+PASS KiCad contact U3.10
+PASS KiCad contact U3.16
+PASS KiCad contact U3.8
+PASS KiCad contact U3.9
+PASS KiCad contact U3.15
+PASS KiCad contact U3.1
+PASS KiCad contact U3.2
+PASS KiCad contact U3.3
+PASS KiCad contact U3.4
+PASS KiCad contact U3.5
+PASS KiCad contact U3.6
+PASS KiCad contact U3.7
+PASS KiCad contact Q1.1
+PASS KiCad contact Q1.2
+PASS KiCad contact Q1.3
+PASS KiCad contact R4.1
+PASS KiCad contact R4.2
+PASS KiCad contact R5.1
+PASS KiCad contact R5.2
+PASS KiCad contact R6.1
+PASS KiCad contact R6.2
+PASS KiCad contact R7.1
+PASS KiCad contact R7.2
+PASS KiCad contact R8.1
+PASS KiCad contact R8.2
+PASS KiCad contact R9.1
+PASS KiCad contact R9.2
+PASS KiCad contact R10.1
+PASS KiCad contact R10.2
+PASS KiCad contact R11.1
+PASS KiCad contact R11.2
+PASS KiCad contact C8.1
+PASS KiCad contact C8.2
+PASS KiCad contact C9.1
+PASS KiCad contact C9.2
+PASS KiCad contact C10.1
+PASS KiCad contact C10.2
+PASS KiCad contact X1.1
+PASS KiCad contact X1.7
+PASS KiCad contact X1.8
+PASS KiCad contact X1.14
+PASS KiCad contact U4.1
+PASS KiCad contact U4.2
+PASS KiCad contact U4.3
+PASS KiCad contact U4.4
+PASS KiCad contact U4.5
+PASS KiCad contact U4.6
+PASS KiCad contact U4.7
+PASS KiCad contact U4.8
+PASS KiCad contact U4.9
+PASS KiCad contact U4.10
+PASS KiCad contact U4.11
+PASS KiCad contact U4.12
+PASS KiCad contact U4.13
+PASS KiCad contact U4.14
+PASS KiCad contact U5.1
+PASS KiCad contact U5.2
+PASS KiCad contact U5.3
+PASS KiCad contact U5.4
+PASS KiCad contact U5.5
+PASS KiCad contact U5.6
+PASS KiCad contact U5.7
+PASS KiCad contact U5.8
+PASS KiCad contact U5.9
+PASS KiCad contact U5.10
+PASS KiCad contact U5.11
+PASS KiCad contact U5.12
+PASS KiCad contact U5.13
+PASS KiCad contact U5.14
+PASS KiCad contact U6.1
+PASS KiCad contact U6.2
+PASS KiCad contact U6.3
+PASS KiCad contact U6.4
+PASS KiCad contact U6.5
+PASS KiCad contact U6.6
+PASS KiCad contact U6.7
+PASS KiCad contact U6.8
+PASS KiCad contact U6.9
+PASS KiCad contact U6.10
+PASS KiCad contact U6.11
+PASS KiCad contact U6.12
+PASS KiCad contact U6.13
+PASS KiCad contact U6.14
+PASS KiCad contact U7.1
+PASS KiCad contact U7.2
+PASS KiCad contact U7.3
+PASS KiCad contact U7.4
+PASS KiCad contact U7.5
+PASS KiCad contact U7.6
+PASS KiCad contact U7.7
+PASS KiCad contact U7.8
+PASS KiCad contact U7.9
+PASS KiCad contact U7.10
+PASS KiCad contact U7.11
+PASS KiCad contact U7.12
+PASS KiCad contact U7.13
+PASS KiCad contact U7.14
+PASS KiCad contact C11.1
+PASS KiCad contact C11.2
+PASS KiCad contact C12.1
+PASS KiCad contact C12.2
+PASS KiCad contact C13.1
+PASS KiCad contact C13.2
+PASS KiCad contact C14.1
+PASS KiCad contact C14.2
+PASS KiCad contact C15.1
+PASS KiCad contact C15.2
+PASS KiCad contact U1.1
+PASS KiCad contact U1.2
+PASS KiCad contact U1.3
+PASS KiCad contact U1.4
+PASS KiCad contact U1.5
+PASS KiCad contact U1.6
+PASS KiCad contact U1.7
+PASS KiCad contact U1.8
+PASS KiCad contact U1.9
+PASS KiCad contact U1.10
+PASS KiCad contact U1.11
+PASS KiCad contact U1.12
+PASS KiCad contact U1.13
+PASS KiCad contact U1.14
+PASS KiCad contact U1.15
+PASS KiCad contact U1.16
+PASS KiCad contact U1.17
+PASS KiCad contact U1.18
+PASS KiCad contact U1.19
+PASS KiCad contact U1.20
+PASS KiCad contact U1.21
+PASS KiCad contact U1.22
+PASS KiCad contact U1.23
+PASS KiCad contact U1.24
+PASS KiCad contact U1.25
+PASS KiCad contact U1.26
+PASS KiCad contact U1.27
+PASS KiCad contact U1.28
+PASS KiCad contact U1.29
+PASS KiCad contact U1.30
+PASS KiCad contact U1.31
+PASS KiCad contact U1.32
+PASS KiCad contact U1.33
+PASS KiCad contact U1.34
+PASS KiCad contact U1.35
+PASS KiCad contact U1.36
+PASS KiCad contact U1.37
+PASS KiCad contact U1.38
+PASS KiCad contact U1.39
+PASS KiCad contact U1.40
+PASS KiCad contact C16.1
+PASS KiCad contact C16.2
+PASS KiCad contact C17.1
+PASS KiCad contact C17.2
+PASS KiCad contact R12.1
+PASS KiCad contact R12.2
+PASS KiCad contact R13.1
+PASS KiCad contact R13.2
+PASS KiCad contact R14.1
+PASS KiCad contact R14.2
+PASS KiCad contact R15.1
+PASS KiCad contact R15.2
+PASS KiCad contact R16.1
+PASS KiCad contact R16.2
+PASS KiCad contact R17.1
+PASS KiCad contact R17.2
+PASS KiCad contact R18.1
+PASS KiCad contact R18.2
+PASS KiCad contact R19.1
+PASS KiCad contact R19.2
+PASS KiCad contact R20.1
+PASS KiCad contact R20.2
+PASS KiCad contact R21.1
+PASS KiCad contact R21.2
+PASS KiCad contact R22.1
+PASS KiCad contact R22.2
+PASS KiCad contact R23.1
+PASS KiCad contact R23.2
+PASS KiCad contact R24.1
+PASS KiCad contact R24.2
+PASS KiCad contact U8.1
+PASS KiCad contact U8.2
+PASS KiCad contact U8.3
+PASS KiCad contact U8.4
+PASS KiCad contact U8.5
+PASS KiCad contact U8.6
+PASS KiCad contact U8.7
+PASS KiCad contact U8.8
+PASS KiCad contact U9.1
+PASS KiCad contact U9.2
+PASS KiCad contact U9.3
+PASS KiCad contact U9.4
+PASS KiCad contact U9.5
+PASS KiCad contact U9.6
+PASS KiCad contact U9.7
+PASS KiCad contact U9.8
+PASS KiCad contact RV1.H
+PASS KiCad contact RV1.W
+PASS KiCad contact RV1.L
+PASS KiCad contact SW1.1
+PASS KiCad contact SW1.2
+PASS KiCad contact SW1.3
+PASS KiCad contact SW1.4
+PASS KiCad contact J2.T
+PASS KiCad contact J2.R
+PASS KiCad contact J2.S
+PASS KiCad contact R25.1
+PASS KiCad contact R25.2
+PASS KiCad contact R26.1
+PASS KiCad contact R26.2
+PASS KiCad contact C18.1
+PASS KiCad contact C18.2
+PASS KiCad contact C19.1
+PASS KiCad contact C19.2
+PASS KiCad contact R27.1
+PASS KiCad contact R27.2
+PASS KiCad contact R28.1
+PASS KiCad contact R28.2
+PASS KiCad contact C20.1
+PASS KiCad contact C20.2
+PASS KiCad contact R29.1
+PASS KiCad contact R29.2
+PASS KiCad contact R30.1
+PASS KiCad contact R30.2
+PASS KiCad contact C21.1
+PASS KiCad contact C21.2
+PASS KiCad contact R31.1
+PASS KiCad contact R31.2
+PASS KiCad contact R32.1
+PASS KiCad contact R32.2
+PASS KiCad contact C22.1
+PASS KiCad contact C22.2
+PASS KiCad contact R33.1
+PASS KiCad contact R33.2
+PASS KiCad contact R34.1
+PASS KiCad contact R34.2
+PASS KiCad contact C23.1
+PASS KiCad contact C23.2
+PASS KiCad contact R35.1
+PASS KiCad contact R35.2
+PASS KiCad contact R36.1
+PASS KiCad contact R36.2
+PASS KiCad contact R37.1
+PASS KiCad contact R37.2
+PASS KiCad contact R38.1
+PASS KiCad contact R38.2
+PASS KiCad contact R39.1
+PASS KiCad contact R39.2
+PASS KiCad contact C24.1
+PASS KiCad contact C24.2
+PASS KiCad contact C25.1
+PASS KiCad contact C25.2
+PASS KiCad contact C26.1
+PASS KiCad contact C26.2
+PASS All 343 serialized KiCad contacts present
+PASS SPI bit order: all 4096 address/data combinations
+PASS Johnson/request model: exactly one write for 40 starting phases
+PASS CS setup >50 ns, hold >30 ns in the 50-pF model
