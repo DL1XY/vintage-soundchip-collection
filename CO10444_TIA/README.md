@@ -1,4 +1,4 @@
-# CO10444
+# CO10444 (NTSC) / CO11903 (PAL)
 
 <img src="UM6526.png" width="600" height="400">
 
