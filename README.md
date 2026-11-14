@@ -1,7 +1,7 @@
 
 # Vintage Soundchip Collection
 
-This is my personal collection of vintage sound chips from 1970s to early 90s. Datasheets, Service Manuals and everything that I think could be useful to create own circuits is in the subfolders. 
+My personal collection of vintage sound and speech chips from the 1970s to the early 1990s. Browse by part number for chip photos, datasheets, service manuals, and notes for building your own circuits.
 
 ## Status (3/2026)
 
@@ -23,7 +23,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [MSM5205](MSM5205) | OKI| <img src="MSM5205/M5205.png" width="100" height="60"> | :triangular_ruler:  |
 | [MSM5218](MSM5218) | OKI| <img src="MSM5218/M5218.png" width="100" height="60"> | :triangular_ruler:  |
 | [PCF8200](PCF8200) | Philips| <img src="PCF8200/PCF8200.png" width="100" height="60"> | :triangular_ruler:  |
-| [SC-01](SC-01) | Votrax| <img src="SC-01/SC-01-A.jpg" width="100"> | :x: |
+| [SC-01](SC-01) | Votrax| <img src="SC-01/SC-01-A.jpg" width="100"> | No symbol |
 | [SAA1099](SAA1099) | Philips| <img src="SAA1099/SAA1099.png" width="100" height="60"> | :triangular_ruler: |
 | [SN76477](SN76477) | Texas Instruments| <img src="SN76477/SN76477.png" width="100" height="60"> | :triangular_ruler: |
 | [SN76488](SN76488) | Texas Instruments| <img src="SN76488/SN76488.png" width="100" height="60"> | :triangular_ruler: |
@@ -36,7 +36,7 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [TMS5200](TMS5200) | Texas Instruments| <img src="TMS5200/TMS5200.png" width="100" height="60"> | :triangular_ruler: |
 | [TMS5220](TMS5220) | Texas Instruments| <img src="TMS5220/TMS5220.png" width="100" height="60"> | :triangular_ruler: |
 | [UAA1003](UAA1003) | ITT| <img src="UAA1003/UAA1003.png" width="100" height="60"> | :triangular_ruler: |
-| [VRC6](VRC6) | Konami| :x: | :x: |
+| [VRC6](VRC6) | Konami| No image |No symbol |
 | [VLM5030](VLM5030) | Sanyo| <img src="VLM5030/VLM5030.png" width="100" height="60"> | :triangular_ruler: |
 | [YM2151](YM2151) | Yamaha| <img src="YM2151/YM2151.png" width="100" height="60"> | :triangular_ruler: |
 | [YM2203](YM2203) | Yamaha| <img src="YM2203/YM2203.png" width="100" height="60"> | :triangular_ruler: |
@@ -45,9 +45,14 @@ This is my personal collection of vintage sound chips from 1970s to early 90s. D
 | [YM3438](YM3438) | Yamaha| <img src="YM3438/YM3438.png" width="100" height="60"> | :triangular_ruler: |
 | [YM3812](YM3812) | Yamaha| <img src="YM3812/YM3812.png" width="100" height="60"> | :triangular_ruler: |
 
-## KiCAD 7.x Symbols
+## KiCAD Symbols
 
 [8_bit_soundchips.kicad_sym](8_bit_soundchips.kicad_sym) contains KiCAD symbols of chips marked with :triangular_ruler:
+
+Tested with KiCAD 10.x
+
+<img src="kicad_10_library.png" width="600">
+
 
 ## Wishlist
 
