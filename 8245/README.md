@@ -75,5 +75,11 @@ The sound shift registers, volume counter and sound control word register are al
 individually addressed by the microprocessor for the purpose of loading data. The
 address of these elements is shown under the topic of “Address Structure”.
 
+## Files
+
+- [8245 datasheet](8245.pdf)
+- [Magnavox Odyssey² service manual](Magnavox_Service_Manual_1979-09_Magnavox_US.pdf)
+- [Philips G7000 service manual](G7000_Service_Manual_198x_Philips_M6.pdf)
+
 #### Links/Sources
 - [Magnavox Odyssey 2 on Wikipedia](https://en.wikipedia.org/wiki/Magnavox_Odyssey_20)

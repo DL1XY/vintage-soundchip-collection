@@ -2,7 +2,13 @@
 
 ## General
 
-<img src="M5218.png" width="600" height="360">	
+<img src="M5218.png" alt="M5218 chip" width="600">
+
+*M5218.*
+
+## Files
+
+- [MSM5218 datasheet](MSM5218.pdf)
 
 ## Links/Sources
 

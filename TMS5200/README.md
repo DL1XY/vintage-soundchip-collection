@@ -10,6 +10,10 @@
 
 Source: https://pinside.com/pinball/forum/topic/tms5220-as-a-replacement-for-tms5200-in-a-bally-squawk-and-talk#:~:text=%22The%20TMS5200%20was%20the%20Consumer,it%20sounds%20a%20bit%20odd.%22
 
+## Files
+
+- [TMS5200 datasheet](TMS5200.pdf)
+
 ## Links/Sources
 
 - [Wikipedia about TI LPC Sppech Chips](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)

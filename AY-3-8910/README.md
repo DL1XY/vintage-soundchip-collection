@@ -1,6 +1,8 @@
 # AY-3-8910
 
-<img src="AY-3-8910.png" width="600">
+<img src="AY-3-8910.png" alt="AY-3-8910 chip" width="600">
+
+*AY-3-8910 (DIP-40).*
 
 <img src="kicad_Yamaha_YM2149.png" width="600" height="400">
 
@@ -13,8 +15,6 @@
 Other versions: YM2149 (used in Atari ST), YMZ284 (DIP-16)
 
 Differences between AY and YM are listed [here](https://maidavale.org/blog/ay-ym-differences/)
-
-DIP-40
 
 ## Channels
 
@@ -33,6 +33,13 @@ On the whole chip, you can choose:
 - **Envelope**. You can enable attack (volume up from 0 to 15) and/or decay (volume down from 15 to 0), at the end optionally reversed and/or looped. However, you can only choose one speed for both, and all channels get the same envelope. Due to those limits, many people generated envelopes themselves in software and set all three volumes manually.
 
 Changing a volume produces a click; the greater the change, the louder. This allows to play unsigned 4-bit PCM samples. Changing all three volumes even allows 8-bit on mono. On stereo, 8-bit samples hiss loudly.
+
+## Files
+
+- [AY-3-8910 datasheet](ay3-8910.pdf)
+- [YM2149 datasheet](ym2149.pdf)
+- [YMZ284 Datasheet](YMZ284_Datasheet.pdf)
+- [Atari 520ST and 1040ST service manual](Atari%20520ST%201040ST%20Service%20Manual_text.pdf)
 
 ## Links/Sources
 - [AY-3-8910 at VGMPF](http://www.vgmpf.com/Wiki/index.php/AY-3-8910)

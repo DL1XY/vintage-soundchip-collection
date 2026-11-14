@@ -38,5 +38,12 @@
 | 42-48  |  D15-D9       |  Data bus lines 15 to 9   |  I/O			    |
 
 
+## Files
+
+- [Amiga Hardware Reference Manual 1985 Commodore](Amiga_Hardware_Reference_Manual_1985_Commodore.pdf)
+- [Amiga A500 A2000 Technical Reference Manual 1987](Amiga_A500_A2000_Technical_Reference%20Manual_1987.pdf)
+- [Commodore A500 System Schematics](Commodore_A500_System_Schematics.pdf)
+- [a500plus service manual 2014](a500plus_service_manual_2014.pdf)
+
 ## Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Original_Chip_Set#Paula)

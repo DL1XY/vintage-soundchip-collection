@@ -1,6 +1,8 @@
 # MEB2636
 
-<img src="MEB2636.png" width="600">
+<img src="MEB2636.png" alt="MEB2636 chip" width="600">
+
+*MEB2636 (DIP-40).*
 
 ## General
 
@@ -8,9 +10,11 @@ Programmable Video Interface IC, intended for use in microprocessor-controlled g
 
 + VC 4000 and clones
 
-DIP-40
-
 Also known as Signetics 2636
+
+## Files
+
+- [2636 PVI datasheet](2636PVI.pdf)
 
 ## Links/Sources
 - [Wikibooks](https://en.wikibooks.org/wiki/Signetics_2650_%26_2636_programming/2636_PVI)

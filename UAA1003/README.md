@@ -10,4 +10,9 @@ Speechgenerator, was used for "speaking" clocks
 - UAA1003-2 French
 - UAA1003-3 English
 
+## Files
+
+- [UAA1003 datasheet](uaa1003.pdf)
+- [ITT UAA1003 GERMAN](ITT_UAA1003_GERMAN.pdf)
+
 ## Links/Sources

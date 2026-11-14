@@ -6,6 +6,10 @@
 
 Voice synthesizer IC, improved version of [MEA8000](../MEA8000/)(isn't backwards-compatible, but works similarly) 
 
+## Files
+
+- [PCF8200 datasheet](PCF8200_datasheet.pdf)
+
 ## Links/Sources
 
 - [Paper describing aspects of spech synthesis systems as communication aids](https://www.isca-speech.org/archive_v0/archive_papers/eurospeech_1991/e91_0325.pdf)

@@ -1,6 +1,8 @@
 # SN76489
 
-<img src="SN76489AN.png" width="600">
+<img src="SN76489AN.png" alt="SN76489AN chip" width="600">
+
+*SN76489AN.*
 
 <img src="SN76496.png" width="600">
 
@@ -27,6 +29,10 @@ Clones where integrated in the video display processor of
 - Sega Master System/Game Gear/Genesis
 
 Other versions: SN76496N (with Audio-In)
+
+## Files
+
+- [SN76489 datasheet](SN76489.pdf)
 
 ## Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Texas_Instruments_SN76489)

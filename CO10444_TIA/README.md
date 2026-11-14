@@ -1,6 +1,8 @@
 # CO10444 (NTSC) / CO11903 (PAL)
 
-<img src="UM6526.png" width="600" height="400">
+<img src="UM6526.png" alt="UM6526 TIA variant chip" width="600">
+
+*UM6526 TIA variant.*
 
 
 <img src="kicad_Atari_TIA_CO11903.png" width="600" height="400">
@@ -46,6 +48,14 @@ The Audio Control register generates and manipulates a pulse wave to create comp
 | E   |    |    |    |    | 1  | 1  | 1  | 0  | div 93                    |
 | F   |    |    |    |    | 1  | 1  | 1  | 1  | 5-bit poly div 6          |
 
+
+## Files
+
+- [Atari 2600 TIA Technical Manual](Atari_2600_TIA_Technical_Manual.pdf)
+- [atari 2600 vcs domestic field service manual](atari_2600_vcs_domestic_field_service_manual.pdf)
+- [CX2600-CX2600A schematics](CX2600-CX2600A_schematics.pdf)
+- [UM6526P1 TIA / ESP32 Rev. A schematic PDF](TIA_UM6526P1_Schematic_RevA_EN.pdf)
+- [TIA project notes and editable schematic](TIA_UM6526P1_RevA_EN/README.md)
 
 ## Links/Sources
 - [TIA at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=Television_Interface_Adaptor)

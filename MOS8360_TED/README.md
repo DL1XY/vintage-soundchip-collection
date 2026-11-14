@@ -20,6 +20,11 @@ For both channels together, you can only choose one volume, from 0 to 8. Changin
 
 Several games play only one melody with a chorus effect (using two slightly detuned channels). Very few drivers generate envelopes.
 
+## Files
+
+- [TED7360-datasheet](TED7360-datasheet.pdf)
+- [TED System Hardware Manual](TED%20System%20Hardware%20Manual.pdf)
+
 ## Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/MOS_Technology_TED)
 - [C64 Wiki (German)](https://www.c64-wiki.de/wiki/TED)

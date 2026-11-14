@@ -12,6 +12,12 @@
 - Atari 7800 game cartridges (Ballblazer and Commando)
 - Atari arcade systems
 
+## Files
+
+- [POKEY reference](pokey.pdf)
+- [POKEY / ESP32 Rev. A schematic PDF](POKEY_ESP32_RevA_EN/POKEY_ESP32_Schematic_RevA_EN.pdf)
+- [POKEY project notes and editable schematic](POKEY_ESP32_RevA_EN/README.md)
+
 ## Links/Sources
 
 - [Wikipedia](https://en.wikipedia.org/wiki/POKEY)

@@ -6,6 +6,10 @@
 
 - Video/Sound chip of some rare homecomputers based on RCA's COSMAC 8-bit microprocessor family
 
+## Files
+
+- [CDP1869 datasheet](cdp1869.pdf)
+
 ## Links/Sources
 - [COSMAC at Wikipedia](https://en.wikipedia.org/wiki/RCA_1802)
 - [Comx-35 on Wikipedia](https://en.wikipedia.org/wiki/Comx-35)

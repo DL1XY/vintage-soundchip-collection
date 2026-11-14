@@ -2,9 +2,15 @@
 
 ## General
 
-<img src="M5205.png" width="600" height="360">	
+<img src="M5205.png" alt="M5205 chip" width="600">
+
+*M5205.*
 
 Voice synth IC, used in several Arcade games @384 kHz
+
+## Files
+
+- [MSM5205 datasheet](MSM5205.pdf)
 
 ## Links/Sources
 

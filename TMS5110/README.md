@@ -8,6 +8,10 @@
 
 Pin compatible to TMS5110
 
+## Files
+
+- [TMS5110 technical reference](DSAP005264.pdf)
+
 ## Links/Sources
 
 - [Wikipedia about TI LPC Sppech Chips](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)

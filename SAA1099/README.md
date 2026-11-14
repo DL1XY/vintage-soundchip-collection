@@ -9,5 +9,10 @@
 - SAM Coupé
 - some Silicon Graphics boards
 
+## Files
+
+- [SAA1099 datasheet](saa1099.pdf)
+- [sam-coupe tech-man v3-0](sam-coupe_tech-man_v3-0.pdf)
+
 ## Links/Sources
 - [Wikipedia](https://en.wikipedia.org/wiki/Philips_SAA1099)

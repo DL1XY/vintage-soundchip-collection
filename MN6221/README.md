@@ -2,7 +2,9 @@
 
 ## General
 
-<img src="MN6221AA.png" width="600" height="360">	
+<img src="MN6221AA.png" alt="MN6221AA chip" width="600">
+
+*MN6221AA.*
 
 Family of ICs for generating electronic melody and sound
 
@@ -33,6 +35,10 @@ Control methods:
 | MN6221NSA | 0: (H,H,H) Sound Effect 1 [Loop]<br> 1: (H,H,L) Hit 1<br> 2: (H,L,H) Sound Effect 2 [Loop]<br> 3: (H,L,L) Hit 2<br> 4: (L,H,H) Sound Effect 3 [Loop]<br> 5: (H,L,L) "Galop Infernal"  (J.Offenbach, from Orphée aux Enfers)<br> 6: (L,L,H) Sound Effect 4 [Loop]<br> 7: (L,L,L) Sound Effect 1 [Loop]           | A           | Plays sound effects for games.                                                                                                                                                                                                                                      |
 | MN6221TA  | 1: (H,H,L) Chime 1<br> 2: (H,L,H) Chime 2 [Westminster Chime]<br> 3: (\*,L,L) Chime 3<br> 4: (L,H,H) Chime 4 [4 Point, End]<br> 5: (L,H,L) Heidenröslein (H.Werner)<br> 6: (L,L,H) Goin' Home (A.Dvořák)<br> (ALON ↓) Chime 5 [4 points, Start]                                                                 | C           | Playback is performed when the state of the MI1-MI3 pins changes. <br> ALON = L makes a fixed sound regardless of the state of the MI pin.                                                                                                                          |
 
+
+## Files
+
+- [Panasonic MN6221 datasheet](MN6221_Panasonic.pdf)
 
 ## Links/Sources
 

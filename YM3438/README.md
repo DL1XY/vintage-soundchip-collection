@@ -16,6 +16,12 @@ The YM3438,a.k.a. OPN2C, is a modified CMOS version of the YM2612, commonly used
 - Per-channel programmable stereo sound (left, right, or both left and right resulting in centre)
 - For channel three, operator frequencies can be set independently, making dissonant harmonics possible. (Normally, they would have a simple relation like e.g. 2× or 3× relative to a common base frequency)
 
+## Files
+
+- [YM3438 datasheet (Japanese)](YM3438_JP.pdf)
+- [YM2612-Yamaha](YM2612-Yamaha.pdf)
+- [GenesisTechnicalOverview](GenesisTechnicalOverview.pdf)
+
 ## Links/Sources
 
 - [Wikipedia on YM2612](https://en.wikipedia.org/wiki/Yamaha_YM2612)

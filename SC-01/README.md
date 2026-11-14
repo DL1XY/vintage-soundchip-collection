@@ -1,6 +1,8 @@
 # SC-01
 
-<img src="SC-01-A.jpg" width="600">
+<img src="SC-01-A.jpg" alt="SC-01-A chip" width="600">
+
+*SC-01-A.*
 
 ## General
 
@@ -8,6 +10,11 @@ The Votrax SC-01 is an early speech synthesis integrated circuit from the late 1
 
 - Q\*Bert by Gottlieb
 - Berzerk
+
+## Files
+
+- [Votrax SC-01 datasheet (1980)](Votrax_SC-01_Phoneme_Speech_Synthesizer_Data_Sheet_1980.pdf)
+- [SC-01 Dictionary](SC-01%20Dictionary.pdf)
 
 ## Links/Sources
 

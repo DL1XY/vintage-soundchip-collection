@@ -2,14 +2,14 @@
 
 ## General
 
-<img src="TMS5220.png" width="600" height="360">	
+<img src="TMS5220.png" alt="TMS5220 chip" width="600">
+
+*TMS5220 (DIP-28).*
 
 Speech synthesis, data can come from ROM (TMS6100) or CPU
 
 - BBC Micro, IBM Speech Adapter
 - Several arcades (Gauntlet, Star Wars, Firefox...)
-
-DIP-28
 
 PHROMS are in the named folder, a TMS6100 hardware emulator instruction is [here](https://www.waitingforfriday.com/?p=30)
 
@@ -20,6 +20,11 @@ The TMS5220, released in 1980, was used in several home computer peripherals and
 ### TMS5220C
 
 The TMS5220C, released in 1983, was an improved TMS5220. It reworked the two NOP (No Operation) commands and the parallel FIFO interface to allow for variable-speed speech and was fully compatible with the TMS5220. Those chips produced after 1985 used the number "TSP5220C". It was made until the early 1990s.
+
+## Files
+
+- [TMS5220 datasheet](tms5220.pdf)
+- [tms6100-80-data-manual](tms6100-80-data-manual.pdf)
 
 ## Links/Sources
 

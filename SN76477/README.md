@@ -9,6 +9,11 @@ It is similar to [SN764888](../SN76488), but NOT PIN COMPATIBLE
 
 - Space Invaders Arcade
 
+## Files
+
+- [SN76477 datasheet](sn76477datasheet.pdf)
+- [SN76477 circuit article](SN76477article.pdf)
+
 ## Links/Sources
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Texas_Instruments_SN76477)
