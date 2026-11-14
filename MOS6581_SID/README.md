@@ -1,5 +1,7 @@
 # MOS6581 (SID)
 
+> Parts of this README were generated using AI.
+
 <img src="MOS6581_2.png" width="600">
 
 <img src="kicad_6581_SID.png" width="600" height="400">
@@ -8,7 +10,7 @@
 - Commodore C64
 - Commodore C128
 
-One of the most famous 8-bit sound chips. Many DIY and commercial synthesizer projects are builded around this chip.
+Elektron built its first synth, the SidStation, around the 6581. The box gave the Commodore chip MIDI control and front-panel knobs. [Elektron SidStation manual](https://www.elektron.se/wp-content/uploads/2024/09/Elektron_SID_Users_Manual_r22b_OS1.1.pdf)
 
 ## Files
 

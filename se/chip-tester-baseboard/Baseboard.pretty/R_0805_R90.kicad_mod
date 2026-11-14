@@ -1,0 +1,7 @@
+(footprint "R_0805_R90" (version 20240108) (generator baseboard_design) (layer "F.Cu") (attr smd)
+(property "Reference" "REF**" (at 0 -2.195) (layer "F.SilkS") (effects (font (size .78 .78) (thickness .12))) (uuid "3e24f053-6c43-54e3-9fad-100544ce66aa"))
+(property "Value" "R_0805_R90" (at 0 2.325) (layer "F.Fab") (hide yes) (effects (font (size .8 .8) (thickness .12))) (uuid "9b8b8a18-5162-55f2-874d-f52b72e6e356"))
+(fp_rect (start -0.675 -1.475) (end 0.675 1.475) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "7ff99645-faf6-5c86-8b25-3d240a0cba71"))
+(fp_rect (start -0.925 -1.725) (end 0.925 1.725) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "06c9714e-c4ad-5d6b-847f-5927abe6c277"))
+(pad "1" smd roundrect (at 0 -0.95) (size 1.35 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.18)  (uuid "365ab31f-2914-5d6e-84a8-88c9f138bb81"))
+(pad "2" smd roundrect (at 0 0.95) (size 1.35 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.18)  (uuid "38b9b500-bd8c-5522-8cea-62b659ab8e6d")))

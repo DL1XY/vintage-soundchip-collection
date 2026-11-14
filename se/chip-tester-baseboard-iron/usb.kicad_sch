@@ -1,0 +1,1178 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e609fa67-1980-5ea4-b026-ade3bea548da")
+	(paper "A3")
+	(title_block
+		(title "USB-C vintage sound chip tester")
+		(date "2026-11-15")
+		(rev "B - iron assembly")
+	)
+	(lib_symbols
+		(symbol "Baseboard:D1_SOT23_6_HandSolder_R90"
+			(pin_names
+				(offset 0.8)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 -7.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 0 -9.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D1_SOT23_6_HandSolder_R90_0_1"
+				(rectangle
+					(start -11.43 5.08)
+					(end 11.43 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D1_SOT23_6_HandSolder_R90_1_1"
+				(pin passive line
+					(at -13.97 2.54 0)
+					(length 2.54)
+					(name "IO1_IN"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -2.54 0)
+					(length 2.54)
+					(name "IO2_IN"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 2.54 180)
+					(length 2.54)
+					(name "IO2_OUT"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "IO1_OUT"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Baseboard:J1_Adafruit_4090_Header"
+			(pin_names
+				(offset 0.8)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 -8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Value" "Adafruit 4090 USB-C breakout"
+				(at 0 -10.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J1_Adafruit_4090_Header_0_1"
+				(rectangle
+					(start -11.43 6.35)
+					(end 11.43 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "J1_Adafruit_4090_Header_1_1"
+				(pin passive line
+					(at -13.97 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -13.97 1.27 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -1.27 0)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -3.81 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 3.81 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 1.27 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -1.27 180)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 0.92 0.92)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.84 0.84)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Baseboard:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.27 2.032) (xy 0 2.794) (xy 1.27 2.032) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "USB-C"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.4 2.4)
+			)
+			(justify left)
+		)
+		(uuid "4de16894-c95a-5cd6-835b-14d6798cc4da")
+	)
+	(text "Preassembled USB-C sink breakout. Separate D+/D- paths through the ESD device. Controller module includes terminations."
+		(exclude_from_sim no)
+		(at 20 27 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left)
+		)
+		(uuid "7aca79b6-5a4b-5431-b84c-6138ade2b623")
+	)
+	(no_connect
+		(at 62.23 64.77)
+		(uuid "218a4405-4d77-5058-8b45-48f34ecc9dbe")
+	)
+	(no_connect
+		(at 62.23 67.31)
+		(uuid "7ad4d448-af5d-5263-a4c3-c479127d82e7")
+	)
+	(no_connect
+		(at 90.17 67.31)
+		(uuid "a26e3df7-63d8-5bde-8ddf-1d3d25d930d2")
+	)
+	(no_connect
+		(at 90.17 64.77)
+		(uuid "d421353c-a27f-5309-aab5-bbb12f2e7ac2")
+	)
+	(wire
+		(pts
+			(xy 90.17 59.69) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01054da7-8b6a-57d6-95f8-06aa671d69b0")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327251a7-0182-5759-893a-08b2eed885dd")
+	)
+	(wire
+		(pts
+			(xy 201.93 63.5) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5015f715-d5b0-5091-b991-4cae4d1249cf")
+	)
+	(wire
+		(pts
+			(xy 201.93 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebd1a77-b0f3-53f1-929d-ca8e69af7615")
+	)
+	(wire
+		(pts
+			(xy 173.99 63.5) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80561d62-e591-5199-9ecd-ea93ad538c56")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 160.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ef5cee-1941-5482-9fba-eb5f7456646e")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.23) (xy 55.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94628e20-b34b-52e6-b068-e246340b9db8")
+	)
+	(wire
+		(pts
+			(xy 173.99 60.96) (xy 167.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b545e4c7-d3e7-513e-abd9-4d0b40898140")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62aafd6-d933-52c7-aa43-6617c7670f1c")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4af6992-8df9-5fd3-9190-4d6eaa027a32")
+	)
+	(wire
+		(pts
+			(xy 62.23 59.69) (xy 55.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f500856e-c492-5569-9d82-1ca96bdee907")
+	)
+	(global_label "USB_DM"
+		(shape passive)
+		(at 208.28 60.96 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "156a7953-e02a-543d-a815-0b9fb5c6e657")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "USB_DP_C"
+		(shape passive)
+		(at 96.52 62.23 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "17f64e41-7ad8-59b6-a55f-c43709fd00ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "USB_DP_C"
+		(shape passive)
+		(at 167.64 60.96 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "227907f7-acb2-55b8-add1-29fc0113bdc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 55.88 59.69 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "3bb457bd-82a1-5336-8f45-b6178c38fe01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "USB_DM_C"
+		(shape passive)
+		(at 96.52 59.69 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "51f74c51-3963-57ff-b0e9-6e07b743ec3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 160.02 118.11 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "51fcc548-d299-59e5-bda3-0fba135880ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 167.64 63.5 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "7c9206fe-938d-574a-b58c-eecb008c259a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape passive)
+		(at 55.88 62.23 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "8d5de1bb-578d-55d0-8a16-60308fab2c11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "USB_DM_C"
+		(shape passive)
+		(at 167.64 66.04 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "b44e497b-c91b-53d8-a63b-92596d19bf71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "USB_DP"
+		(shape passive)
+		(at 208.28 66.04 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "c2d2aba4-af44-5101-ad28-c5c30779e65e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape passive)
+		(at 208.28 63.5 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "eb9d4604-697f-57b0-9b0f-a2f589a302dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Baseboard:J1_Adafruit_4090_Header")
+		(at 76.2 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2277f501-6866-5fa1-af53-b277ce1cea59")
+		(property "Reference" "J1"
+			(at 76.2 52.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "Adafruit 4090 USB-C breakout"
+			(at 76.2 54.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Baseboard:Adafruit_4090_Header"
+			(at 76.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b52c08ec-ccd4-5a91-8508-4309cb560817")
+		)
+		(pin "2"
+			(uuid "17f62d4b-9c32-5d71-bc1b-eeeb725b4b06")
+		)
+		(pin "3"
+			(uuid "01560c43-096c-52f5-b920-6fe878cfa845")
+		)
+		(pin "4"
+			(uuid "d6804f3f-3608-51e5-86c3-f782d2648bda")
+		)
+		(pin "5"
+			(uuid "cc6dbbbf-11f5-59b3-8ae3-6caf34e078f8")
+		)
+		(pin "6"
+			(uuid "202af4e3-2d0c-5475-b213-480054080bb3")
+		)
+		(pin "7"
+			(uuid "c6b38b7d-5cb4-58cf-8a6f-e68053c1e053")
+		)
+		(pin "8"
+			(uuid "250182b7-f66b-54a4-84db-c8235c3994bb")
+		)
+		(instances
+			(project "ChipTester_Baseboard_Iron"
+				(path "/94a7192a-dfc3-582a-a1de-80aa5f6a2c55/1a35d1f2-fe26-5999-ba03-d912bc3e3144"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Baseboard:D1_SOT23_6_HandSolder_R90")
+		(at 187.96 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46ed9e8d-d3b1-540d-af1c-da5e6aa54d71")
+		(property "Reference" "D1"
+			(at 187.96 53.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 187.96 55.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Baseboard:SOT23_6_HandSolder_R90"
+			(at 187.96 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19cb38f6-8826-55b3-81ac-65308f5ef008")
+		)
+		(pin "2"
+			(uuid "a500e59e-a1d2-57d7-aad1-8988ba55617b")
+		)
+		(pin "3"
+			(uuid "8679ee78-7fb8-54b1-8478-82a22c72ef87")
+		)
+		(pin "4"
+			(uuid "d83d9d45-108e-5dee-a2c9-e0f4e20f62db")
+		)
+		(pin "5"
+			(uuid "da905c56-bb1b-5641-a110-e77701595565")
+		)
+		(pin "6"
+			(uuid "ee64a084-05a1-5de6-839e-1a0f89537c21")
+		)
+		(instances
+			(project "ChipTester_Baseboard_Iron"
+				(path "/94a7192a-dfc3-582a-a1de-80aa5f6a2c55/1a35d1f2-fe26-5999-ba03-d912bc3e3144"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Baseboard:PWR_FLAG")
+		(at 160.02 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa932056-180c-5fc1-8f1e-8be42f89f692")
+		(property "Reference" "#FLG001"
+			(at 160.02 112.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 160.02 110.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba3e2bdd-7083-5083-b059-91c72d5df898")
+		)
+		(instances
+			(project "ChipTester_Baseboard_Iron"
+				(path "/94a7192a-dfc3-582a-a1de-80aa5f6a2c55/1a35d1f2-fe26-5999-ba03-d912bc3e3144"
+					(reference "#FLG001")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

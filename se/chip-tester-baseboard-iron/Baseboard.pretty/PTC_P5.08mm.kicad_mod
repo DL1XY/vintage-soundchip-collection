@@ -1,0 +1,7 @@
+(footprint "PTC_P5.08mm" (version 20240108) (generator baseboard_design) (layer "F.Cu") (attr through_hole)
+(property "Reference" "REF**" (at 0 -2.57) (layer "F.SilkS") (effects (font (size .78 .78) (thickness .12))) (uuid "849d8333-d3ed-5296-af2e-c5f93f5b4bf9"))
+(property "Value" "PTC_P5.08mm" (at 0 2.7) (layer "F.Fab") (hide yes) (effects (font (size .8 .8) (thickness .12))) (uuid "d17c4846-cac6-5f4a-8c5d-bd81e935ebb3"))
+(fp_rect (start -4.6 -1.85) (end 4.6 1.85) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "f0fb9b24-bc69-5b6e-9a3a-9142e61132e7"))
+(fp_rect (start -4.85 -2.1) (end 4.85 2.1) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "6dc82a57-7e0d-59b3-9e42-4bd76508eb3d"))
+(pad "1" thru_hole circle (at -2.54 0) (size 1.8 1.8) (layers "*.Cu" "*.Mask") (drill 0.9)  (uuid "d6b77049-e07a-56b9-bf64-d54d684c4e20"))
+(pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (layers "*.Cu" "*.Mask") (drill 0.9)  (uuid "5f578165-12e5-559a-85c3-77ff41d25df5")))

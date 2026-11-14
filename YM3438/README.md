@@ -1,15 +1,19 @@
 # YM3438
 
+> Parts of this README were generated using AI.
+
 ## General
 
 <img src="YM3438.png" width="600" height="360">	
 
-The YM3438,a.k.a. OPN2C, is a modified CMOS version of the YM2612, commonly used in Sega's arcade system boards. This version has an improved built-in DAC that reduced the peculiar crossover distortions caused by the amplitude voltage errors present in the YM2612. It is not a direct, drop-in replacement for the YM2612 however, as the sound outputs have higher impedance.
+The YM3438, a.k.a. OPN2C, is a modified CMOS version of the YM2612, commonly used in Sega's arcade system boards. This version has an improved built-in DAC that reduced the peculiar crossover distortions caused by the amplitude voltage errors present in the YM2612. It is not a direct, drop-in replacement for the YM2612 however, as the sound outputs have higher impedance.
 
-## Feautures
+Sega’s System 32 arcade hardware could use two YM3438s side by side, with a separate PCM chip for samples. That’s twice the FM channels of a Mega Drive. [MAME’s System 32 board notes](https://github.com/mamedev/mame/blob/master/src/mame/sega/segas32.cpp)
+
+## Features
 
 - Six concurrent FM synthesis channels (voices)
-- Four operators per channel[4]
+- Four operators per channel
 - Two interval timers
 - A sine-wave low frequency oscillator
 - Integrated stereo output digital-to-analog converter (most other contemporary Yamaha FM chips require a separate external D/A converter chip)

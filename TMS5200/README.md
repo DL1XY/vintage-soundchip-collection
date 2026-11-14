@@ -1,14 +1,14 @@
 # TMS5200
 
+> Parts of this README were generated using AI.
+
 ## General
 
 <img src="TMS5200.png" width="600" height="360">	
 
-"The TMS5200 appears to be identical to the TMS5220 in operation, but its voice output sounds rather different and more distorted. According to private correspondence with Larry Brantingham (one of the designers of the TMS5200), the TMS5220 is an improved version of the TMS5200 with a new chirp table, a new table of LPC coefficients, and a new statistical modeling feature on the encoder software used at TI."
+The TMS5200 also went by TMC0285. [Designer Larry Brantingham’s comments, reproduced on Pinside](https://pinside.com/pinball/forum/topic/tms5220-as-a-replacement-for-tms5200-in-a-bally-squawk-and-talk)
 
-"The TMS5200 was the Consumer group's TMC0285 - the only difference was the name. The more common S/C part was the TMS5220 and it had a slightly different coding table than the original (TMS5200). The bit allocations were the same and you can swap data, but it sounds a bit odd."
-
-Source: https://pinside.com/pinball/forum/topic/tms5220-as-a-replacement-for-tms5200-in-a-bally-squawk-and-talk#:~:text=%22The%20TMS5200%20was%20the%20Consumer,it%20sounds%20a%20bit%20odd.%22
+Bally’s Squawk & Talk pinball boards used the TMS5200 family to give machines a voice. The [TMS5220](../TMS5220/) reads the same speech frame layout, but its different voice tables can change how an old recording sounds. [MAME’s TI speech chip notes](https://github.com/mamedev/mame/blob/master/src/devices/sound/tms5220.cpp)
 
 ## Files
 
@@ -16,4 +16,4 @@ Source: https://pinside.com/pinball/forum/topic/tms5220-as-a-replacement-for-tms
 
 ## Links/Sources
 
-- [Wikipedia about TI LPC Sppech Chips](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)
+- [Wikipedia about TI LPC speech chips](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)

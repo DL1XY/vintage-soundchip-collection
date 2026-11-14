@@ -1,0 +1,7 @@
+(footprint "Radial_cer" (version 20240108) (generator baseboard_design) (layer "F.Cu") (attr through_hole)
+(property "Reference" "REF**" (at 0 -1.97) (layer "F.SilkS") (effects (font (size .78 .78) (thickness .12))) (uuid "e06445b1-ed4b-5c64-89e8-a3fdbd5c7b0e"))
+(property "Value" "Radial_cer" (at 0 2.1) (layer "F.Fab") (hide yes) (effects (font (size .8 .8) (thickness .12))) (uuid "e4b302f3-c69c-57d0-bac9-78ee6d20f868"))
+(fp_rect (start -2.4 -1.25) (end 2.4 1.25) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "6dfbddcc-055d-5000-9956-0a8ab4fe82e6"))
+(fp_rect (start -2.65 -1.5) (end 2.65 1.5) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "52e69838-f6b8-563a-aae4-fe83cbc4e452"))
+(pad "1" thru_hole circle (at -1.27 0) (size 1.45 1.45) (layers "*.Cu" "*.Mask") (drill 0.8)  (uuid "c82f3cb0-61c6-5ec2-b33a-f95eacff48a1"))
+(pad "2" thru_hole circle (at 1.27 0) (size 1.45 1.45) (layers "*.Cu" "*.Mask") (drill 0.8)  (uuid "698d0a3f-d7f8-588f-9dfe-0e028417c5a6")))

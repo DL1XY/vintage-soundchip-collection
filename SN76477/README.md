@@ -1,13 +1,15 @@
 # SN76477
 
+> Parts of this README were generated using AI.
+
 ## General
 
 <img src="SN76477.png" width="600" height="360">	
 
 SN76477 "complex sound generator" is a sound chip produced by Texas Instruments (TI). The chip came to market in 1978.
-It is similar to [SN764888](../SN76488), but NOT PIN COMPATIBLE
+The related [SN76488](../SN76488/) has a different pinout.
 
-- Space Invaders Arcade
+The flying saucer in the original *Space Invaders* gets its wobble from this chip. Listen for it at the top of the screen. [Ken Shirriff’s die and circuit analysis](https://www.righto.com/2017/04/reverse-engineering-76477-space.html)
 
 ## Files
 

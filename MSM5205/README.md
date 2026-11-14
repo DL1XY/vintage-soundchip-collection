@@ -1,12 +1,16 @@
 # MSM5205
 
+> Parts of this README were generated using AI.
+
 ## General
 
 <img src="M5205.png" alt="M5205 chip" width="600">
 
 *M5205.*
 
-Voice synth IC, used in several Arcade games @384 kHz
+ADPCM playback chip. With a 384 kHz clock, its internal dividers offer 4, 6 or 8 kHz sample rates.
+
+Capcom’s Japanese *Tiger Road* board (*Tora e no Michi*) added an MSM5205 for samples. The chip takes a stream of small changes in waveform level, which saves ROM space compared with storing full samples at the same rate. [MAME’s Tiger Road hardware notes](https://github.com/mamedev/mame/blob/master/src/mame/capcom/tigeroad.cpp) · [OKI datasheet](MSM5205.pdf)
 
 ## Files
 

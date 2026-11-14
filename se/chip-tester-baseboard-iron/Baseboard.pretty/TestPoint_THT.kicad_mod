@@ -1,0 +1,6 @@
+(footprint "TestPoint_THT" (version 20240108) (generator baseboard_design) (layer "F.Cu") (attr through_hole)
+(property "Reference" "REF**" (at 0 -1.62) (layer "F.SilkS") (effects (font (size .78 .78) (thickness .12))) (uuid "e51e4072-487e-56af-9556-971298ed08d2"))
+(property "Value" "TestPoint_THT" (at 0 1.75) (layer "F.Fab") (hide yes) (effects (font (size .8 .8) (thickness .12))) (uuid "3fcd9ed0-16c2-5076-860e-c413ec81de73"))
+(fp_rect (start -0.9 -0.9) (end 0.9 0.9) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "b53269f2-b69c-51de-b65d-6fb6e1b88ded"))
+(fp_rect (start -1.15 -1.15) (end 1.15 1.15) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "f62a8963-00d7-55c0-be67-dccd344ab426"))
+(pad "1" thru_hole circle (at 0 0) (size 1.75 1.75) (layers "*.Cu" "*.Mask") (drill 1)  (uuid "31d4acb9-e313-50ca-b48b-d7083e9d4815")))

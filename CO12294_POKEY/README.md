@@ -1,5 +1,7 @@
 # CO12294 (POKEY)
 
+> Parts of this README were generated using AI.
+
 <img src="CO12294.png" width="600" height="360">	
 
 <img src="kicad_Atari_POKEY_C012294.png" width="600" height="400">
@@ -8,9 +10,11 @@
 
 - Atari 400/800
 - Atari XL/XE
-- later Atari 5200
+- Atari 5200
 - Atari 7800 game cartridges (Ballblazer and Commando)
 - Atari arcade systems
+
+Atari’s *Major Havoc* arcade board went big on sound with four POKEYs in one cabinet. That’s 16 audio channels before pairing any of them for finer pitch control. [MAME’s Major Havoc board notes](https://github.com/mamedev/mame/blob/master/src/mame/atari/mhavoc.cpp)
 
 ## Files
 

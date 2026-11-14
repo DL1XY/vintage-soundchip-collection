@@ -1,5 +1,7 @@
 # MOS8360 (TED)
 
+> Parts of this README were generated using AI.
+
 <img src="MOS8360.png" width="600">
 
 ## General
@@ -9,9 +11,9 @@ TED 7360/8360 - Text Editing Device (jokingly "Tramiels Exit Device"). The chip 
 - Commodore C116
 - Commodore Plus/4
 
-Alternate parttnumbers: 7360 (HMOS version)
+The 7360 is another version of TED.
 
-The 8360 is functionally the same than the 7360 but they are manufactured with a different technology. Most machines contain a 8360.
+TED has 16 color codes and eight brightness settings, but all eight shades of black are still black. That leaves 121 distinct colors on the C16 and Plus/4. [Commodore TED hardware manual](TED%20System%20Hardware%20Manual.pdf)
 
 ## Channels
 On each of two channels, you can choose a pitch in 1024 steps. Compared to the VIC, high notes are in tune, but the bass does not get below A2 (110 Hz). Low noise actually sounds like noise, although you may notice a pattern as it gets higher.

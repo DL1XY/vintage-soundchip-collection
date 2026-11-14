@@ -1,5 +1,7 @@
 # MN6221
 
+> Parts of this README were generated using AI.
+
 ## General
 
 <img src="MN6221AA.png" alt="MN6221AA chip" width="600">
@@ -7,6 +9,8 @@
 *MN6221AA.*
 
 Family of ICs for generating electronic melody and sound
+
+The suffix is part of the playlist. The MN6221AA in the photo plays *Für Elise* and *Romance de Amor*, while the CF variant has the Westminster chime. [Melody recordings by suffix](http://www.eleken.y-lab.org/melody_ic/MN6221.shtml)
 
 ### IC model overview
 

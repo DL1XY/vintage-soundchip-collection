@@ -1,0 +1,8 @@
+(footprint "Header_1x03" (version 20240108) (generator baseboard_design) (layer "F.Cu") (attr through_hole)
+(property "Reference" "REF**" (at 2.54 -2.02) (layer "F.SilkS") (effects (font (size .78 .78) (thickness .12))) (uuid "dc184abb-9c09-5333-a39e-ad719c2e7043"))
+(property "Value" "Header_1x03" (at 2.54 2.15) (layer "F.Fab") (hide yes) (effects (font (size .8 .8) (thickness .12))) (uuid "79613546-39ad-5b61-8788-0c365a398754"))
+(fp_rect (start -1.3 -1.3) (end 6.38 1.3) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "ddaaa163-a4e8-57ab-b283-3715b99a3936"))
+(fp_rect (start -1.55 -1.55) (end 6.63 1.55) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "63c7dc52-c7e3-5b6f-a951-06a3eb1f2a79"))
+(pad "1" thru_hole rect (at 0 0) (size 1.75 1.75) (layers "*.Cu" "*.Mask") (drill 1)  (uuid "fe39559b-1bfa-5c3b-82b9-9bfc571678b9"))
+(pad "2" thru_hole circle (at 2.54 0) (size 1.75 1.75) (layers "*.Cu" "*.Mask") (drill 1)  (uuid "25cd32a3-8773-5abe-9b72-eb989492261a"))
+(pad "3" thru_hole circle (at 5.08 0) (size 1.75 1.75) (layers "*.Cu" "*.Mask") (drill 1)  (uuid "e5971cdd-03fa-514e-bbab-86a5d26934c5")))

@@ -1,5 +1,7 @@
 # MOS6560 (VIC)
 
+> Parts of this README were generated using AI.
+
 <img src="MOS6561.png" alt="MOS6561 PAL VIC chip" width="600">
 
 *MOS6561 PAL VIC (DIP-40).*
@@ -7,9 +9,9 @@
 <img src="kicad_MOS6561-101.png" width="600" height="400">
 
 ## General
-The VIC (Video Interface Chip), specifically known as the MOS Technology 6560 (NTSC version) / 6561 (PAL version), is the integrated circuit chip responsible for generating video graphics and sound in the VIC-20 home computer from Commodore,
+The VIC (Video Interface Chip) handles graphics and sound for the VIC-20. Commodore used the 6560 for NTSC and the 6561 for PAL.
 
-- Commodore VC20
+The VIC-20’s three tone voices run at octave-spaced rates. Set the same pitch value on all three and you get an octave stack out of the hardware. [MOS 6560 reference](mos_6560.pdf)
 
 ## Channels
 - 4 channel sound system

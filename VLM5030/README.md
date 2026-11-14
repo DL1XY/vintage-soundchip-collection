@@ -1,10 +1,14 @@
 # VLM5030
 
+> Parts of this README were generated using AI.
+
 ## General
 
 <img src="VLM5030.png" width="600" height="360">	
 
-Audio chip designed and sold by Sanyo specifically designed to mimic human speech. It was utilized in video games from around 1983-1988.
+Sanyo speech synthesizer used in several 1980s arcade games.
+
+Konami’s *Jail Break* put a VLM5030 on the arcade board alongside an SN76489-family sound chip. Speech had its own chip and ROM, separate from the tones and noise. [MAME’s Jail Break board notes](https://github.com/mamedev/mame/blob/master/src/mame/konami/jailbrek.cpp)
 
 ## Files
 

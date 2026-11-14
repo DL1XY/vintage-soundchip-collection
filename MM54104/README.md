@@ -1,5 +1,7 @@
 # MM54104
 
+> Parts of this README were generated using AI.
+
 ## General
 
 <img src="MM54104.png" width="600" height="360">	
@@ -8,6 +10,8 @@
 
 <img src="MM52164-SSR2.png" width="600" height="360">	
 
+
+National Semiconductor’s Digitalker kit paired the chip with vocabulary ROMs. The SSR1 and SSR2 chips pictured here supplied a stock vocabulary of numbers, units and other words for talking instruments. A different set of ROMs gave the same chip a different vocabulary. [National Semiconductor’s Digitalker notes](AN252_Digitalker1986%20National%20Semiconductor%20Linear%20Applications%20Databook.pdf)
 
 ## Files
 

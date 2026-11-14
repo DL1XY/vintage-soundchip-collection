@@ -1,0 +1,7 @@
+(footprint "Radial_film_R90" (version 20240108) (generator baseboard_design) (layer "F.Cu") (attr through_hole)
+(property "Reference" "REF**" (at 0 -4.32) (layer "F.SilkS") (effects (font (size .78 .78) (thickness .12))) (uuid "6527a7a1-baa3-510f-a7df-53c7a06c2c21"))
+(property "Value" "Radial_film_R90" (at 0 4.45) (layer "F.Fab") (hide yes) (effects (font (size .8 .8) (thickness .12))) (uuid "df52cdfa-5229-5273-9be3-54925bbfcb52"))
+(fp_rect (start -1.9 -3.6) (end 1.9 3.6) (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (uuid "29daae42-3bb2-5169-9454-3a4305ee2340"))
+(fp_rect (start -2.15 -3.85) (end 2.15 3.85) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (uuid "e94ee134-a030-55b8-9471-6841de42b058"))
+(pad "1" thru_hole circle (at 0 -2.54) (size 1.45 1.45) (layers "*.Cu" "*.Mask") (drill 0.8)  (uuid "255c858b-5587-5773-81b3-a9b2c3e3464b"))
+(pad "2" thru_hole circle (at 0 2.54) (size 1.45 1.45) (layers "*.Cu" "*.Mask") (drill 0.8)  (uuid "01313548-b27c-55e7-9d70-f1145c5d8ada")))

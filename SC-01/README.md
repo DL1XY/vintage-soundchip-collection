@@ -1,15 +1,16 @@
 # SC-01
 
+> Parts of this README were generated using AI.
+
 <img src="SC-01-A.jpg" alt="SC-01-A chip" width="600">
 
 *SC-01-A.*
 
 ## General
 
-The Votrax SC-01 is an early speech synthesis integrated circuit from the late 1970s produced by Votrax that generates robotic-sounding human speech by outputting a stream of phonemes rather than full words. It contains a fixed internal ROM of phoneme data and relies on an external controller to sequence those sounds into intelligible speech. The chip became iconic through its use in arcade games and home computers, most famously giving voice to machines like the arcade game Berzerk.
+The Votrax SC-01 makes speech one sound at a time. It keeps the phonemes in an internal ROM, and an external controller strings them into words.
 
-- Q\*Bert by Gottlieb
-- Berzerk
+Gottlieb’s *Q\*bert* strings together Votrax phonemes for the character’s trademark gibberish. You can hear a recreation of the chip in the MiSTer FPGA port. [MiSTer Q\*bert project notes](https://github.com/MiSTer-devel/Arcade-QBert_MiSTer/blob/master/Readme.md)
 
 ## Files
 

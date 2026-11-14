@@ -1,0 +1,276 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9ecb7e11-4fe5-5897-9879-06798a58f1bf")
+	(paper "A4")
+	(title_block
+		(title "USB-C vintage sound chip tester")
+		(rev "A - prototype")
+	)
+	(lib_symbols)
+	(text "USB-C SOUND CHIP TESTER"
+		(exclude_from_sim no)
+		(at 22.86 27.94 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "1d3a99fe-e35e-5a73-8357-de3f93194ded")
+	)
+	(text "Design status: prototype for review. Run KiCad ERC and DRC before fabrication."
+		(exclude_from_sim no)
+		(at 22.86 43.18 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "ea665954-5434-5391-89b0-d5c218c18b2e")
+	)
+	(text "Baseboard Rev A   |   RP2350B   |   One keyed adapter   |   Two analog line outputs"
+		(exclude_from_sim no)
+		(at 22.86 35.56 0)
+		(effects
+			(font
+				(size 1.4 1.4)
+			)
+			(justify left)
+		)
+		(uuid "f96ad9c1-c148-5d36-b889-5a7b7595d35f")
+	)
+	(sheet
+		(at 22.86 121.92)
+		(size 72.39 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "40d97fac-1993-55ba-9d48-5908448bbc52")
+		(property "Sheetname" "Adapter"
+			(at 22.86 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.45 1.45)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "adapter.kicad_sch"
+			(at 22.86 151.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ChipTester_Baseboard"
+				(path "/9ecb7e11-4fe5-5897-9879-06798a58f1bf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 68.58)
+		(size 72.39 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9ac00338-7301-51e3-aaff-74dfe755a141")
+		(property "Sheetname" "RP2350B"
+			(at 200.66 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.45 1.45)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 200.66 98.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ChipTester_Baseboard"
+				(path "/9ecb7e11-4fe5-5897-9879-06798a58f1bf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 121.92)
+		(size 72.39 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd885594-e88f-536b-b9f1-1f3a04226283")
+		(property "Sheetname" "Audio"
+			(at 111.76 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.45 1.45)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 111.76 151.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ChipTester_Baseboard"
+				(path "/9ecb7e11-4fe5-5897-9879-06798a58f1bf"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 68.58)
+		(size 72.39 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "db03e0c9-d60f-53c0-b593-201ec740e4c6")
+		(property "Sheetname" "USB-C"
+			(at 22.86 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.45 1.45)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 22.86 98.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ChipTester_Baseboard"
+				(path "/9ecb7e11-4fe5-5897-9879-06798a58f1bf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 68.58)
+		(size 72.39 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e9244b0a-d9f5-5acd-93a7-9b7de2cbe795")
+		(property "Sheetname" "Power"
+			(at 111.76 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.45 1.45)
+				)
+				(justify left)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 111.76 98.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ChipTester_Baseboard"
+				(path "/9ecb7e11-4fe5-5897-9879-06798a58f1bf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

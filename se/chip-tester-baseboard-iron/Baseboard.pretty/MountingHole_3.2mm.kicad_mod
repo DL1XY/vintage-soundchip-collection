@@ -1,0 +1,5 @@
+(footprint "MountingHole_3.2mm" (version 20240108) (generator baseboard_design) (layer "F.Cu")
+(attr exclude_from_pos_files exclude_from_bom)
+(property "Reference" "REF**" (at 0 -2.4) (layer "F.SilkS") (effects (font (size .8 .8) (thickness .12))))
+(property "Value" "MountingHole_3.2mm" (at 0 2.4) (layer "F.Fab") (effects (font (size .8 .8) (thickness .12))))
+(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask")))

@@ -1,5 +1,7 @@
 # YM2203
 
+> Parts of this README were generated using AI.
+
 <img src="YM2203.png" width="600">
 
 ## General
@@ -7,6 +9,8 @@
 - Arcade systems
 
 This chip needs an external 13bit DAC (YM3014)
+
+The OPN packs three FM voices and three square-wave voices into one chip. Data East’s *Bad Dudes* board used a YM2203 alongside a separate YM3812 and an OKI sample player. [MAME’s Data East board notes](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/dec0.cpp)
 
 ## Files
 

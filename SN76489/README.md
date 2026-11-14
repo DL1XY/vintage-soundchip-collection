@@ -1,5 +1,7 @@
 # SN76489
 
+> Parts of this README were generated using AI.
+
 <img src="SN76489AN.png" alt="SN76489AN chip" width="600">
 
 *SN76489AN.*
@@ -24,11 +26,13 @@ Used in
 - Tandy 1000
 - Sega SG-1000 
 
-Clones where integrated in the video display processor of
+Compatible PSGs were integrated in the video display processor of
 
 - Sega Master System/Game Gear/Genesis
 
 Other versions: SN76496N (with Audio-In)
+
+The arcade *Lady Bug* used two SN76489s on one board, giving the game six tone generators and two noise generators to play with. [MAME’s Lady Bug hardware notes](https://github.com/mamedev/mame/blob/master/src/mame/universal/ladybug.cpp)
 
 ## Files
 

@@ -1,5 +1,7 @@
 # AY-3-8910
 
+> Parts of this README were generated using AI.
+
 <img src="AY-3-8910.png" alt="AY-3-8910 chip" width="600">
 
 *AY-3-8910 (DIP-40).*
@@ -15,6 +17,8 @@
 Other versions: YM2149 (used in Atari ST), YMZ284 (DIP-16)
 
 Differences between AY and YM are listed [here](https://maidavale.org/blog/ay-ym-differences/)
+
+Konami’s arcade *Gyruss* used five AY-3-8910A chips for its stereo soundtrack. That’s 15 tone channels on a single arcade board. [MAME’s Gyruss hardware notes](https://github.com/mamedev/mame/blob/master/src/mame/konami/gyruss.cpp)
 
 ## Channels
 

@@ -1,5 +1,7 @@
 # SP0256
 
+> Parts of this README were generated using AI.
+
 <img src="SP0256A.png" alt="SP0256A chip" width="600">
 
 *SP0256A (DIP-28).*
@@ -16,6 +18,8 @@ Speech synthesis, available as cartridge for
 There are many different versions around !
 
 **Attention**: There are a lot of fake chips around ! I bought one from the Bay and seems to be just a cheap rebrandend DIP-28 IC !
+
+The suffix matters. The -AL2 comes with English allophones for building words, while Mattel’s Intellivoice used an -012 with its own vocabulary, plus speech data supplied by games. [General Instrument -AL2 datasheet](General_Instrument_-_SP0256A-AL2.pdf) · [MAME’s Intellivoice hardware notes](https://github.com/mamedev/mame/blob/master/src/mame/mattel/intv.cpp)
 
 ## Files
 

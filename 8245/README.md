@@ -1,14 +1,14 @@
 # 8244/8245
 
+> Parts of this README were generated using AI.
+
 <img src="8245.png" width="600">
 
-#### General
-The 8245 is a general purpose graphics display device that operates in conjunction with raster scan type displays. Its primary purpose is to provide a means for generating and moving objects on a TV screen for use in the customer game market.
+## General
 
-- Magnavox Odyssey 2 (US)
-- Philips Videopac G7000 (EU)
+The 8244 (NTSC) and 8245 (PAL) did both picture and sound in the Odyssey² and Videopac G7000. For a sustained tone, the hardware can loop a 24-bit pattern on its own. The game only has to load it once. [8244/8245 sound system notes](8245.pdf)
 
-#### Sound System
+## Sound System
 
 The sound system generates a duty cycle modulated square wave from which an audio
 signal is extracted by means of an external low pass filter. The control of the
@@ -81,5 +81,5 @@ address of these elements is shown under the topic of “Address Structure”.
 - [Magnavox Odyssey² service manual](Magnavox_Service_Manual_1979-09_Magnavox_US.pdf)
 - [Philips G7000 service manual](G7000_Service_Manual_198x_Philips_M6.pdf)
 
-#### Links/Sources
-- [Magnavox Odyssey 2 on Wikipedia](https://en.wikipedia.org/wiki/Magnavox_Odyssey_20)
+## Links/Sources
+- [Magnavox Odyssey 2 on Wikipedia](https://en.wikipedia.org/wiki/Magnavox_Odyssey_2)

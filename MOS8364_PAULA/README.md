@@ -1,10 +1,13 @@
 # MOS8364 (PAULA)
 
+> Parts of this README were generated using AI.
+
 <img src="MOS8364.png" width="600">
 
 ## General
 - Commodore Amiga 500/1000/2000/CDTV
 
+Paula can use one of its sample channels to change the pitch or volume of the next. Commodore called it attach mode. It lets sample data double as a stream of modulation values. [Amiga Hardware Reference Manual](Amiga_Hardware_Reference_Manual_1985_Commodore.pdf)
 
 ## Pin layout
 

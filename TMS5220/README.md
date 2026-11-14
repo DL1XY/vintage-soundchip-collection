@@ -1,4 +1,6 @@
-# TMS5220/TMS5220
+# TMS5220 / TMS5220C
+
+> Parts of this README were generated using AI.
 
 ## General
 
@@ -12,6 +14,8 @@ Speech synthesis, data can come from ROM (TMS6100) or CPU
 - Several arcades (Gauntlet, Star Wars, Firefox...)
 
 PHROMS are in the named folder, a TMS6100 hardware emulator instruction is [here](https://www.waitingforfriday.com/?p=30)
+
+In Atari’s 1983 *Star Wars* arcade cabinet, the TMS5220 handled the spoken lines, alongside four POKEYs for the rest of the audio. [MAME’s Star Wars hardware notes](https://github.com/mamedev/mame/blob/master/src/mame/atari/starwars.cpp)
 
 ### TMS5220
 
@@ -28,5 +32,5 @@ The TMS5220C, released in 1983, was an improved TMS5220. It reworked the two NOP
 
 ## Links/Sources
 
-- [Wikipedia about TI LPC Sppech Chips](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)
+- [Wikipedia about TI LPC speech chips](https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips)
 - [TMS5220 at VGMPF](http://www.vgmpf.com/Wiki/index.php?title=TMS5220)

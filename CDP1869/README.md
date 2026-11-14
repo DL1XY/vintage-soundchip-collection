@@ -1,10 +1,14 @@
 # CDP1869
 
+> Parts of this README were generated using AI.
+
 <img src="CDP1869.png" width="600">
 
 ## General
 
-- Video/Sound chip of some rare homecomputers based on RCA's COSMAC 8-bit microprocessor family
+Video and sound chip for RCA COSMAC-based computers.
+
+In the COMX-35, the CDP1869 and CDP1870 worked as a pair for video. The 1869 also made the sound, with a programmable tone generator and a separate white-noise generator. [COMX-35 technical manual](https://www.comxclub.hobby-site.com/COMX35TechnicalManual.pdf) · [RCA datasheet](cdp1869.pdf)
 
 ## Files
 

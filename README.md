@@ -1,7 +1,9 @@
 
 # Vintage Soundchip Collection
 
-My personal collection of vintage sound and speech chips from the 1970s to the early 1990s. Browse by part number for chip photos, datasheets, service manuals, and notes for building your own circuits.
+> Parts of this README were generated using AI.
+
+My personal collection of vintage sound and speech chips from the 1970s to the early 1990s. Browse by part number for chip photos, datasheets, service manuals, and notes for building your own circuits. Each chip page also has a short story about where it showed up or what people got it to do.
 
 ## Circuit projects
 
@@ -15,7 +17,7 @@ Both projects still need hardware testing.
 | IC            | Company               | Type | Image         | KiCAD Symbol  |
 | ------------- | --------------------- | ---- | ------------- | ------------- |
 | [8245](8245)  | Intel                 | Multifunction (video/audio) | <img src="8245/8245.png" alt="8245 chip" width="100"> | :triangular_ruler: |
-| [AY-3-8910](AY-3-8910)  | General Instruments | PSG | <img src="AY-3-8910/AY-3-8910.png" alt="AY-3-8910 chip" width="100"> | :triangular_ruler: |
+| [AY-3-8910](AY-3-8910)  | General Instrument | PSG | <img src="AY-3-8910/AY-3-8910.png" alt="AY-3-8910 chip" width="100"> | :triangular_ruler: |
 | [CDP1869](CDP1869) | RCA | Multifunction (video/audio) | <img src="CDP1869/CDP1869.png" alt="CDP1869 chip" width="100"> | :triangular_ruler: |
 | [CO10444 TIA](CO10444_TIA) | Atari | Multifunction (video/audio) | <img src="CO10444_TIA/UM6526.png" alt="UM6526 TIA variant chip" width="100"><br>UM6526 TIA variant | :triangular_ruler: |
 | [CO12294 POKEY](CO12294_POKEY) | Atari | Multifunction (I/O and audio) | <img src="CO12294_POKEY/CO12294.png" alt="CO12294 chip" width="100"> | :triangular_ruler: |
@@ -35,9 +37,9 @@ Both projects still need hardware testing.
 | [SN76477](SN76477) | Texas Instruments| Sound effects generator | <img src="SN76477/SN76477.png" alt="SN76477 chip" width="100"> | :triangular_ruler: |
 | [SN76488](SN76488) | Texas Instruments| Sound effects generator | <img src="SN76488/SN76488.png" alt="SN76488 chip" width="100"> | :triangular_ruler: |
 | [SN76489](SN76489) | Texas Instruments| PSG | <img src="SN76489/SN76489AN.png" alt="SN76489AN chip" width="100"><br>SN76489AN | :triangular_ruler: |
-| [SP0250](SP0250) | General Instruments| Speech synthesis | <img src="SP0250/SP0250.png" alt="SP0250 chip" width="100"> | :triangular_ruler: |
-| [SP0256](SP0256) | General Instruments| Speech synthesis | <img src="SP0256/SP0256A.png" alt="SP0256A chip" width="100"><br>SP0256A | :triangular_ruler: |
-| [SP1000](SP1000) | General Instruments| Speech synthesis and recognition | <img src="SP1000/SP1000.png" alt="SP1000 chip" width="100"> | :triangular_ruler: |
+| [SP0250](SP0250) | General Instrument| Speech synthesis | <img src="SP0250/SP0250.png" alt="SP0250 chip" width="100"> | :triangular_ruler: |
+| [SP0256](SP0256) | General Instrument| Speech synthesis | <img src="SP0256/SP0256A.png" alt="SP0256A chip" width="100"><br>SP0256A | :triangular_ruler: |
+| [SP1000](SP1000) | General Instrument| Speech synthesis and recognition | <img src="SP1000/SP1000.png" alt="SP1000 chip" width="100"> | :triangular_ruler: |
 | [TMS3477](TMS3477) | Texas Instruments| Voice recording/playback | <img src="TMS3477/TMS3477.png" alt="TMS3477 chip" width="100"> | :triangular_ruler: |
 | [TMS5110](TMS5110) | Texas Instruments| Speech synthesis | <img src="TMS5110/TMS5110.png" alt="TMS5110 chip" width="100"> | :triangular_ruler: |
 | [TMS5200](TMS5200) | Texas Instruments| Speech synthesis | <img src="TMS5200/TMS5200.png" alt="TMS5200 chip" width="100"> | :triangular_ruler: |
