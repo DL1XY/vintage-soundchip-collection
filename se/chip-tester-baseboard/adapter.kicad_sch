@@ -2399,12 +2399,12 @@
 	)
 	(global_label "3V3"
 		(shape passive)
-		(at 191.77 54.61 180)
+		(at 191.77 54.61 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d30195e2-6674-5eca-926c-8bfe7ebb7c1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
